@@ -126,7 +126,7 @@ public class MyBotServiceRu {
     String[] zanjabillicaption = {"Имбирный пряник Капкейк\n\nИмбирный пряник с сахарной глазурью.", "Имбирный пряник Принц\n\nИмбирный пряник с сахарной глазурью.", "Имбирный пряник Принцесса\n\nИмбирный пряник с сахарной глазурью.", "Имбирный пряник 'Сафия'\n\nИмбирный пряник с сахарной глазурью.", "Имбирный пряник 'Музюрак'\n\nИмбирный пряник с сахарной глазурью.", "Раскрашиваемый пряник Динозаврик\n\nПряник для раскрашивания.", "Раскрашиваемый пряник Паровозик\n\nПряник для раскрашивания.", "Раскрашиваемый пряник Пони\n\nПряник для раскрашивания."};
     String[] zanjabillinarx = {"27 000", "27 000", "27 000", "27 000", "27 000", "35 000", "35 000", "35 000"};
 
-    String[] togriovqatlanish = {"ПП Пироги", "ПП Полуфабрикаты", "ПП Торты (ПП)", "ПП Выпечка", "ПП Пирожные (ПП)", "⬅\uFE0F В главное меню"};
+    String[] togriovqatlanish = {"ПП Пироги", "ПП Полуфабрикаты", "ПП Торты", "ПП Выпечка", "ПП Пирожные", "⬅\uFE0F В главное меню"};
 
     String[] ppPirog = {"ПП Пирог яблочно-вишневый", "ПП Пирог с вишней", "ПП Пирог Мишка", "ПП Пирог творог и клюква", "Пирог творожный с чиа и облепихой", "ПП Пирог яблочный", "⬅\uFE0F Назад ПП"};
     String[] ppPirogPhoto = {"https://t.me/safiapictures/315", "https://t.me/safiapictures/316", "https://t.me/safiapictures/317", "https://t.me/safiapictures/318", "https://t.me/safiapictures/319", "https://t.me/safiapictures/320"};
@@ -142,6 +142,11 @@ public class MyBotServiceRu {
     String[] ppTortPhoto = {"https://t.me/safiapictures/328", "https://t.me/safiapictures/329", "https://t.me/safiapictures/330", "https://t.me/safiapictures/331", "https://t.me/safiapictures/332", "https://t.me/safiapictures/333"};
     String[] ppTortCaption = {"ПП Фруктовый мини-торт\n\nГлютен-фри мини-торт с фруктами и лёгким взбитым кремом, подсластитель стевия.", "ПП Ягодный торт лесные ягоды\n\nГлютен-фри ягодный торт с клюквой, малиной и малиновым конфитюром на основе стевии.", "ПП Торт Сникерс\n\nГлютен-фри торт с арахисом, карамелью и сахарозаменителем в шоколаде.", "ПП Торт Фисташка-малина\n\nГлютен-фри торт с творожным кремом и фисташками, малиной и голубикой.", "ПП Торт Матча-Лимон\n\nГлютен-фри торт с японским чаем матча и лимонной начинкой на основе стевии.", "ПП Торт Шоколад-вишня\n\nГлютен-фри торт с вишней и шоколадом, подсластитель стевия."};
     String[] ppTortNarx = {"196 000", "223 000", "247 000", "247 000", "223 000", "212 000"};
+
+    String[] topishiriq = {"ПП Блинчик с мясом", "ПП Киш с курицей и грибами", "ПП Киш овощной", "ПП Самса с зеленью и сыром", "ПП Самса с курицей", "ПП Самса с мясным фаршем", "ПП Самса с мясом и луком", "⬅️ Назад ПП"};
+    String[] topishiriqphoto = {"https://t.me/safiapictures/334", "https://t.me/safiapictures/335", "https://t.me/safiapictures/336", "https://t.me/safiapictures/337", "https://t.me/safiapictures/338", "https://t.me/safiapictures/339", "https://t.me/safiapictures/340"};
+    String[] topishiriqcaption = {"ПП Блинчик с мясом\n\nБлинчики из безглютеновой муки с начинкой из говяжьего фарша.", "ПП Киш с курицей и грибами\n\nКиш из безглютеновой муки с начинкой из курицы, грибов и сыра.", "ПП Киш овощной\n\nКиш из безглютеновой муки с болгарским перцем, помидорами, сладкой кукурузой и нутом.", "ПП Самса с зеленью и сыром\n\nСамса из безглютеновой муки с сезонной зеленью и сыром.", "ПП Самса с курицей\n\nСамса из безглютеновой муки с мягким куриным мясом.", "ПП Самса с мясным фаршем\n\nСамса из безглютеновой муки с говяжьим фаршем.", "ПП Самса с мясом и луком\n\nСамса из безглютеновой муки с рубленным мясом и луком."};
+    String[] topishiriqnarx = {"15 000", "26 000", "37 000", "16 000", "16 000", "20 000", "20 000"};
 
     String[] ppPiroj = {"ПП Классический батончик", "ПП Шоколадный батончик", "ПП Мини профитроли", "ПП Нью-Йорк Чизкейк", "ПП Пирожное Вишенка", "ПП Пирожное Картошка", "ПП Пирожное Лесные ягоды", "ПП Пирожное \"Лесная ягода\"", "ПП Пирожное Малиновое", "ПП Пирожное Малиновое", "ПП Пирожное Медовик", "ПП Пирожное Наполеон", "ПП Пирожное \"Птичье молоко\"", "ПП Пирожное Сказка", "ПП Пирожное Чай Матча", "ПП Пирожное Меренговое", "ПП Сан-Себастьян чизкейк", "ПП Чай Матча-Лимон", "ПП Чиа пудинг без лактозы", "ПП Эклер", "⬅\uFE0F Назад ПП"};
     String[] ppPirojPhoto = {"https://t.me/safiapictures/341", "https://t.me/safiapictures/342", "https://t.me/safiapictures/343", "https://t.me/safiapictures/344", "https://t.me/safiapictures/345", "https://t.me/safiapictures/346", "https://t.me/safiapictures/347", "https://t.me/safiapictures/348", "https://t.me/safiapictures/349", "https://t.me/safiapictures/350", "https://t.me/safiapictures/351", "https://t.me/safiapictures/352", "https://t.me/safiapictures/353", "https://t.me/safiapictures/354", "https://t.me/safiapictures/355", "https://t.me/safiapictures/356", "https://t.me/safiapictures/357", "https://t.me/safiapictures/358", "https://t.me/safiapictures/359", "https://t.me/safiapictures/360"};
@@ -230,8 +235,8 @@ public class MyBotServiceRu {
 
         row = new ArrayList<>();
         button = new InlineKeyboardButton();
-        button.setText("Настройки");
-        button.setCallbackData("sozlamaruId");
+        button.setText("Изменить язык");
+        button.setCallbackData("sozlamaId");
         row.add(button);
         rowList.add(row);
 
@@ -285,8 +290,8 @@ public class MyBotServiceRu {
 
         row = new ArrayList<>();
         button = new InlineKeyboardButton();
-        button.setText("Настройки");
-        button.setCallbackData("sozlamaruId");
+        button.setText("Изменить язык");
+        button.setCallbackData("sozlamaId");
         row.add(button);
         rowList.add(row);
 
@@ -324,6 +329,37 @@ public class MyBotServiceRu {
         inlineKeyboardMarkup.setKeyboard(rowList);
         sendMessage.setReplyMarkup(inlineKeyboardMarkup);
         return inlineKeyboardMarkup;
+    }
+
+    public SendMessage shahar1(Long chatId) {
+        SendMessage sendMessage = new SendMessage();
+        sendMessage.setChatId(chatId);
+        sendMessage.setText("Выберите город назначения:");
+
+        InlineKeyboardMarkup inlineKeyboardMarkup = new InlineKeyboardMarkup();
+        List<List<InlineKeyboardButton>> rowList = new ArrayList<>();
+
+        List<InlineKeyboardButton> row = new ArrayList<>();
+
+        for (String city : cities) {
+            InlineKeyboardButton button = new InlineKeyboardButton();
+            button.setText(city);
+            button.setCallbackData(city.toLowerCase() + "Id");
+            row.add(button);
+
+            if (row.size() == 2) {
+                rowList.add(row);
+                row = new ArrayList<>();
+            }
+        }
+
+        if (!row.isEmpty()) {
+            rowList.add(row);
+        }
+
+        inlineKeyboardMarkup.setKeyboard(rowList);
+        sendMessage.setReplyMarkup(inlineKeyboardMarkup);
+        return sendMessage;
     }
 
     public SendMessage haqida(Long chatId) {
@@ -375,7 +411,7 @@ public class MyBotServiceRu {
 
         List<InlineKeyboardButton> row = new ArrayList<>();
         InlineKeyboardButton button = new InlineKeyboardButton();
-        button.setText("⬅\uFE0F Qaytish");
+        button.setText("⬅\uFE0F Назад");
         button.setCallbackData("qaytbizruId");
         row.add(button);
         rowList.add(row);
@@ -396,7 +432,7 @@ public class MyBotServiceRu {
 
         List<InlineKeyboardButton> row = new ArrayList<>();
         InlineKeyboardButton button = new InlineKeyboardButton();
-        button.setText("⬅\uFE0F qaytish");
+        button.setText("⬅\uFE0F Назад");
         button.setCallbackData("qaytbizruId");
         row.add(button);
         rowList.add(row);
@@ -417,14 +453,153 @@ public class MyBotServiceRu {
 
         List<InlineKeyboardButton> row = new ArrayList<>();
         InlineKeyboardButton button = new InlineKeyboardButton();
-        button.setText("⬅\uFE0F qaytish");
-        button.setCallbackData("qaytbizId");
+        button.setText("⬅\uFE0F Назад");
+        button.setCallbackData("qaytbizruId");
         row.add(button);
         rowList.add(row);
 
         inlineKeyboardMarkup.setKeyboard(rowList);
         sendPhoto.setReplyMarkup(inlineKeyboardMarkup);
         return sendPhoto;
+    }
+
+    public SendMessage qadriyat(Long chatId) {
+        SendMessage sendMessage = new SendMessage();
+        sendMessage.setChatId(chatId);
+        sendMessage.setText("Виды наших ценностей:");
+
+        ReplyKeyboardMarkup replyKeyboardMarkup = new ReplyKeyboardMarkup();
+        List<KeyboardRow> rowList = new ArrayList<>();
+
+        KeyboardRow row = new KeyboardRow();
+        KeyboardButton button = new KeyboardButton();
+        button.setText("⛰ Окружающая среда");
+        row.add(button);
+        rowList.add(row);
+
+        row = new KeyboardRow();
+        button = new KeyboardButton();
+        button.setText("👨‍👩‍👦‍👦 Семья");
+        row.add(button);
+        rowList.add(row);
+
+        row = new KeyboardRow();
+        button = new KeyboardButton();
+        button.setText("\uD83D\uDC68\uD83C\uDFFB\u200D\uD83E\uDDBD\u200D➡\uFE0F Инклюзия");
+        row.add(button);
+        rowList.add(row);
+
+        row = new KeyboardRow();
+        button = new KeyboardButton();
+        button.setText("❌ Отмена");
+        row.add(button);
+        rowList.add(row);
+
+        replyKeyboardMarkup.setKeyboard(rowList);
+        replyKeyboardMarkup.setResizeKeyboard(true);
+        sendMessage.setReplyMarkup(replyKeyboardMarkup);
+        return sendMessage;
+    }
+
+    public SendPhoto muhit(Long chatId) {
+        SendPhoto sendPhoto = new SendPhoto();
+        sendPhoto.setChatId(chatId);
+        sendPhoto.setPhoto(new InputFile("https://t.me/safiapictures/7"));
+        sendPhoto.setCaption("Заботясь о экологии в этом мире и времени, мы обеспечиваем устойчивое и чистое будущее для следующих поколений — это наша твёрдая цель!");
+
+        InlineKeyboardMarkup inlineKeyboardMarkup = new InlineKeyboardMarkup();
+        List<List<InlineKeyboardButton>> rowList = new ArrayList<>();
+
+        List<InlineKeyboardButton> row = new ArrayList<>();
+        InlineKeyboardButton button = new InlineKeyboardButton();
+        button.setText("⬅\uFE0F Назад");
+        button.setCallbackData("qaytqadrruId");
+        row.add(button);
+        rowList.add(row);
+
+        inlineKeyboardMarkup.setKeyboard(rowList);
+        sendPhoto.setReplyMarkup(inlineKeyboardMarkup);
+        return sendPhoto;
+    }
+
+    public SendPhoto oila(Long chatId) {
+        SendPhoto sendPhoto = new SendPhoto();
+        sendPhoto.setChatId(chatId);
+        sendPhoto.setPhoto(new InputFile("https://t.me/safiapictures/8"));
+        sendPhoto.setCaption("Мы любим свою работу! Соблюдая семейные ценности, развиваем наше мастерство в кондитерском деле. Создаём праздничную атмосферу для каждого человека и его семьи. Гарантируем, что наши продукты готовятся из натуральных высококачественных ингредиентов с искренним отношением к гостям.");
+
+        InlineKeyboardMarkup inlineKeyboardMarkup = new InlineKeyboardMarkup();
+        List<List<InlineKeyboardButton>> rowList = new ArrayList<>();
+
+        List<InlineKeyboardButton> row = new ArrayList<>();
+        InlineKeyboardButton button = new InlineKeyboardButton();
+        button.setText("⬅\uFE0F Назад");
+        button.setCallbackData("qaytqadrruId");
+        row.add(button);
+        rowList.add(row);
+
+        inlineKeyboardMarkup.setKeyboard(rowList);
+        sendPhoto.setReplyMarkup(inlineKeyboardMarkup);
+        return sendPhoto;
+    }
+
+    public SendPhoto inkl(Long chatId) {
+        SendPhoto sendPhoto = new SendPhoto();
+        sendPhoto.setChatId(chatId);
+        sendPhoto.setPhoto(new InputFile("https://t.me/safiapictures/9"));
+        sendPhoto.setCaption("Мы заботимся обо всех, обеспечивая рабочие места и справедливые условия труда!");
+
+        InlineKeyboardMarkup inlineKeyboardMarkup = new InlineKeyboardMarkup();
+        List<List<InlineKeyboardButton>> rowList = new ArrayList<>();
+
+        List<InlineKeyboardButton> row = new ArrayList<>();
+        InlineKeyboardButton button = new InlineKeyboardButton();
+        button.setText("⬅\uFE0F Назад");
+        button.setCallbackData("qaytqadrruId");
+        row.add(button);
+        rowList.add(row);
+
+        inlineKeyboardMarkup.setKeyboard(rowList);
+        sendPhoto.setReplyMarkup(inlineKeyboardMarkup);
+        return sendPhoto;
+    }
+
+    public SendMessage keytring(Long chatId) {
+        SendMessage sendMessage = new SendMessage();
+        sendMessage.setChatId(chatId);
+        sendMessage.setText("Виды кейтеринга:");
+
+        ReplyKeyboardMarkup replyKeyboardMarkup = new ReplyKeyboardMarkup();
+        List<KeyboardRow> rowList = new ArrayList<>();
+
+        KeyboardRow row = new KeyboardRow();
+        KeyboardButton button = new KeyboardButton();
+        button.setText("Safia Catering (\uD83C\uDDF7\uD83C\uDDFA)"); // RU flag 🇷🇺
+        row.add(button);
+        rowList.add(row);
+
+        row = new KeyboardRow();
+        button = new KeyboardButton();
+        button.setText("Наши преимущества");
+        row.add(button);
+        rowList.add(row);
+
+        row = new KeyboardRow();
+        button = new KeyboardButton();
+        button.setText("Наши партнёры");
+        row.add(button);
+        rowList.add(row);
+
+        row = new KeyboardRow();
+        button = new KeyboardButton();
+        button.setText("❌ Отмена");
+        row.add(button);
+        rowList.add(row);
+
+        replyKeyboardMarkup.setKeyboard(rowList);
+        replyKeyboardMarkup.setResizeKeyboard(true);
+        sendMessage.setReplyMarkup(replyKeyboardMarkup);
+        return sendMessage;
     }
 
     public SendPhoto catering(Long chatId) {
@@ -536,6 +711,47 @@ public class MyBotServiceRu {
         inlineKeyboardMarkup.setKeyboard(rowList);
         sendMessage.setReplyMarkup(inlineKeyboardMarkup);
         return sendMessage;
+    }
+
+    public InlineKeyboardMarkup filialone1(Long chatId) {
+        SendMessage sendMessage = new SendMessage();
+        sendMessage.setChatId(chatId);
+        sendMessage.setText("Наши филиалы: 131 (1-10)");
+
+        InlineKeyboardMarkup inlineKeyboardMarkup = new InlineKeyboardMarkup();
+        List<List<InlineKeyboardButton>> rowList = new ArrayList<>();
+
+        List<InlineKeyboardButton> rowe = new ArrayList<>();
+        InlineKeyboardButton qaytf = new InlineKeyboardButton();
+        qaytf.setText("⬅\uFE0F Главное меню");
+        qaytf.setCallbackData("qaytfruId");
+        rowe.add(qaytf);
+        rowList.add(rowe);
+
+        List<InlineKeyboardButton> row1 = new ArrayList<>();
+        InlineKeyboardButton next = new InlineKeyboardButton();
+        next.setText("➡\uFE0F Далее");
+        next.setCallbackData("nextoneruId");
+        row1.add(next);
+        rowList.add(row1);
+
+        List<InlineKeyboardButton> row = new ArrayList<>();
+        for (int i = 0; i < onetotwo.length; i++) {
+            InlineKeyboardButton button = new InlineKeyboardButton();
+            button.setText(onetotwo[i]);
+            button.setCallbackData(onetotwo[i] + "ruId");
+            row.add(button);
+
+            if (row.size() == 2) {
+                rowList.add(row);
+                row = new ArrayList<>();
+            }
+        }
+        if (!row.isEmpty()) rowList.add(row);
+
+        inlineKeyboardMarkup.setKeyboard(rowList);
+        sendMessage.setReplyMarkup(inlineKeyboardMarkup);
+        return inlineKeyboardMarkup;
     }
 
     public InlineKeyboardMarkup filialtwo(Long chatId) {
@@ -1089,5 +1305,1124 @@ public class MyBotServiceRu {
         return inlineKeyboardMarkup;
     }
 
+    public SendMessage tel(Long chatId) {
+        SendMessage sendMessage = new SendMessage();
+        sendMessage.setChatId(chatId);
+        sendMessage.setText("Отправьте ваш номер телефона");
+
+        ReplyKeyboardMarkup replyKeyboardMarkup = new ReplyKeyboardMarkup();
+        List<KeyboardRow> rowList = new ArrayList<>();
+
+        KeyboardRow row = new KeyboardRow();
+
+        KeyboardButton mynum = new KeyboardButton();
+        mynum.setText("\uD83D\uDCDE Мой номер");
+        mynum.setRequestContact(true);
+        row.add(mynum);
+        rowList.add(row);
+
+        replyKeyboardMarkup.setKeyboard(rowList);
+        replyKeyboardMarkup.setResizeKeyboard(true);
+        sendMessage.setReplyMarkup(replyKeyboardMarkup);
+        return sendMessage;
+    }
+
+    public SendMessage orgmenu(Long chatId) {
+        SendMessage sendMessage = new SendMessage();
+        sendMessage.setChatId(chatId);
+        sendMessage.setText("Выберите категорию:");
+
+        ReplyKeyboardMarkup replyKeyboardMarkup = new ReplyKeyboardMarkup();
+        List<KeyboardRow> rowList = new ArrayList<>();
+
+        KeyboardRow row = new KeyboardRow();
+        KeyboardButton bir = new KeyboardButton();
+        bir.setText("\uD83C\uDF70 Вкусные сладости здесь");
+        row.add(bir);
+        rowList.add(row);
+
+        KeyboardRow row1 = new KeyboardRow();
+        KeyboardButton ikki = new KeyboardButton();
+        ikki.setText("\uD83E\uDD57 Диетические сладости");
+        row1.add(ikki);
+        rowList.add(row1);
+
+        KeyboardRow row2 = new KeyboardRow();
+        KeyboardButton uch = new KeyboardButton();
+        uch.setText("\uD83E\uDD5F Полуфабрикаты");
+        row2.add(uch);
+        rowList.add(row2);
+
+        KeyboardRow row3 = new KeyboardRow();
+        KeyboardButton tort = new KeyboardButton();
+        tort.setText("\uD83E\uDD56 Австрийский хлеб");
+        row3.add(tort);
+        rowList.add(row3);
+
+        KeyboardRow row4 = new KeyboardRow();
+        KeyboardButton besh = new KeyboardButton();
+        besh.setText("\uD83C\uDF79 Бар меню");
+        row4.add(besh);
+        rowList.add(row4);
+
+        KeyboardRow row5 = new KeyboardRow();
+        KeyboardButton olti = new KeyboardButton();
+        olti.setText("\uD83E\uDDF8 Доставка аниматоров");
+        row5.add(olti);
+        rowList.add(row5);
+
+        KeyboardRow row6 = new KeyboardRow();
+        KeyboardButton yetti = new KeyboardButton();
+        yetti.setText("☕\uFE0F Кофейные абонементы");
+        row6.add(yetti);
+        rowList.add(row6);
+
+        KeyboardRow row7 = new KeyboardRow();
+        KeyboardButton sakkiz = new KeyboardButton();
+        sakkiz.setText("❌ Отмена");
+        row7.add(sakkiz);
+        rowList.add(row7);
+
+        KeyboardButton savat = new KeyboardButton();
+        savat.setText("\uD83D\uDED2 Корзина");
+        row7.add(savat);
+
+        replyKeyboardMarkup.setKeyboard(rowList);
+        replyKeyboardMarkup.setResizeKeyboard(true);
+        sendMessage.setReplyMarkup(replyKeyboardMarkup);
+        return sendMessage;
+    }
+
+    public SendMessage mazali(Long chatId) {
+        SendMessage sendMessage = new SendMessage();
+        sendMessage.setChatId(chatId);
+        sendMessage.setText("Вкусные сладости здесь");
+
+        ReplyKeyboardMarkup replyKeyboardMarkup = new ReplyKeyboardMarkup();
+        List<KeyboardRow> rowList = new ArrayList<>();
+
+        KeyboardRow row = new KeyboardRow();
+        for (int i = 0; i < mazali.length; i++) {
+            KeyboardButton button = new KeyboardButton();
+            button.setText(mazali[i]);
+            row.add(button);
+
+            if (row.size() == 2) {
+                rowList.add(row);
+                row = new KeyboardRow();
+            }
+        }
+        if (!row.isEmpty()) rowList.add(row);
+
+        replyKeyboardMarkup.setKeyboard(rowList);
+        replyKeyboardMarkup.setResizeKeyboard(true);
+        sendMessage.setReplyMarkup(replyKeyboardMarkup);
+        return sendMessage;
+    }
+
+    public SendMessage yumaloqtort(Long chatId) {
+        SendMessage sendMessage = new SendMessage();
+        sendMessage.setChatId(chatId);
+        sendMessage.setText("Круглые торты");
+
+        ReplyKeyboardMarkup replyKeyboardMarkup = new ReplyKeyboardMarkup();
+        List<KeyboardRow> rowList = new ArrayList<>();
+
+        KeyboardRow row = new KeyboardRow();
+        for (int i = 0; i < yumaloqtort.length; i++) {
+            KeyboardButton button = new KeyboardButton();
+            button.setText(yumaloqtort[i]);
+            row.add(button);
+
+            if (row.size() == 2) {
+                rowList.add(row);
+                row = new KeyboardRow();
+            }
+        }
+        if (!row.isEmpty()) rowList.add(row);
+
+        replyKeyboardMarkup.setKeyboard(rowList);
+        replyKeyboardMarkup.setResizeKeyboard(true);
+        sendMessage.setReplyMarkup(replyKeyboardMarkup);
+        return sendMessage;
+    }
+
+    public SendMessage togriburchakli(Long chatId) {
+        SendMessage sendMessage = new SendMessage();
+        sendMessage.setChatId(chatId);
+        sendMessage.setText("Прямоугольные торты");
+
+        ReplyKeyboardMarkup replyKeyboardMarkup = new ReplyKeyboardMarkup();
+        List<KeyboardRow> rowList = new ArrayList<>();
+
+        KeyboardRow row = new KeyboardRow();
+        for (int i = 0; i < togriburchakli.length; i++) {
+            KeyboardButton button = new KeyboardButton();
+            button.setText(togriburchakli[i]);
+            row.add(button);
+
+            if (row.size() == 2) {
+                rowList.add(row);
+                row = new KeyboardRow();
+            }
+        }
+        if (!row.isEmpty()) rowList.add(row);
+
+        replyKeyboardMarkup.setKeyboard(rowList);
+        replyKeyboardMarkup.setResizeKeyboard(true);
+        sendMessage.setReplyMarkup(replyKeyboardMarkup);
+        return sendMessage;
+    }
+
+    public SendMessage minitort(Long chatId) {
+        SendMessage sendMessage = new SendMessage();
+        sendMessage.setChatId(chatId);
+        sendMessage.setText("Мини-торты");
+
+        ReplyKeyboardMarkup replyKeyboardMarkup = new ReplyKeyboardMarkup();
+        List<KeyboardRow> rowList = new ArrayList<>();
+
+        KeyboardRow row = new KeyboardRow();
+        for (int i = 0; i < minitort.length; i++) {
+            KeyboardButton button = new KeyboardButton();
+            button.setText(minitort[i]);
+            row.add(button);
+
+            if (row.size() == 2) {
+                rowList.add(row);
+                row = new KeyboardRow();
+            }
+        }
+        if (!row.isEmpty()) rowList.add(row);
+
+        replyKeyboardMarkup.setKeyboard(rowList);
+        replyKeyboardMarkup.setResizeKeyboard(true);
+        sendMessage.setReplyMarkup(replyKeyboardMarkup);
+        return sendMessage;
+    }
+
+    public SendMessage kattapirog(Long chatId) {
+        SendMessage sendMessage = new SendMessage();
+        sendMessage.setChatId(chatId);
+        sendMessage.setText("Большие пироги");
+
+        ReplyKeyboardMarkup replyKeyboardMarkup = new ReplyKeyboardMarkup();
+        List<KeyboardRow> rowList = new ArrayList<>();
+
+        KeyboardRow row = new KeyboardRow();
+        for (int i = 0; i < pirog.length; i++) {
+            KeyboardButton button = new KeyboardButton();
+            button.setText(pirog[i]);
+            row.add(button);
+
+            if (row.size() == 2) {
+                rowList.add(row);
+                row = new KeyboardRow();
+            }
+        }
+        if (!row.isEmpty()) rowList.add(row);
+
+        replyKeyboardMarkup.setKeyboard(rowList);
+        replyKeyboardMarkup.setResizeKeyboard(true);
+        sendMessage.setReplyMarkup(replyKeyboardMarkup);
+        return sendMessage;
+    }
+
+    public SendMessage yumaloqpirog(Long chatId) {
+        SendMessage sendMessage = new SendMessage();
+        sendMessage.setChatId(chatId);
+        sendMessage.setText("Круглые пироги");
+
+        ReplyKeyboardMarkup replyKeyboardMarkup = new ReplyKeyboardMarkup();
+        List<KeyboardRow> rowList = new ArrayList<>();
+
+        KeyboardRow row = new KeyboardRow();
+        for (int i = 0; i < yumaloqpirog.length; i++) {
+            KeyboardButton button = new KeyboardButton();
+            button.setText(yumaloqpirog[i]);
+            row.add(button);
+
+            if (row.size() == 2) {
+                rowList.add(row);
+                row = new KeyboardRow();
+            }
+        }
+        if (!row.isEmpty()) rowList.add(row);
+
+        replyKeyboardMarkup.setKeyboard(rowList);
+        replyKeyboardMarkup.setResizeKeyboard(true);
+        sendMessage.setReplyMarkup(replyKeyboardMarkup);
+        return sendMessage;
+    }
+
+    public SendMessage pirojniy(Long chatId) {
+        SendMessage sendMessage = new SendMessage();
+        sendMessage.setChatId(chatId);
+        sendMessage.setText("Пирожные");
+
+        ReplyKeyboardMarkup replyKeyboardMarkup = new ReplyKeyboardMarkup();
+        List<KeyboardRow> rowList = new ArrayList<>();
+
+        KeyboardRow row = new KeyboardRow();
+        for (int i = 0; i < pirojni.length; i++) {
+            KeyboardButton button = new KeyboardButton();
+            button.setText(pirojni[i]);
+            row.add(button);
+
+            if (row.size() == 2) {
+                rowList.add(row);
+                row = new KeyboardRow();
+            }
+        }
+        if (!row.isEmpty()) rowList.add(row);
+
+        replyKeyboardMarkup.setKeyboard(rowList);
+        replyKeyboardMarkup.setResizeKeyboard(true);
+        sendMessage.setReplyMarkup(replyKeyboardMarkup);
+        return sendMessage;
+    }
+
+    public SendMessage rulet(Long chatId) {
+        SendMessage sendMessage = new SendMessage();
+        sendMessage.setChatId(chatId);
+        sendMessage.setText("Рулеты");
+
+        ReplyKeyboardMarkup replyKeyboardMarkup = new ReplyKeyboardMarkup();
+        List<KeyboardRow> rowList = new ArrayList<>();
+
+        KeyboardRow row = new KeyboardRow();
+        for (int i = 0; i < rulet.length; i++) {
+            KeyboardButton button = new KeyboardButton();
+            button.setText(rulet[i]);
+            row.add(button);
+
+            if (row.size() == 2) {
+                rowList.add(row);
+                row = new KeyboardRow();
+            }
+        }
+        if (!row.isEmpty()) rowList.add(row);
+
+        replyKeyboardMarkup.setKeyboard(rowList);
+        replyKeyboardMarkup.setResizeKeyboard(true);
+        sendMessage.setReplyMarkup(replyKeyboardMarkup);
+        return sendMessage;
+    }
+
+    public SendMessage ekler(Long chatId) {
+        SendMessage sendMessage = new SendMessage();
+        sendMessage.setChatId(chatId);
+        sendMessage.setText("Эклеры");
+
+        ReplyKeyboardMarkup replyKeyboardMarkup = new ReplyKeyboardMarkup();
+        List<KeyboardRow> rowList = new ArrayList<>();
+
+        KeyboardRow row = new KeyboardRow();
+        for (int i = 0; i < ekler.length; i++) {
+            KeyboardButton button = new KeyboardButton();
+            button.setText(ekler[i]);
+            row.add(button);
+
+            if (row.size() == 2) {
+                rowList.add(row);
+                row = new KeyboardRow();
+            }
+        }
+        if (!row.isEmpty()) rowList.add(row);
+
+        replyKeyboardMarkup.setKeyboard(rowList);
+        replyKeyboardMarkup.setResizeKeyboard(true);
+        sendMessage.setReplyMarkup(replyKeyboardMarkup);
+        return sendMessage;
+    }
+
+    public SendMessage makarons(Long chatId) {
+        SendMessage sendMessage = new SendMessage();
+        sendMessage.setChatId(chatId);
+        sendMessage.setText("Макароны");
+
+        ReplyKeyboardMarkup replyKeyboardMarkup = new ReplyKeyboardMarkup();
+        List<KeyboardRow> rowList = new ArrayList<>();
+
+        KeyboardRow row = new KeyboardRow();
+        for (int i = 0; i < makarons.length; i++) {
+            KeyboardButton button = new KeyboardButton();
+            button.setText(makarons[i]);
+            row.add(button);
+
+            if (row.size() == 2) {
+                rowList.add(row);
+                row = new KeyboardRow();
+            }
+        }
+        if (!row.isEmpty()) rowList.add(row);
+
+        replyKeyboardMarkup.setKeyboard(rowList);
+        replyKeyboardMarkup.setResizeKeyboard(true);
+        sendMessage.setReplyMarkup(replyKeyboardMarkup);
+        return sendMessage;
+    }
+
+    public SendMessage tayyortaom(Long chatId) {
+        SendMessage sendMessage = new SendMessage();
+        sendMessage.setChatId(chatId);
+        sendMessage.setText("Готовые блюда");
+
+        ReplyKeyboardMarkup replyKeyboardMarkup = new ReplyKeyboardMarkup();
+        List<KeyboardRow> rowList = new ArrayList<>();
+
+        KeyboardRow row = new KeyboardRow();
+        for (int i = 0; i < tayyotovqat.length; i++) {
+            KeyboardButton button = new KeyboardButton();
+            button.setText(tayyotovqat[i]);
+            row.add(button);
+
+            if (row.size() == 2) {
+                rowList.add(row);
+                row = new KeyboardRow();
+            }
+        }
+        if (!row.isEmpty()) rowList.add(row);
+
+        replyKeyboardMarkup.setKeyboard(rowList);
+        replyKeyboardMarkup.setResizeKeyboard(true);
+        sendMessage.setReplyMarkup(replyKeyboardMarkup);
+        return sendMessage;
+    }
+
+    public SendMessage shirinlik(Long chatId) {
+        SendMessage sendMessage = new SendMessage();
+        sendMessage.setChatId(chatId);
+        sendMessage.setText("Сладости");
+
+        ReplyKeyboardMarkup replyKeyboardMarkup = new ReplyKeyboardMarkup();
+        List<KeyboardRow> rowList = new ArrayList<>();
+
+        KeyboardRow row = new KeyboardRow();
+        for (int i = 0; i < shirinlik.length; i++) {
+            KeyboardButton button = new KeyboardButton();
+            button.setText(shirinlik[i]);
+            row.add(button);
+
+            if (row.size() == 2) {
+                rowList.add(row);
+                row = new KeyboardRow();
+            }
+        }
+        if (!row.isEmpty()) rowList.add(row);
+
+        replyKeyboardMarkup.setKeyboard(rowList);
+        replyKeyboardMarkup.setResizeKeyboard(true);
+        sendMessage.setReplyMarkup(replyKeyboardMarkup);
+        return sendMessage;
+    }
+
+    public SendMessage pechenye(Long chatId) {
+        SendMessage sendMessage = new SendMessage();
+        sendMessage.setChatId(chatId);
+        sendMessage.setText("Печенье");
+
+        ReplyKeyboardMarkup replyKeyboardMarkup = new ReplyKeyboardMarkup();
+        List<KeyboardRow> rowList = new ArrayList<>();
+
+        KeyboardRow row = new KeyboardRow();
+        for (int i = 0; i < pechenye.length; i++) {
+            KeyboardButton button = new KeyboardButton();
+            button.setText(pechenye[i]);
+            row.add(button);
+
+            if (row.size() == 2) {
+                rowList.add(row);
+                row = new KeyboardRow();
+            }
+        }
+        if (!row.isEmpty()) rowList.add(row);
+
+        replyKeyboardMarkup.setKeyboard(rowList);
+        replyKeyboardMarkup.setResizeKeyboard(true);
+        sendMessage.setReplyMarkup(replyKeyboardMarkup);
+        return sendMessage;
+    }
+
+    public SendMessage qadoqekler(Long chatId) {
+        SendMessage sendMessage = new SendMessage();
+        sendMessage.setChatId(chatId);
+        sendMessage.setText("Эклеры в упаковке");
+
+        ReplyKeyboardMarkup replyKeyboardMarkup = new ReplyKeyboardMarkup();
+        List<KeyboardRow> rowList = new ArrayList<>();
+
+        KeyboardRow row = new KeyboardRow();
+        for (int i = 0; i < qadoqekler.length; i++) {
+            KeyboardButton button = new KeyboardButton();
+            button.setText(qadoqekler[i]);
+            row.add(button);
+
+            if (row.size() == 2) {
+                rowList.add(row);
+                row = new KeyboardRow();
+            }
+        }
+        if (!row.isEmpty()) rowList.add(row);
+
+        replyKeyboardMarkup.setKeyboard(rowList);
+        replyKeyboardMarkup.setResizeKeyboard(true);
+        sendMessage.setReplyMarkup(replyKeyboardMarkup);
+        return sendMessage;
+    }
+
+    public SendMessage shirinpishiriq(Long chatId) {
+        SendMessage sendMessage = new SendMessage();
+        sendMessage.setChatId(chatId);
+        sendMessage.setText("Сладкая выпечка");
+
+        ReplyKeyboardMarkup replyKeyboardMarkup = new ReplyKeyboardMarkup();
+        List<KeyboardRow> rowList = new ArrayList<>();
+
+        KeyboardRow row = new KeyboardRow();
+        for (int i = 0; i < shirinpishiriq.length; i++) {
+            KeyboardButton button = new KeyboardButton();
+            button.setText(shirinpishiriq[i]);
+            row.add(button);
+
+            if (row.size() == 2) {
+                rowList.add(row);
+                row = new KeyboardRow();
+            }
+        }
+        if (!row.isEmpty()) rowList.add(row);
+
+        replyKeyboardMarkup.setKeyboard(rowList);
+        replyKeyboardMarkup.setResizeKeyboard(true);
+        sendMessage.setReplyMarkup(replyKeyboardMarkup);
+        return sendMessage;
+    }
+
+    public SendMessage keks(Long chatId) {
+        SendMessage sendMessage = new SendMessage();
+        sendMessage.setChatId(chatId);
+        sendMessage.setText("Кексы");
+
+        ReplyKeyboardMarkup replyKeyboardMarkup = new ReplyKeyboardMarkup();
+        List<KeyboardRow> rowList = new ArrayList<>();
+
+        KeyboardRow row = new KeyboardRow();
+        for (int i = 0; i < keks.length; i++) {
+            KeyboardButton button = new KeyboardButton();
+            button.setText(keks[i]);
+            row.add(button);
+
+            if (row.size() == 2) {
+                rowList.add(row);
+                row = new KeyboardRow();
+            }
+        }
+        if (!row.isEmpty()) rowList.add(row);
+
+        replyKeyboardMarkup.setKeyboard(rowList);
+        replyKeyboardMarkup.setResizeKeyboard(true);
+        sendMessage.setReplyMarkup(replyKeyboardMarkup);
+        return sendMessage;
+    }
+
+    public SendMessage tartaletka(Long chatId) {
+        SendMessage sendMessage = new SendMessage();
+        sendMessage.setChatId(chatId);
+        sendMessage.setText("Тарталетки");
+
+        ReplyKeyboardMarkup replyKeyboardMarkup = new ReplyKeyboardMarkup();
+        List<KeyboardRow> rowList = new ArrayList<>();
+
+        KeyboardRow row = new KeyboardRow();
+        for (int i = 0; i < tartaletka.length; i++) {
+            KeyboardButton button = new KeyboardButton();
+            button.setText(tartaletka[i]);
+            row.add(button);
+
+            if (row.size() == 2) {
+                rowList.add(row);
+                row = new KeyboardRow();
+            }
+        }
+        if (!row.isEmpty()) rowList.add(row);
+
+        replyKeyboardMarkup.setKeyboard(rowList);
+        replyKeyboardMarkup.setResizeKeyboard(true);
+        sendMessage.setReplyMarkup(replyKeyboardMarkup);
+        return sendMessage;
+    }
+
+    public SendMessage qatlamali(Long chatId) {
+        SendMessage sendMessage = new SendMessage();
+        sendMessage.setChatId(chatId);
+        sendMessage.setText("Слоёная выпечка");
+
+        ReplyKeyboardMarkup replyKeyboardMarkup = new ReplyKeyboardMarkup();
+        List<KeyboardRow> rowList = new ArrayList<>();
+
+        KeyboardRow row = new KeyboardRow();
+        for (int i = 0; i < qatlamali.length; i++) {
+            KeyboardButton button = new KeyboardButton();
+            button.setText(qatlamali[i]);
+            row.add(button);
+
+            if (row.size() == 2) {
+                rowList.add(row);
+                row = new KeyboardRow();
+            }
+        }
+        if (!row.isEmpty()) rowList.add(row);
+
+        replyKeyboardMarkup.setKeyboard(rowList);
+        replyKeyboardMarkup.setResizeKeyboard(true);
+        sendMessage.setReplyMarkup(replyKeyboardMarkup);
+        return sendMessage;
+    }
+
+    public SendMessage toyimli(Long chatId) {
+        SendMessage sendMessage = new SendMessage();
+        sendMessage.setChatId(chatId);
+        sendMessage.setText("Сытная выпечка");
+
+        ReplyKeyboardMarkup replyKeyboardMarkup = new ReplyKeyboardMarkup();
+        List<KeyboardRow> rowList = new ArrayList<>();
+
+        KeyboardRow row = new KeyboardRow();
+        for (int i = 0; i < toyimli.length; i++) {
+            KeyboardButton button = new KeyboardButton();
+            button.setText(toyimli[i]);
+            row.add(button);
+
+            if (row.size() == 2) {
+                rowList.add(row);
+                row = new KeyboardRow();
+            }
+        }
+        if (!row.isEmpty()) rowList.add(row);
+
+        replyKeyboardMarkup.setKeyboard(rowList);
+        replyKeyboardMarkup.setResizeKeyboard(true);
+        sendMessage.setReplyMarkup(replyKeyboardMarkup);
+        return sendMessage;
+    }
+
+    public SendMessage zanjabilli(Long chatId) {
+        SendMessage sendMessage = new SendMessage();
+        sendMessage.setChatId(chatId);
+        sendMessage.setText("Имбирная выпечка");
+
+        ReplyKeyboardMarkup replyKeyboardMarkup = new ReplyKeyboardMarkup();
+        List<KeyboardRow> rowList = new ArrayList<>();
+
+        KeyboardRow row = new KeyboardRow();
+        for (int i = 0; i < praynik.length; i++) {
+            KeyboardButton button = new KeyboardButton();
+            button.setText(praynik[i]);
+            row.add(button);
+
+            if (row.size() == 2) {
+                rowList.add(row);
+                row = new KeyboardRow();
+            }
+        }
+        if (!row.isEmpty()) rowList.add(row);
+
+        replyKeyboardMarkup.setKeyboard(rowList);
+        replyKeyboardMarkup.setResizeKeyboard(true);
+        sendMessage.setReplyMarkup(replyKeyboardMarkup);
+        return sendMessage;
+    }
+
+    public SendMessage togriovqatlanish(Long chatId) {
+        SendMessage sendMessage = new SendMessage();
+        sendMessage.setChatId(chatId);
+        sendMessage.setText("Сладости правильного питания");
+
+        ReplyKeyboardMarkup replyKeyboardMarkup = new ReplyKeyboardMarkup();
+        List<KeyboardRow> rowList = new ArrayList<>();
+
+        KeyboardRow row = new KeyboardRow();
+        for (int i = 0; i < togriovqatlanish.length; i++) {
+            KeyboardButton button = new KeyboardButton();
+            button.setText(togriovqatlanish[i]);
+            row.add(button);
+
+            if (row.size() == 2) {
+                rowList.add(row);
+                row = new KeyboardRow();
+            }
+        }
+        if (!row.isEmpty()) rowList.add(row);
+
+        replyKeyboardMarkup.setKeyboard(rowList);
+        replyKeyboardMarkup.setResizeKeyboard(true);
+        sendMessage.setReplyMarkup(replyKeyboardMarkup);
+        return sendMessage;
+    }
+
+    public SendMessage topirog(Long chatId) {
+        SendMessage sendMessage = new SendMessage();
+        sendMessage.setChatId(chatId);
+        sendMessage.setText("ПП Пироги");
+
+        ReplyKeyboardMarkup replyKeyboardMarkup = new ReplyKeyboardMarkup();
+        List<KeyboardRow> rowList = new ArrayList<>();
+
+        KeyboardRow row = new KeyboardRow();
+        for (int i = 0; i < ppPirog.length; i++) {
+            KeyboardButton button = new KeyboardButton();
+            button.setText(ppPirog[i]);
+            row.add(button);
+
+            if (row.size() == 2) {
+                rowList.add(row);
+                row = new KeyboardRow();
+            }
+        }
+        if (!row.isEmpty()) rowList.add(row);
+
+        replyKeyboardMarkup.setKeyboard(rowList);
+        replyKeyboardMarkup.setResizeKeyboard(true);
+        sendMessage.setReplyMarkup(replyKeyboardMarkup);
+        return sendMessage;
+    }
+
+    public SendMessage toyarimtayyor(Long chatId) {
+        SendMessage sendMessage = new SendMessage();
+        sendMessage.setChatId(chatId);
+        sendMessage.setText("TO Yarim tayyor mahsulotlar");
+
+        ReplyKeyboardMarkup replyKeyboardMarkup = new ReplyKeyboardMarkup();
+        List<KeyboardRow> rowList = new ArrayList<>();
+
+        KeyboardRow row = new KeyboardRow();
+        for (int i = 0; i < ppPolufab.length; i++) {
+            KeyboardButton button = new KeyboardButton();
+            button.setText(ppPolufab[i]);
+            row.add(button);
+
+            if (row.size() == 2) {
+                rowList.add(row);
+                row = new KeyboardRow();
+            }
+        }
+        if (!row.isEmpty()) rowList.add(row);
+
+        replyKeyboardMarkup.setKeyboard(rowList);
+        replyKeyboardMarkup.setResizeKeyboard(true);
+        sendMessage.setReplyMarkup(replyKeyboardMarkup);
+        return sendMessage;
+    }
+
+    public SendMessage totortpp(Long chatId) {
+        SendMessage sendMessage = new SendMessage();
+        sendMessage.setChatId(chatId);
+        sendMessage.setText("ПП Торты");
+
+        ReplyKeyboardMarkup replyKeyboardMarkup = new ReplyKeyboardMarkup();
+        List<KeyboardRow> rowList = new ArrayList<>();
+
+        KeyboardRow row = new KeyboardRow();
+        for (int i = 0; i < ppTort.length; i++) {
+            KeyboardButton button = new KeyboardButton();
+            button.setText(ppTort[i]);
+            row.add(button);
+
+            if (row.size() == 2) {
+                rowList.add(row);
+                row = new KeyboardRow();
+            }
+        }
+        if (!row.isEmpty()) rowList.add(row);
+
+        replyKeyboardMarkup.setKeyboard(rowList);
+        replyKeyboardMarkup.setResizeKeyboard(true);
+        sendMessage.setReplyMarkup(replyKeyboardMarkup);
+        return sendMessage;
+    }
+
+    public SendMessage topishiriq(Long chatId) {
+        SendMessage sendMessage = new SendMessage();
+        sendMessage.setChatId(chatId);
+        sendMessage.setText("ПП Выпечка");
+
+        ReplyKeyboardMarkup replyKeyboardMarkup = new ReplyKeyboardMarkup();
+        List<KeyboardRow> rowList = new ArrayList<>();
+
+        KeyboardRow row = new KeyboardRow();
+        for (int i = 0; i < topishiriq.length; i++) {
+            KeyboardButton button = new KeyboardButton();
+            button.setText(topishiriq[i]);
+            row.add(button);
+
+            if (row.size() == 2) {
+                rowList.add(row);
+                row = new KeyboardRow();
+            }
+        }
+        if (!row.isEmpty()) rowList.add(row);
+
+        replyKeyboardMarkup.setKeyboard(rowList);
+        replyKeyboardMarkup.setResizeKeyboard(true);
+        sendMessage.setReplyMarkup(replyKeyboardMarkup);
+        return sendMessage;
+    }
+
+    public SendMessage topirojniypp(Long chatId) {
+        SendMessage sendMessage = new SendMessage();
+        sendMessage.setChatId(chatId);
+        sendMessage.setText("ПП Пирожные");
+
+        ReplyKeyboardMarkup replyKeyboardMarkup = new ReplyKeyboardMarkup();
+        List<KeyboardRow> rowList = new ArrayList<>();
+
+        KeyboardRow row = new KeyboardRow();
+        for (int i = 0; i < ppPiroj.length; i++) {
+            KeyboardButton button = new KeyboardButton();
+            button.setText(ppPiroj[i]);
+            row.add(button);
+
+            if (row.size() == 2) {
+                rowList.add(row);
+                row = new KeyboardRow();
+            }
+        }
+        if (!row.isEmpty()) rowList.add(row);
+
+        replyKeyboardMarkup.setKeyboard(rowList);
+        replyKeyboardMarkup.setResizeKeyboard(true);
+        sendMessage.setReplyMarkup(replyKeyboardMarkup);
+        return sendMessage;
+    }
+
+    public SendMessage yarimtayyor(Long chatId) {
+        SendMessage sendMessage = new SendMessage();
+        sendMessage.setChatId(chatId);
+        sendMessage.setText("Полуфабрикаты");
+
+        ReplyKeyboardMarkup replyKeyboardMarkup = new ReplyKeyboardMarkup();
+        List<KeyboardRow> rowList = new ArrayList<>();
+
+        KeyboardRow row = new KeyboardRow();
+        for (int i = 0; i < yarimtayyor.length; i++) {
+            KeyboardButton button = new KeyboardButton();
+            button.setText(yarimtayyor[i]);
+            row.add(button);
+
+            if (row.size() == 2) {
+                rowList.add(row);
+                row = new KeyboardRow();
+            }
+        }
+        if (!row.isEmpty()) rowList.add(row);
+
+        replyKeyboardMarkup.setKeyboard(rowList);
+        replyKeyboardMarkup.setResizeKeyboard(true);
+        sendMessage.setReplyMarkup(replyKeyboardMarkup);
+        return sendMessage;
+    }
+
+    public SendMessage non(Long chatId) {
+        SendMessage sendMessage = new SendMessage();
+        sendMessage.setChatId(chatId);
+        sendMessage.setText("Австрийский хлеб");
+
+        ReplyKeyboardMarkup replyKeyboardMarkup = new ReplyKeyboardMarkup();
+        List<KeyboardRow> rowList = new ArrayList<>();
+
+        KeyboardRow row = new KeyboardRow();
+        for (int i = 0; i < non.length; i++) {
+            KeyboardButton button = new KeyboardButton();
+            button.setText(non[i]);
+            row.add(button);
+
+            if (row.size() == 2) {
+                rowList.add(row);
+                row = new KeyboardRow();
+            }
+        }
+        if (!row.isEmpty()) rowList.add(row);
+
+        replyKeyboardMarkup.setKeyboard(rowList);
+        replyKeyboardMarkup.setResizeKeyboard(true);
+        sendMessage.setReplyMarkup(replyKeyboardMarkup);
+        return sendMessage;
+    }
+
+    public SendMessage barmenyu(Long chatId) {
+        SendMessage sendMessage = new SendMessage();
+        sendMessage.setChatId(chatId);
+        sendMessage.setText("Бар Меню");
+
+        ReplyKeyboardMarkup replyKeyboardMarkup = new ReplyKeyboardMarkup();
+        List<KeyboardRow> rowList = new ArrayList<>();
+
+        KeyboardRow row = new KeyboardRow();
+        for (int i = 0; i < barmenyu.length; i++) {
+            KeyboardButton button = new KeyboardButton();
+            button.setText(barmenyu[i]);
+            row.add(button);
+
+            if (row.size() == 2) {
+                rowList.add(row);
+                row = new KeyboardRow();
+            }
+        }
+        if (!row.isEmpty()) rowList.add(row);
+
+        replyKeyboardMarkup.setKeyboard(rowList);
+        replyKeyboardMarkup.setResizeKeyboard(true);
+        sendMessage.setReplyMarkup(replyKeyboardMarkup);
+        return sendMessage;
+    }
+
+    public SendMessage sharbat(Long chatId) {
+        SendMessage sendMessage = new SendMessage();
+        sendMessage.setChatId(chatId);
+        sendMessage.setText("Свежевыжатые соки");
+
+        ReplyKeyboardMarkup replyKeyboardMarkup = new ReplyKeyboardMarkup();
+        List<KeyboardRow> rowList = new ArrayList<>();
+
+        KeyboardRow row = new KeyboardRow();
+        for (int i = 0; i < yangisiqilgan.length; i++) {
+            KeyboardButton button = new KeyboardButton();
+            button.setText(yangisiqilgan[i]);
+            row.add(button);
+
+            if (row.size() == 2) {
+                rowList.add(row);
+                row = new KeyboardRow();
+            }
+        }
+        if (!row.isEmpty()) rowList.add(row);
+
+        replyKeyboardMarkup.setKeyboard(rowList);
+        replyKeyboardMarkup.setResizeKeyboard(true);
+        sendMessage.setReplyMarkup(replyKeyboardMarkup);
+        return sendMessage;
+    }
+
+    public SendMessage milksheyk(Long chatId) {
+        SendMessage sendMessage = new SendMessage();
+        sendMessage.setChatId(chatId);
+        sendMessage.setText("Милкшейки");
+
+        ReplyKeyboardMarkup replyKeyboardMarkup = new ReplyKeyboardMarkup();
+        List<KeyboardRow> rowList = new ArrayList<>();
+
+        KeyboardRow row = new KeyboardRow();
+        for (int i = 0; i < milksheyk.length; i++) {
+            KeyboardButton button = new KeyboardButton();
+            button.setText(milksheyk[i]);
+            row.add(button);
+
+            if (row.size() == 2) {
+                rowList.add(row);
+                row = new KeyboardRow();
+            }
+        }
+        if (!row.isEmpty()) rowList.add(row);
+
+        replyKeyboardMarkup.setKeyboard(rowList);
+        replyKeyboardMarkup.setResizeKeyboard(true);
+        sendMessage.setReplyMarkup(replyKeyboardMarkup);
+        return sendMessage;
+    }
+
+    public SendMessage limonad(Long chatId) {
+        SendMessage sendMessage = new SendMessage();
+        sendMessage.setChatId(chatId);
+        sendMessage.setText("Лимонады");
+
+        ReplyKeyboardMarkup replyKeyboardMarkup = new ReplyKeyboardMarkup();
+        List<KeyboardRow> rowList = new ArrayList<>();
+
+        KeyboardRow row = new KeyboardRow();
+        for (int i = 0; i < limonad.length; i++) {
+            KeyboardButton button = new KeyboardButton();
+            button.setText(limonad[i]);
+            row.add(button);
+
+            if (row.size() == 2) {
+                rowList.add(row);
+                row = new KeyboardRow();
+            }
+        }
+        if (!row.isEmpty()) rowList.add(row);
+
+        replyKeyboardMarkup.setKeyboard(rowList);
+        replyKeyboardMarkup.setResizeKeyboard(true);
+        sendMessage.setReplyMarkup(replyKeyboardMarkup);
+        return sendMessage;
+    }
+
+    public SendMessage kofe(Long chatId) {
+        SendMessage sendMessage = new SendMessage();
+        sendMessage.setChatId(chatId);
+        sendMessage.setText("Кофе");
+
+        ReplyKeyboardMarkup replyKeyboardMarkup = new ReplyKeyboardMarkup();
+        List<KeyboardRow> rowList = new ArrayList<>();
+
+        KeyboardRow row = new KeyboardRow();
+        for (int i = 0; i < kofe.length; i++) {
+            KeyboardButton button = new KeyboardButton();
+            button.setText(kofe[i]);
+            row.add(button);
+
+            if (row.size() == 2) {
+                rowList.add(row);
+                row = new KeyboardRow();
+            }
+        }
+        if (!row.isEmpty()) rowList.add(row);
+
+        replyKeyboardMarkup.setKeyboard(rowList);
+        replyKeyboardMarkup.setResizeKeyboard(true);
+        sendMessage.setReplyMarkup(replyKeyboardMarkup);
+        return sendMessage;
+    }
+
+    public SendMessage qahva(Long chatId) {
+        SendMessage sendMessage = new SendMessage();
+        sendMessage.setChatId(chatId);
+        sendMessage.setText("Абонементы на кофе");
+
+        ReplyKeyboardMarkup replyKeyboardMarkup = new ReplyKeyboardMarkup();
+        List<KeyboardRow> rowList = new ArrayList<>();
+
+        KeyboardRow row = new KeyboardRow();
+        for (int i = 0; i < qahva.length; i++) {
+            KeyboardButton button = new KeyboardButton();
+            button.setText(qahva[i]);
+            row.add(button);
+
+            if (row.size() == 2) {
+                rowList.add(row);
+                row = new KeyboardRow();
+            }
+        }
+        if (!row.isEmpty()) rowList.add(row);
+
+        replyKeyboardMarkup.setKeyboard(rowList);
+        replyKeyboardMarkup.setResizeKeyboard(true);
+        sendMessage.setReplyMarkup(replyKeyboardMarkup);
+        return sendMessage;
+    }
+
+    public SendPhoto tovar(Long chatId, String photo, String caption, String price) {
+        SendPhoto sendPhoto = new SendPhoto();
+        sendPhoto.setChatId(chatId);
+        sendPhoto.setPhoto(new InputFile(photo));
+        sendPhoto.setCaption(caption + "\n\nЦена: " + price + " сум");
+
+        ReplyKeyboardMarkup replyKeyboardMarkup = new ReplyKeyboardMarkup();
+        List<KeyboardRow> rowList = new ArrayList<>();
+
+        KeyboardRow row = new KeyboardRow();
+        for (int i = 1; i < 10; i++) {
+            KeyboardButton button = new KeyboardButton();
+            button.setText(String.valueOf(i) + " шт");
+            row.add(button);
+
+            if (row.size() == 3) {
+                rowList.add(row);
+                row = new KeyboardRow();
+            }
+        }
+
+        KeyboardRow row1 = new KeyboardRow();
+        KeyboardButton back = new KeyboardButton();
+        back.setText("⬅\uFE0F В главное меню");
+        row1.add(back);
+        rowList.add(row1);
+
+        KeyboardButton cart = new KeyboardButton();
+        cart.setText("\uD83D\uDED2 Корзина");
+        row1.add(cart);
+
+        replyKeyboardMarkup.setKeyboard(rowList);
+        replyKeyboardMarkup.setResizeKeyboard(true);
+        sendPhoto.setReplyMarkup(replyKeyboardMarkup);
+        return sendPhoto;
+    }
+
+    public SendPhoto animatorbn(Long chatId) {
+        SendPhoto sendPhoto = new SendPhoto();
+        sendPhoto.setChatId(chatId);
+        sendPhoto.setPhoto(new InputFile("https://t.me/safiapictures/13"));
+        sendPhoto.setCaption("Доставка с аниматором\n\n" + "Представьте, что этот герой мультфильма доставит вам торт! ?⭐\n\n" + "Для любого детского праздника, особенно дня рождения ребенка, важно создать волшебный и незабываемый момент. Мы предлагаем сделать праздник вашего ребенка магическим и незабываемым.\n\n" + "Аниматор вручает торт под традиционную песню, что может быть ещё волшебнее?\n\n" + "Цена: 180 000 сум");
+
+        ReplyKeyboardMarkup replyKeyboardMarkup = new ReplyKeyboardMarkup();
+        List<KeyboardRow> rowList = new ArrayList<>();
+
+        KeyboardRow row = new KeyboardRow();
+        KeyboardButton addCart = new KeyboardButton();
+        addCart.setText("\uD83D\uDED2 Добавить в корзину");
+        row.add(addCart);
+        rowList.add(row);
+
+        KeyboardRow row1 = new KeyboardRow();
+        KeyboardButton back = new KeyboardButton();
+        back.setText("⬅\uFE0F В главное меню");
+        row1.add(back);
+        rowList.add(row1);
+
+        KeyboardButton cart = new KeyboardButton();
+        cart.setText("\uD83D\uDED2 Корзина");
+        row1.add(cart);
+
+        replyKeyboardMarkup.setKeyboard(rowList);
+        replyKeyboardMarkup.setResizeKeyboard(true);
+        sendPhoto.setReplyMarkup(replyKeyboardMarkup);
+        return sendPhoto;
+    }
+
+    public SendMessage savat(Long chatId) {
+        SendMessage sendMessage = new SendMessage();
+        sendMessage.setChatId(chatId);
+        sendMessage.setText("\uD83D\uDECD Ваш заказ принимается...");
+        return sendMessage;
+    }
+
+    public SendMessage tasdiqlash(Long chatId) {
+        SendMessage sendMessage = new SendMessage();
+        sendMessage.setChatId(chatId);
+        sendMessage.setText("Вы подтверждаете добавление в корзину?");
+
+        InlineKeyboardMarkup inlineKeyboardMarkup = new InlineKeyboardMarkup();
+        List<List<InlineKeyboardButton>> rowList = new ArrayList<>();
+
+        List<InlineKeyboardButton> row = new ArrayList<>();
+        InlineKeyboardButton buttonYes = new InlineKeyboardButton();
+        buttonYes.setText("Да ✅");
+        buttonYes.setCallbackData("yesruId");
+        row.add(buttonYes);
+        rowList.add(row);
+
+        InlineKeyboardButton buttonNo = new InlineKeyboardButton();
+        buttonNo.setText("Нет ❌");
+        buttonNo.setCallbackData("noruId");
+        row.add(buttonNo);
+
+        inlineKeyboardMarkup.setKeyboard(rowList);
+        sendMessage.setReplyMarkup(inlineKeyboardMarkup);
+        return sendMessage;
+    }
+
+    public SendMessage yes(Long chatId) {
+        SendMessage sendMessage = new SendMessage();
+        sendMessage.setChatId(chatId);
+        sendMessage.setText("Добавлено в корзину ✅");
+        return sendMessage;
+    }
+
+    public SendMessage no(Long chatId) {
+        SendMessage sendMessage = new SendMessage();
+        sendMessage.setChatId(chatId);
+        sendMessage.setText("Продолжайте покупки \uD83D\uDECD");
+        return sendMessage;
+    }
 
 }

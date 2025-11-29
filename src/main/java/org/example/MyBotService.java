@@ -334,7 +334,7 @@ public class MyBotService {
 
         row = new ArrayList<>();
         button = new InlineKeyboardButton();
-        button.setText("Sozlamalar");
+        button.setText("Tilni almashtirish");
         button.setCallbackData("sozlamaId");
         row.add(button);
         rowList.add(row);
@@ -389,7 +389,7 @@ public class MyBotService {
 
         row = new ArrayList<>();
         button = new InlineKeyboardButton();
-        button.setText("Sozlamalar");
+        button.setText("Tilni almashtirish");
         button.setCallbackData("sozlamaId");
         row.add(button);
         rowList.add(row);
@@ -1398,43 +1398,6 @@ public class MyBotService {
             }
         }
         if (!row.isEmpty()) rowList.add(row);
-
-        inlineKeyboardMarkup.setKeyboard(rowList);
-        sendMessage.setReplyMarkup(inlineKeyboardMarkup);
-        return inlineKeyboardMarkup;
-    }
-
-    public InlineKeyboardMarkup sozlama(Long chatId, String city, String phone) {
-        SendMessage sendMessage = new SendMessage();
-        sendMessage.setChatId(chatId);
-        sendMessage.setText("Muloqot tili: \uD83C\uDDFA\uD83C\uDDFF O'zbek tili\nTelefon raqami: " + phone + "\nShahar: " + city + "\n\n Quyidagilardan birini tanlang:");
-
-        InlineKeyboardMarkup inlineKeyboardMarkup = new InlineKeyboardMarkup();
-        List<List<InlineKeyboardButton>> rowList = new ArrayList<>();
-
-        List<InlineKeyboardButton> row = new ArrayList<>();
-        InlineKeyboardButton til = new InlineKeyboardButton();
-        til.setText("Muloqot tili");
-        til.setCallbackData("tilId");
-        row.add(til);
-        rowList.add(row);
-
-        InlineKeyboardButton tel = new InlineKeyboardButton();
-        tel.setText("Telefon raqam");
-        tel.setCallbackData("telId");
-        row.add(tel);
-
-        InlineKeyboardButton shahar = new InlineKeyboardButton();
-        shahar.setText("Shahar");
-        shahar.setCallbackData("shaharId");
-        row.add(shahar);
-
-        List<InlineKeyboardButton> row1 = new ArrayList<>();
-        InlineKeyboardButton qayt = new InlineKeyboardButton();
-        qayt.setText("⬅\uFE0F Asosiy menu");
-        qayt.setCallbackData("qaytId");
-        row1.add(qayt);
-        rowList.add(row1);
 
         inlineKeyboardMarkup.setKeyboard(rowList);
         sendMessage.setReplyMarkup(inlineKeyboardMarkup);
@@ -2460,7 +2423,7 @@ public class MyBotService {
 
         for (int i = 1; i < 10; i++) {
             KeyboardButton button = new KeyboardButton();
-            button.setText(String.valueOf(i));
+            button.setText(String.valueOf(i) + " ta");
             row.add(button);
 
             if (row.size() == 3) {
