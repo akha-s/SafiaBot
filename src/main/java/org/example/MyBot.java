@@ -22,7 +22,7 @@ public class MyBot extends TelegramLongPollingBot {
     public void onUpdateReceived(Update update) {
         MyBotService myBotService = new MyBotService();
         MyBotServiceRu myBotServiceRu = new MyBotServiceRu();
-
+        MyBotServiceEn myBotServiceEn = new MyBotServiceEn();
 
         if (update.hasMessage() && update.getMessage().hasContact()) {
             Long chatId = update.getMessage().getChatId();
