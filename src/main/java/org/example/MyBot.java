@@ -84,6 +84,18 @@ public class MyBot extends TelegramLongPollingBot {
                 }
             }
 
+            if (text.equals("Our History")) {
+                try {
+                    DeleteMessage deleteMessage = new DeleteMessage();
+                    deleteMessage.setChatId(chatId);
+                    deleteMessage.setMessageId(messageId - 1);
+                    execute(deleteMessage);
+                    execute(myBotServiceEn.biz(chatId));
+                } catch (TelegramApiException e) {
+                    throw new RuntimeException(e);
+                }
+            }
+
             if (text.equals("Yutuqlarimiz")) {
                 try {
                     DeleteMessage deleteMessage = new DeleteMessage();
@@ -103,6 +115,18 @@ public class MyBot extends TelegramLongPollingBot {
                     deleteMessage.setMessageId(messageId - 1);
                     execute(deleteMessage);
                     execute(myBotServiceRu.yutuq(chatId));
+                } catch (TelegramApiException e) {
+                    throw new RuntimeException(e);
+                }
+            }
+
+            if (text.equals("Our Achievenments")) {
+                try {
+                    DeleteMessage deleteMessage = new DeleteMessage();
+                    deleteMessage.setChatId(chatId);
+                    deleteMessage.setMessageId(messageId - 1);
+                    execute(deleteMessage);
+                    execute(myBotServiceEn.yutuq(chatId));
                 } catch (TelegramApiException e) {
                     throw new RuntimeException(e);
                 }
@@ -132,6 +156,18 @@ public class MyBot extends TelegramLongPollingBot {
                 }
             }
 
+            if (text.equals("Safia Store (\uD83C\uDDEC\uD83C\uDDE7)")) {
+                try {
+                    DeleteMessage deleteMessage = new DeleteMessage();
+                    deleteMessage.setChatId(chatId);
+                    deleteMessage.setMessageId(messageId - 1);
+                    execute(deleteMessage);
+                    execute(myBotServiceEn.store(chatId));
+                } catch (TelegramApiException e) {
+                    throw new RuntimeException(e);
+                }
+            }
+
             if (text.equals("⛰ Atrof-muhit")) {
                 try {
                     DeleteMessage deleteMessage = new DeleteMessage();
@@ -151,6 +187,18 @@ public class MyBot extends TelegramLongPollingBot {
                     deleteMessage.setMessageId(messageId - 1);
                     execute(deleteMessage);
                     execute(myBotServiceRu.muhit(chatId));
+                } catch (TelegramApiException e) {
+                    throw new RuntimeException(e);
+                }
+            }
+
+            if (text.equals("⛰ Environment")) {
+                try {
+                    DeleteMessage deleteMessage = new DeleteMessage();
+                    deleteMessage.setChatId(chatId);
+                    deleteMessage.setMessageId(messageId - 1);
+                    execute(deleteMessage);
+                    execute(myBotServiceEn.muhit(chatId));
                 } catch (TelegramApiException e) {
                     throw new RuntimeException(e);
                 }
@@ -180,6 +228,18 @@ public class MyBot extends TelegramLongPollingBot {
                 }
             }
 
+            if (text.equals("\uD83D\uDC68\u200D\uD83D\uDC69\u200D\uD83D\uDC66\u200D\uD83D\uDC66 Family")) {
+                try {
+                    DeleteMessage deleteMessage = new DeleteMessage();
+                    deleteMessage.setChatId(chatId);
+                    deleteMessage.setMessageId(messageId - 1);
+                    execute(deleteMessage);
+                    execute(myBotServiceEn.oila(chatId));
+                } catch (TelegramApiException e) {
+                    throw new RuntimeException(e);
+                }
+            }
+
             if (text.equals("\uD83D\uDC68\uD83C\uDFFB\u200D\uD83E\uDDBD\u200D➡\uFE0F Inklyuziya")) {
                 try {
                     DeleteMessage deleteMessage = new DeleteMessage();
@@ -199,6 +259,18 @@ public class MyBot extends TelegramLongPollingBot {
                     deleteMessage.setMessageId(messageId - 1);
                     execute(deleteMessage);
                     execute(myBotServiceRu.inkl(chatId));
+                } catch (TelegramApiException e) {
+                    throw new RuntimeException(e);
+                }
+            }
+
+            if (text.equals("\uD83D\uDC68\uD83C\uDFFB\u200D\uD83E\uDDBD\u200D➡\uFE0F Inclusion")) {
+                try {
+                    DeleteMessage deleteMessage = new DeleteMessage();
+                    deleteMessage.setChatId(chatId);
+                    deleteMessage.setMessageId(messageId - 1);
+                    execute(deleteMessage);
+                    execute(myBotServiceEn.inkl(chatId));
                 } catch (TelegramApiException e) {
                     throw new RuntimeException(e);
                 }
@@ -228,6 +300,18 @@ public class MyBot extends TelegramLongPollingBot {
                 }
             }
 
+            if (text.equals("Safia Catering (\uD83C\uDDEC\uD83C\uDDE7)")) {
+                try {
+                    DeleteMessage deleteMessage = new DeleteMessage();
+                    deleteMessage.setChatId(chatId);
+                    deleteMessage.setMessageId(messageId - 1);
+                    execute(deleteMessage);
+                    execute(myBotServiceEn.catering(chatId));
+                } catch (TelegramApiException e) {
+                    throw new RuntimeException(e);
+                }
+            }
+
             if (text.equals("Afzalliklarimiz")) {
                 try {
                     DeleteMessage deleteMessage = new DeleteMessage();
@@ -252,6 +336,18 @@ public class MyBot extends TelegramLongPollingBot {
                 }
             }
 
+            if (text.equals("Our Advantages")) {
+                try {
+                    DeleteMessage deleteMessage = new DeleteMessage();
+                    deleteMessage.setChatId(chatId);
+                    deleteMessage.setMessageId(messageId - 1);
+                    execute(deleteMessage);
+                    execute(myBotServiceEn.afzal(chatId));
+                } catch (TelegramApiException e) {
+                    throw new RuntimeException(e);
+                }
+            }
+
             if (text.equals("Hamkorlarimiz")) {
                 try {
                     DeleteMessage deleteMessage = new DeleteMessage();
@@ -271,6 +367,18 @@ public class MyBot extends TelegramLongPollingBot {
                     deleteMessage.setMessageId(messageId - 1);
                     execute(deleteMessage);
                     execute(myBotServiceRu.hamkor(chatId));
+                } catch (TelegramApiException e) {
+                    throw new RuntimeException(e);
+                }
+            }
+
+            if (text.equals("Our Partners")) {
+                try {
+                    DeleteMessage deleteMessage = new DeleteMessage();
+                    deleteMessage.setChatId(chatId);
+                    deleteMessage.setMessageId(messageId - 1);
+                    execute(deleteMessage);
+                    execute(myBotServiceEn.hamkor(chatId));
                 } catch (TelegramApiException e) {
                     throw new RuntimeException(e);
                 }
@@ -948,6 +1056,342 @@ public class MyBot extends TelegramLongPollingBot {
                 }
             }
 
+            if (text.equals("\uD83C\uDF70 Delicious sweets here")) {
+                try {
+                    List<Integer> ids = new ArrayList<>();
+                    ids.add(messageId);
+                    ids.add(messageId - 1);
+                    ids.add(messageId - 2);
+                    DeleteMessages deleteMessages = new DeleteMessages();
+                    deleteMessages.setChatId(chatId);
+                    deleteMessages.setMessageIds(ids);
+                    execute(deleteMessages);
+                    execute(myBotServiceEn.mazali(chatId));
+                } catch (TelegramApiException e) {
+                    throw new RuntimeException(e);
+                }
+            }
+
+            if (text.equals("Round cakes")) {
+                try {
+                    List<Integer> ids = new ArrayList<>();
+                    ids.add(messageId);
+                    ids.add(messageId - 1);
+                    ids.add(messageId - 2);
+                    DeleteMessages deleteMessages = new DeleteMessages();
+                    deleteMessages.setChatId(chatId);
+                    deleteMessages.setMessageIds(ids);
+                    execute(deleteMessages);
+                    execute(myBotServiceEn.yumaloqtort(chatId));
+                } catch (TelegramApiException e) {
+                    throw new RuntimeException(e);
+                }
+            }
+
+            if (text.equals("Rectangle cakes")) {
+                try {
+                    List<Integer> ids = new ArrayList<>();
+                    ids.add(messageId);
+                    ids.add(messageId - 1);
+                    ids.add(messageId - 2);
+                    DeleteMessages deleteMessages = new DeleteMessages();
+                    deleteMessages.setChatId(chatId);
+                    deleteMessages.setMessageIds(ids);
+                    execute(deleteMessages);
+                    execute(myBotServiceEn.togriburchakli(chatId));
+                } catch (TelegramApiException e) {
+                    throw new RuntimeException(e);
+                }
+            }
+
+            if (text.equals("Mini cakes")) {
+                try {
+                    List<Integer> ids = new ArrayList<>();
+                    ids.add(messageId);
+                    ids.add(messageId - 1);
+                    ids.add(messageId - 2);
+                    DeleteMessages deleteMessages = new DeleteMessages();
+                    deleteMessages.setChatId(chatId);
+                    deleteMessages.setMessageIds(ids);
+                    execute(deleteMessages);
+                    execute(myBotServiceEn.minitort(chatId));
+                } catch (TelegramApiException e) {
+                    throw new RuntimeException(e);
+                }
+            }
+
+            if (text.equals("Big pies")) {
+                try {
+                    List<Integer> ids = new ArrayList<>();
+                    ids.add(messageId);
+                    ids.add(messageId - 1);
+                    ids.add(messageId - 2);
+                    DeleteMessages deleteMessages = new DeleteMessages();
+                    deleteMessages.setChatId(chatId);
+                    deleteMessages.setMessageIds(ids);
+                    execute(deleteMessages);
+                    execute(myBotServiceEn.kattapirog(chatId));
+                } catch (TelegramApiException e) {
+                    throw new RuntimeException(e);
+                }
+            }
+
+            if (text.equals("Round pies")) {
+                try {
+                    List<Integer> ids = new ArrayList<>();
+                    ids.add(messageId);
+                    ids.add(messageId - 1);
+                    ids.add(messageId - 2);
+                    DeleteMessages deleteMessages = new DeleteMessages();
+                    deleteMessages.setChatId(chatId);
+                    deleteMessages.setMessageIds(ids);
+                    execute(deleteMessages);
+                    execute(myBotServiceEn.yumaloqpirog(chatId));
+                } catch (TelegramApiException e) {
+                    throw new RuntimeException(e);
+                }
+            }
+
+            if (text.equals("Pastries")) {
+                try {
+                    List<Integer> ids = new ArrayList<>();
+                    ids.add(messageId);
+                    ids.add(messageId - 1);
+                    ids.add(messageId - 2);
+                    DeleteMessages deleteMessages = new DeleteMessages();
+                    deleteMessages.setChatId(chatId);
+                    deleteMessages.setMessageIds(ids);
+                    execute(deleteMessages);
+                    execute(myBotServiceEn.pirojniy(chatId));
+                } catch (TelegramApiException e) {
+                    throw new RuntimeException(e);
+                }
+            }
+
+            if (text.equals("Rolls")) {
+                try {
+                    List<Integer> ids = new ArrayList<>();
+                    ids.add(messageId);
+                    ids.add(messageId - 1);
+                    ids.add(messageId - 2);
+                    DeleteMessages deleteMessages = new DeleteMessages();
+                    deleteMessages.setChatId(chatId);
+                    deleteMessages.setMessageIds(ids);
+                    execute(deleteMessages);
+                    execute(myBotServiceEn.rulet(chatId));
+                } catch (TelegramApiException e) {
+                    throw new RuntimeException(e);
+                }
+            }
+
+            if (text.equals("Eclairs")) {
+                try {
+                    List<Integer> ids = new ArrayList<>();
+                    ids.add(messageId);
+                    ids.add(messageId - 1);
+                    ids.add(messageId - 2);
+                    DeleteMessages deleteMessages = new DeleteMessages();
+                    deleteMessages.setChatId(chatId);
+                    deleteMessages.setMessageIds(ids);
+                    execute(deleteMessages);
+                    execute(myBotServiceEn.ekler(chatId));
+                } catch (TelegramApiException e) {
+                    throw new RuntimeException(e);
+                }
+            }
+
+            if (text.equals("Macarons")) {
+                try {
+                    List<Integer> ids = new ArrayList<>();
+                    ids.add(messageId);
+                    ids.add(messageId - 1);
+                    ids.add(messageId - 2);
+                    DeleteMessages deleteMessages = new DeleteMessages();
+                    deleteMessages.setChatId(chatId);
+                    deleteMessages.setMessageIds(ids);
+                    execute(deleteMessages);
+                    execute(myBotServiceEn.makarons(chatId));
+                } catch (TelegramApiException e) {
+                    throw new RuntimeException(e);
+                }
+            }
+
+            if (text.equals("Prepared meals")) {
+                try {
+                    List<Integer> ids = new ArrayList<>();
+                    ids.add(messageId);
+                    ids.add(messageId - 1);
+                    ids.add(messageId - 2);
+                    DeleteMessages deleteMessages = new DeleteMessages();
+                    deleteMessages.setChatId(chatId);
+                    deleteMessages.setMessageIds(ids);
+                    execute(deleteMessages);
+                    execute(myBotServiceEn.tayyortaom(chatId));
+                } catch (TelegramApiException e) {
+                    throw new RuntimeException(e);
+                }
+            }
+
+            if (text.equals("Sweets")) {
+                try {
+                    List<Integer> ids = new ArrayList<>();
+                    ids.add(messageId);
+                    ids.add(messageId - 1);
+                    ids.add(messageId - 2);
+                    DeleteMessages deleteMessages = new DeleteMessages();
+                    deleteMessages.setChatId(chatId);
+                    deleteMessages.setMessageIds(ids);
+                    execute(deleteMessages);
+                    execute(myBotServiceEn.shirinlik(chatId));
+                } catch (TelegramApiException e) {
+                    throw new RuntimeException(e);
+                }
+            }
+
+            if (text.equals("Cookies")) {
+                try {
+                    List<Integer> ids = new ArrayList<>();
+                    ids.add(messageId);
+                    ids.add(messageId - 1);
+                    ids.add(messageId - 2);
+                    DeleteMessages deleteMessages = new DeleteMessages();
+                    deleteMessages.setChatId(chatId);
+                    deleteMessages.setMessageIds(ids);
+                    execute(deleteMessages);
+                    execute(myBotServiceEn.pechenye(chatId));
+                } catch (TelegramApiException e) {
+                    throw new RuntimeException(e);
+                }
+            }
+
+            if (text.equals("Packaged eclairs")) {
+                try {
+                    List<Integer> ids = new ArrayList<>();
+                    ids.add(messageId);
+                    ids.add(messageId - 1);
+                    ids.add(messageId - 2);
+                    DeleteMessages deleteMessages = new DeleteMessages();
+                    deleteMessages.setChatId(chatId);
+                    deleteMessages.setMessageIds(ids);
+                    execute(deleteMessages);
+                    execute(myBotServiceEn.qadoqekler(chatId));
+                } catch (TelegramApiException e) {
+                    throw new RuntimeException(e);
+                }
+            }
+
+            if (text.equals("Desserts")) {
+                try {
+                    List<Integer> ids = new ArrayList<>();
+                    ids.add(messageId);
+                    ids.add(messageId - 1);
+                    ids.add(messageId - 2);
+                    DeleteMessages deleteMessages = new DeleteMessages();
+                    deleteMessages.setChatId(chatId);
+                    deleteMessages.setMessageIds(ids);
+                    execute(deleteMessages);
+                    execute(myBotServiceEn.shirinpishiriq(chatId));
+                } catch (TelegramApiException e) {
+                    throw new RuntimeException(e);
+                }
+            }
+
+            if (text.equals("Cakes")) {
+                try {
+                    List<Integer> ids = new ArrayList<>();
+                    ids.add(messageId);
+                    ids.add(messageId - 1);
+                    ids.add(messageId - 2);
+                    DeleteMessages deleteMessages = new DeleteMessages();
+                    deleteMessages.setChatId(chatId);
+                    deleteMessages.setMessageIds(ids);
+                    execute(deleteMessages);
+                    execute(myBotServiceEn.keks(chatId));
+                } catch (TelegramApiException e) {
+                    throw new RuntimeException(e);
+                }
+            }
+
+            if (text.equals("Tartlets")) {
+                try {
+                    List<Integer> ids = new ArrayList<>();
+                    ids.add(messageId);
+                    ids.add(messageId - 1);
+                    ids.add(messageId - 2);
+                    DeleteMessages deleteMessages = new DeleteMessages();
+                    deleteMessages.setChatId(chatId);
+                    deleteMessages.setMessageIds(ids);
+                    execute(deleteMessages);
+                    execute(myBotServiceEn.tartaletka(chatId));
+                } catch (TelegramApiException e) {
+                    throw new RuntimeException(e);
+                }
+            }
+
+            if (text.equals("Layered pastries")) {
+                try {
+                    List<Integer> ids = new ArrayList<>();
+                    ids.add(messageId);
+                    ids.add(messageId - 1);
+                    ids.add(messageId - 2);
+                    DeleteMessages deleteMessages = new DeleteMessages();
+                    deleteMessages.setChatId(chatId);
+                    deleteMessages.setMessageIds(ids);
+                    execute(deleteMessages);
+                    execute(myBotServiceEn.qatlamali(chatId));
+                } catch (TelegramApiException e) {
+                    throw new RuntimeException(e);
+                }
+            }
+
+            if (text.equals("Hearty pastries")) {
+                try {
+                    List<Integer> ids = new ArrayList<>();
+                    ids.add(messageId);
+                    ids.add(messageId - 1);
+                    ids.add(messageId - 2);
+                    DeleteMessages deleteMessages = new DeleteMessages();
+                    deleteMessages.setChatId(chatId);
+                    deleteMessages.setMessageIds(ids);
+                    execute(deleteMessages);
+                    execute(myBotServiceEn.toyimli(chatId));
+                } catch (TelegramApiException e) {
+                    throw new RuntimeException(e);
+                }
+            }
+
+            if (text.equals("Gingerbread")) {
+                try {
+                    List<Integer> ids = new ArrayList<>();
+                    ids.add(messageId);
+                    ids.add(messageId - 1);
+                    ids.add(messageId - 2);
+                    DeleteMessages deleteMessages = new DeleteMessages();
+                    deleteMessages.setChatId(chatId);
+                    deleteMessages.setMessageIds(ids);
+                    execute(deleteMessages);
+                    execute(myBotServiceEn.zanjabilli(chatId));
+                } catch (TelegramApiException e) {
+                    throw new RuntimeException(e);
+                }
+            }
+
+            if (text.equals("⬅️ Back")) {
+                try {
+                    List<Integer> ids = new ArrayList<>();
+                    ids.add(messageId);
+                    ids.add(messageId - 1);
+                    ids.add(messageId - 2);
+                    DeleteMessages deleteMessages = new DeleteMessages();
+                    deleteMessages.setChatId(chatId);
+                    deleteMessages.setMessageIds(ids);
+                    execute(deleteMessages);
+                    execute(myBotServiceEn.mazali(chatId));
+                } catch (TelegramApiException e) {
+                    throw new RuntimeException(e);
+                }
+            }
+
             if (text.equals("\uD83E\uDD57 To'g'ri ovqatlanish shirinliklari")) {
                 try {
                     List<Integer> ids = new ArrayList<>();
@@ -1172,6 +1616,139 @@ public class MyBot extends TelegramLongPollingBot {
                 }
             }
 
+            if (text.equals("\uD83E\uDD57 Proper nutrition sweets")) {
+                try {
+                    List<Integer> ids = new ArrayList<>();
+                    ids.add(messageId);
+                    ids.add(messageId - 1);
+                    ids.add(messageId - 2);
+
+                    DeleteMessages deleteMessages = new DeleteMessages();
+                    deleteMessages.setChatId(chatId);
+                    deleteMessages.setMessageIds(ids);
+
+                    execute(deleteMessages);
+                    execute(myBotServiceEn.togriovqatlanish(chatId));
+
+                } catch (TelegramApiException e) {
+                    throw new RuntimeException(e);
+                }
+            }
+
+            if (text.equals("PN Pies")) {
+                try {
+                    List<Integer> ids = new ArrayList<>();
+                    ids.add(messageId);
+                    ids.add(messageId - 1);
+                    ids.add(messageId - 2);
+
+                    DeleteMessages deleteMessages = new DeleteMessages();
+                    deleteMessages.setChatId(chatId);
+                    deleteMessages.setMessageIds(ids);
+
+                    execute(deleteMessages);
+                    execute(myBotServiceEn.topirog(chatId));
+
+                } catch (TelegramApiException e) {
+                    throw new RuntimeException(e);
+                }
+            }
+
+            if (text.equals("PN Semi-finished products")) {
+                try {
+                    List<Integer> ids = new ArrayList<>();
+                    ids.add(messageId);
+                    ids.add(messageId - 1);
+                    ids.add(messageId - 2);
+
+                    DeleteMessages deleteMessages = new DeleteMessages();
+                    deleteMessages.setChatId(chatId);
+                    deleteMessages.setMessageIds(ids);
+
+                    execute(deleteMessages);
+                    execute(myBotServiceEn.toyarimtayyor(chatId));
+
+                } catch (TelegramApiException e) {
+                    throw new RuntimeException(e);
+                }
+            }
+
+            if (text.equals("PN Cakes")) {
+                try {
+                    List<Integer> ids = new ArrayList<>();
+                    ids.add(messageId);
+                    ids.add(messageId - 1);
+                    ids.add(messageId - 2);
+
+                    DeleteMessages deleteMessages = new DeleteMessages();
+                    deleteMessages.setChatId(chatId);
+                    deleteMessages.setMessageIds(ids);
+
+                    execute(deleteMessages);
+                    execute(myBotServiceEn.totortpp(chatId));
+
+                } catch (TelegramApiException e) {
+                    throw new RuntimeException(e);
+                }
+            }
+
+            if (text.equals("PN Pastries")) {
+                try {
+                    List<Integer> ids = new ArrayList<>();
+                    ids.add(messageId);
+                    ids.add(messageId - 1);
+                    ids.add(messageId - 2);
+
+                    DeleteMessages deleteMessages = new DeleteMessages();
+                    deleteMessages.setChatId(chatId);
+                    deleteMessages.setMessageIds(ids);
+
+                    execute(deleteMessages);
+                    execute(myBotServiceEn.topishiriq(chatId));
+
+                } catch (TelegramApiException e) {
+                    throw new RuntimeException(e);
+                }
+            }
+
+            if (text.equals("PN Petit cakes")) {
+                try {
+                    List<Integer> ids = new ArrayList<>();
+                    ids.add(messageId);
+                    ids.add(messageId - 1);
+                    ids.add(messageId - 2);
+
+                    DeleteMessages deleteMessages = new DeleteMessages();
+                    deleteMessages.setChatId(chatId);
+                    deleteMessages.setMessageIds(ids);
+
+                    execute(deleteMessages);
+                    execute(myBotServiceEn.topirojniypp(chatId));
+
+                } catch (TelegramApiException e) {
+                    throw new RuntimeException(e);
+                }
+            }
+
+            if (text.equals("⬅️ Back to PN")) {
+                try {
+                    List<Integer> ids = new ArrayList<>();
+                    ids.add(messageId);
+                    ids.add(messageId - 1);
+                    ids.add(messageId - 2);
+
+                    DeleteMessages deleteMessages = new DeleteMessages();
+                    deleteMessages.setChatId(chatId);
+                    deleteMessages.setMessageIds(ids);
+
+                    execute(deleteMessages);
+                    execute(myBotServiceEn.togriovqatlanish(chatId));
+
+                } catch (TelegramApiException e) {
+                    throw new RuntimeException(e);
+                }
+            }
+
             if (text.equals("\uD83E\uDD5F Yarim tayyor mahsulotlar")) {
                 try {
                     List<Integer> ids = new ArrayList<>();
@@ -1199,6 +1776,22 @@ public class MyBot extends TelegramLongPollingBot {
                     deleteMessages.setMessageIds(ids);
                     execute(deleteMessages);
                     execute(myBotServiceRu.yarimtayyor(chatId));
+                } catch (TelegramApiException e) {
+                    throw new RuntimeException(e);
+                }
+            }
+
+            if (text.equals("\uD83E\uDD5F Semi-prepared products")) {
+                try {
+                    List<Integer> ids = new ArrayList<>();
+                    ids.add(messageId);
+                    ids.add(messageId - 1);
+                    ids.add(messageId - 2);
+                    DeleteMessages deleteMessages = new DeleteMessages();
+                    deleteMessages.setChatId(chatId);
+                    deleteMessages.setMessageIds(ids);
+                    execute(deleteMessages);
+                    execute(myBotServiceEn.yarimtayyor(chatId));
                 } catch (TelegramApiException e) {
                     throw new RuntimeException(e);
                 }
@@ -1236,6 +1829,22 @@ public class MyBot extends TelegramLongPollingBot {
                 }
             }
 
+            if (text.equals("\uD83E\uDD56 Austrian bread")) {
+                try {
+                    List<Integer> ids = new ArrayList<>();
+                    ids.add(messageId);
+                    ids.add(messageId - 1);
+                    ids.add(messageId - 2);
+                    DeleteMessages deleteMessages = new DeleteMessages();
+                    deleteMessages.setChatId(chatId);
+                    deleteMessages.setMessageIds(ids);
+                    execute(deleteMessages);
+                    execute(myBotServiceEn.non(chatId));
+                } catch (TelegramApiException e) {
+                    throw new RuntimeException(e);
+                }
+            }
+
             if (text.equals("\uD83C\uDF79 Bar menyusi")) {
                 try {
                     List<Integer> ids = new ArrayList<>();
@@ -1263,6 +1872,22 @@ public class MyBot extends TelegramLongPollingBot {
                     deleteMessages.setMessageIds(ids);
                     execute(deleteMessages);
                     execute(myBotServiceRu.barmenyu(chatId));
+                } catch (TelegramApiException e) {
+                    throw new RuntimeException(e);
+                }
+            }
+
+            if (text.equals("\uD83C\uDF79 Bar menu")) {
+                try {
+                    List<Integer> ids = new ArrayList<>();
+                    ids.add(messageId);
+                    ids.add(messageId - 1);
+                    ids.add(messageId - 2);
+                    DeleteMessages deleteMessages = new DeleteMessages();
+                    deleteMessages.setChatId(chatId);
+                    deleteMessages.setMessageIds(ids);
+                    execute(deleteMessages);
+                    execute(myBotServiceEn.barmenyu(chatId));
                 } catch (TelegramApiException e) {
                     throw new RuntimeException(e);
                 }
@@ -1556,6 +2181,158 @@ public class MyBot extends TelegramLongPollingBot {
                 }
             }
 
+            if (text.equals("Freshly squeezed juices")) {
+                try {
+                    List<Integer> ids = new ArrayList<>();
+                    ids.add(messageId);
+                    ids.add(messageId - 1);
+                    ids.add(messageId - 2);
+
+                    DeleteMessages deleteMessages = new DeleteMessages();
+                    deleteMessages.setChatId(chatId);
+                    deleteMessages.setMessageIds(ids);
+
+                    execute(deleteMessages);
+                    execute(myBotServiceEn.sharbat(chatId));
+
+                } catch (TelegramApiException e) {
+                    throw new RuntimeException(e);
+                }
+            }
+
+            if (text.equals("Milkshakes")) {
+                try {
+                    List<Integer> ids = new ArrayList<>();
+                    ids.add(messageId);
+                    ids.add(messageId - 1);
+                    ids.add(messageId - 2);
+
+                    DeleteMessages deleteMessages = new DeleteMessages();
+                    deleteMessages.setChatId(chatId);
+                    deleteMessages.setMessageIds(ids);
+
+                    execute(deleteMessages);
+                    execute(myBotServiceEn.milksheyk(chatId));
+
+                } catch (TelegramApiException e) {
+                    throw new RuntimeException(e);
+                }
+            }
+
+            if (text.equals("Lemonades")) {
+                try {
+                    List<Integer> ids = new ArrayList<>();
+                    ids.add(messageId);
+                    ids.add(messageId - 1);
+                    ids.add(messageId - 2);
+
+                    DeleteMessages deleteMessages = new DeleteMessages();
+                    deleteMessages.setChatId(chatId);
+                    deleteMessages.setMessageIds(ids);
+
+                    execute(deleteMessages);
+                    execute(myBotServiceEn.limonad(chatId));
+
+                } catch (TelegramApiException e) {
+                    throw new RuntimeException(e);
+                }
+            }
+
+            if (text.equals("Coffee")) {
+                try {
+                    List<Integer> ids = new ArrayList<>();
+                    ids.add(messageId);
+                    ids.add(messageId - 1);
+                    ids.add(messageId - 2);
+
+                    DeleteMessages deleteMessages = new DeleteMessages();
+                    deleteMessages.setChatId(chatId);
+                    deleteMessages.setMessageIds(ids);
+
+                    execute(deleteMessages);
+                    execute(myBotServiceEn.kofe(chatId));
+
+                } catch (TelegramApiException e) {
+                    throw new RuntimeException(e);
+                }
+            }
+
+            if (text.equals("⬅️ Back to Bar")) {
+                try {
+                    List<Integer> ids = new ArrayList<>();
+                    ids.add(messageId);
+                    ids.add(messageId - 1);
+                    ids.add(messageId - 2);
+
+                    DeleteMessages deleteMessages = new DeleteMessages();
+                    deleteMessages.setChatId(chatId);
+                    deleteMessages.setMessageIds(ids);
+
+                    execute(deleteMessages);
+                    execute(myBotServiceEn.barmenyu(chatId));
+
+                } catch (TelegramApiException e) {
+                    throw new RuntimeException(e);
+                }
+            }
+
+            if (text.equals("☕ Coffee subscriptions")) {
+                try {
+                    List<Integer> ids = new ArrayList<>();
+                    ids.add(messageId);
+                    ids.add(messageId - 1);
+                    ids.add(messageId - 2);
+
+                    DeleteMessages deleteMessages = new DeleteMessages();
+                    deleteMessages.setChatId(chatId);
+                    deleteMessages.setMessageIds(ids);
+
+                    execute(deleteMessages);
+                    execute(myBotServiceEn.qahva(chatId));
+
+                } catch (TelegramApiException e) {
+                    throw new RuntimeException(e);
+                }
+            }
+
+            if (text.equals("\uD83E\uDDF8 Animator delivery")) {
+                try {
+                    List<Integer> ids = new ArrayList<>();
+                    ids.add(messageId);
+                    ids.add(messageId - 1);
+                    ids.add(messageId - 2);
+
+                    DeleteMessages deleteMessages = new DeleteMessages();
+                    deleteMessages.setChatId(chatId);
+                    deleteMessages.setMessageIds(ids);
+
+                    execute(deleteMessages);
+                    execute(myBotServiceEn.animatorbn(chatId));
+
+                } catch (TelegramApiException e) {
+                    throw new RuntimeException(e);
+                }
+            }
+
+            if (text.equals("\uD83D\uDED2 Add to cart")) {
+                try {
+                    List<Integer> ids = new ArrayList<>();
+                    ids.add(messageId);
+                    ids.add(messageId - 1);
+                    ids.add(messageId - 2);
+
+                    DeleteMessages deleteMessages = new DeleteMessages();
+                    deleteMessages.setChatId(chatId);
+                    deleteMessages.setMessageIds(ids);
+
+                    execute(deleteMessages);
+                    execute(myBotServiceEn.tasdiqlash(chatId));
+
+                } catch (TelegramApiException e) {
+                    throw new RuntimeException(e);
+                }
+            }
+
             if (text.equals("❌ Bekor qilish")) {
                 try {
                     List<Integer> ids = new ArrayList<>();
@@ -1583,6 +2360,22 @@ public class MyBot extends TelegramLongPollingBot {
                     deleteMessages.setMessageIds(ids);
                     execute(deleteMessages);
                     execute(myBotServiceRu.rumenu1(chatId));
+                } catch (TelegramApiException e) {
+                    throw new RuntimeException(e);
+                }
+            }
+
+            if (text.equals("❌ Cancel")) {
+                try {
+                    List<Integer> ids = new ArrayList<>();
+                    ids.add(messageId);
+                    ids.add(messageId - 1);
+                    ids.add(messageId - 2);
+                    DeleteMessages deleteMessages = new DeleteMessages();
+                    deleteMessages.setChatId(chatId);
+                    deleteMessages.setMessageIds(ids);
+                    execute(deleteMessages);
+                    execute(myBotServiceEn.enmenu1(chatId));
                 } catch (TelegramApiException e) {
                     throw new RuntimeException(e);
                 }
@@ -1622,6 +2415,23 @@ public class MyBot extends TelegramLongPollingBot {
                 }
             }
 
+            if (text.equals("\uD83D\uDED2 Cart")) {
+                try {
+                    List<Integer> ids = new ArrayList<>();
+                    ids.add(messageId);
+                    ids.add(messageId - 1);
+                    ids.add(messageId - 2);
+                    DeleteMessages deleteMessages = new DeleteMessages();
+                    deleteMessages.setChatId(chatId);
+                    deleteMessages.setMessageIds(ids);
+                    execute(deleteMessages);
+                    execute(myBotServiceEn.savat(chatId));
+                    execute(myBotServiceEn.orgmenu(chatId));
+                } catch (TelegramApiException e) {
+                    throw new RuntimeException(e);
+                }
+            }
+
             for (int i = 1; i <= 9; i++) {
                 if (text.equals(String.valueOf(i) + " ta")) {
                     try {
@@ -1650,6 +2460,23 @@ public class MyBot extends TelegramLongPollingBot {
                         deleteMessages.setMessageIds(ids);
                         execute(deleteMessages);
                         execute(myBotServiceRu.tasdiqlash(chatId));
+                    } catch (TelegramApiException e) {
+                        throw new RuntimeException(e);
+                    }
+                }
+            }
+
+            for (int i = 1; i <= 9; i++) {
+                if (text.equals(String.valueOf(i) + " pcs")) {
+                    try {
+                        List<Integer> ids = new ArrayList<>();
+                        ids.add(messageId);
+                        ids.add(messageId - 1);
+                        DeleteMessages deleteMessages = new DeleteMessages();
+                        deleteMessages.setChatId(chatId);
+                        deleteMessages.setMessageIds(ids);
+                        execute(deleteMessages);
+                        execute(myBotServiceEn.tasdiqlash(chatId));
                     } catch (TelegramApiException e) {
                         throw new RuntimeException(e);
                     }
@@ -2710,6 +3537,533 @@ public class MyBot extends TelegramLongPollingBot {
                 }
             }
 
+            for (int i = 0; i < myBotServiceEn.yumaloqtort.length - 1; i++) {
+                if (text.equals(myBotServiceEn.yumaloqtort[i])) {
+                    try {
+                        List<Integer> ids = new ArrayList<>();
+                        ids.add(messageId);
+                        ids.add(messageId - 1);
+                        DeleteMessages deleteMessages = new DeleteMessages();
+                        deleteMessages.setChatId(chatId);
+                        deleteMessages.setMessageIds(ids);
+                        execute(deleteMessages);
+                        execute(myBotServiceEn.tovar(chatId, myBotServiceEn.yumaloqtortphoto[i], myBotServiceEn.yumaloqtortcaption[i], myBotServiceEn.yumaloqtortnarx[i]));
+                    } catch (TelegramApiException e) {
+                        throw new RuntimeException(e);
+                    }
+                }
+            }
+
+            for (int i = 0; i < myBotServiceEn.togriburchakli.length - 1; i++) {
+                if (text.equals(myBotServiceEn.togriburchakli[i])) {
+                    try {
+                        List<Integer> ids = new ArrayList<>();
+                        ids.add(messageId);
+                        ids.add(messageId - 1);
+                        DeleteMessages deleteMessages = new DeleteMessages();
+                        deleteMessages.setChatId(chatId);
+                        deleteMessages.setMessageIds(ids);
+                        execute(deleteMessages);
+                        execute(myBotServiceEn.tovar(chatId, myBotServiceEn.togriburchakliphoto[i], myBotServiceEn.togriburchaklicaption[i], myBotServiceEn.togriburchaklinarx[i]));
+                    } catch (TelegramApiException e) {
+                        throw new RuntimeException(e);
+                    }
+                }
+            }
+
+            for (int i = 0; i < myBotServiceEn.minitort.length - 1; i++) {
+                if (text.equals(myBotServiceEn.minitort[i])) {
+                    try {
+                        List<Integer> ids = new ArrayList<>();
+                        ids.add(messageId);
+                        ids.add(messageId - 1);
+                        DeleteMessages deleteMessages = new DeleteMessages();
+                        deleteMessages.setChatId(chatId);
+                        deleteMessages.setMessageIds(ids);
+                        execute(deleteMessages);
+                        execute(myBotServiceEn.tovar(chatId, myBotServiceEn.minitortphoto[i], myBotServiceEn.minitortcaption[i], myBotServiceEn.minitortnarx[i]));
+                    } catch (TelegramApiException e) {
+                        throw new RuntimeException(e);
+                    }
+                }
+            }
+
+            for (int i = 0; i < myBotServiceEn.pirog.length - 1; i++) {
+                if (text.equals(myBotServiceEn.pirog[i])) {
+                    try {
+                        List<Integer> ids = new ArrayList<>();
+                        ids.add(messageId);
+                        ids.add(messageId - 1);
+                        DeleteMessages deleteMessages = new DeleteMessages();
+                        deleteMessages.setChatId(chatId);
+                        deleteMessages.setMessageIds(ids);
+                        execute(deleteMessages);
+                        execute(myBotServiceEn.tovar(chatId, myBotServiceEn.pirogphoto[i], myBotServiceEn.pirogcaption[i], myBotServiceEn.pirognarx[i]));
+                    } catch (TelegramApiException e) {
+                        throw new RuntimeException(e);
+                    }
+                }
+            }
+
+            for (int i = 0; i < myBotServiceEn.yumaloqpirog.length - 1; i++) {
+                if (text.equals(myBotServiceEn.yumaloqpirog[i])) {
+                    try {
+                        List<Integer> ids = new ArrayList<>();
+                        ids.add(messageId);
+                        ids.add(messageId - 1);
+                        DeleteMessages deleteMessages = new DeleteMessages();
+                        deleteMessages.setChatId(chatId);
+                        deleteMessages.setMessageIds(ids);
+                        execute(deleteMessages);
+                        execute(myBotServiceEn.tovar(chatId, myBotServiceEn.yumaloqpirogphoto[i], myBotServiceEn.yumaloqpirogcaption[i], myBotServiceEn.yumaloqpirognarx[i]));
+                    } catch (TelegramApiException e) {
+                        throw new RuntimeException(e);
+                    }
+                }
+            }
+
+            for (int i = 0; i < myBotServiceEn.pirojni.length - 1; i++) {
+                if (text.equals(myBotServiceEn.pirojni[i])) {
+                    try {
+                        List<Integer> ids = new ArrayList<>();
+                        ids.add(messageId);
+                        ids.add(messageId - 1);
+                        DeleteMessages deleteMessages = new DeleteMessages();
+                        deleteMessages.setChatId(chatId);
+                        deleteMessages.setMessageIds(ids);
+                        execute(deleteMessages);
+                        execute(myBotServiceEn.tovar(chatId, myBotServiceEn.pirojniphoto[i], myBotServiceEn.pirojnicaption[i], myBotServiceEn.pirojninarx[i]));
+                    } catch (TelegramApiException e) {
+                        throw new RuntimeException(e);
+                    }
+                }
+            }
+
+            for (int i = 0; i < myBotServiceEn.rulet.length - 1; i++) {
+                if (text.equals(myBotServiceEn.rulet[i])) {
+                    try {
+                        List<Integer> ids = new ArrayList<>();
+                        ids.add(messageId);
+                        ids.add(messageId - 1);
+                        DeleteMessages deleteMessages = new DeleteMessages();
+                        deleteMessages.setChatId(chatId);
+                        deleteMessages.setMessageIds(ids);
+                        execute(deleteMessages);
+                        execute(myBotServiceEn.tovar(chatId, myBotServiceEn.ruletphoto[i], myBotServiceEn.ruletcaption[i], myBotServiceEn.ruletnarx[i]));
+                    } catch (TelegramApiException e) {
+                        throw new RuntimeException(e);
+                    }
+                }
+            }
+
+            for (int i = 0; i < myBotServiceEn.ekler.length - 1; i++) {
+                if (text.equals(myBotServiceEn.ekler[i])) {
+                    try {
+                        List<Integer> ids = new ArrayList<>();
+                        ids.add(messageId);
+                        ids.add(messageId - 1);
+                        DeleteMessages deleteMessages = new DeleteMessages();
+                        deleteMessages.setChatId(chatId);
+                        deleteMessages.setMessageIds(ids);
+                        execute(deleteMessages);
+                        execute(myBotServiceEn.tovar(chatId, myBotServiceEn.eklerphoto[i], myBotServiceEn.eklercaption[i], myBotServiceEn.eklernarx[i]));
+                    } catch (TelegramApiException e) {
+                        throw new RuntimeException(e);
+                    }
+                }
+            }
+
+            for (int i = 0; i < myBotServiceEn.makarons.length - 1; i++) {
+                if (text.equals(myBotServiceEn.makarons[i])) {
+                    try {
+                        List<Integer> ids = new ArrayList<>();
+                        ids.add(messageId);
+                        ids.add(messageId - 1);
+                        DeleteMessages deleteMessages = new DeleteMessages();
+                        deleteMessages.setChatId(chatId);
+                        deleteMessages.setMessageIds(ids);
+                        execute(deleteMessages);
+                        execute(myBotServiceEn.tovar(chatId, myBotServiceEn.makaronsphoto[i], myBotServiceEn.makaronscaption[i], myBotServiceEn.makaronsnarx[i]));
+                    } catch (TelegramApiException e) {
+                        throw new RuntimeException(e);
+                    }
+                }
+            }
+
+            for (int i = 0; i < myBotServiceEn.tayyotovqat.length - 1; i++) {
+                if (text.equals(myBotServiceEn.tayyotovqat[i])) {
+                    try {
+                        List<Integer> ids = new ArrayList<>();
+                        ids.add(messageId);
+                        ids.add(messageId - 1);
+                        DeleteMessages deleteMessages = new DeleteMessages();
+                        deleteMessages.setChatId(chatId);
+                        deleteMessages.setMessageIds(ids);
+                        execute(deleteMessages);
+                        execute(myBotServiceEn.tovar(chatId, myBotServiceEn.tayyorovqatphoto[i], myBotServiceEn.tayyorovqatcaption[i], myBotServiceEn.tayyorovqatnarx[i]));
+                    } catch (TelegramApiException e) {
+                        throw new RuntimeException(e);
+                    }
+                }
+            }
+
+            for (int i = 0; i < myBotServiceEn.shirinlik.length - 1; i++) {
+                if (text.equals(myBotServiceEn.shirinlik[i])) {
+                    try {
+                        List<Integer> ids = new ArrayList<>();
+                        ids.add(messageId);
+                        ids.add(messageId - 1);
+                        DeleteMessages deleteMessages = new DeleteMessages();
+                        deleteMessages.setChatId(chatId);
+                        deleteMessages.setMessageIds(ids);
+                        execute(deleteMessages);
+                        execute(myBotServiceEn.tovar(chatId, myBotServiceEn.shirinlikphoto[i], myBotServiceEn.shirinlikcaption[i], myBotServiceEn.shirinliknarx[i]));
+                    } catch (TelegramApiException e) {
+                        throw new RuntimeException(e);
+                    }
+                }
+            }
+
+            for (int i = 0; i < myBotServiceEn.pechenye.length - 1; i++) {
+                if (text.equals(myBotServiceEn.pechenye[i])) {
+                    try {
+                        List<Integer> ids = new ArrayList<>();
+                        ids.add(messageId);
+                        ids.add(messageId - 1);
+                        DeleteMessages deleteMessages = new DeleteMessages();
+                        deleteMessages.setChatId(chatId);
+                        deleteMessages.setMessageIds(ids);
+                        execute(deleteMessages);
+                        execute(myBotServiceEn.tovar(chatId, myBotServiceEn.pechenyephoto[i], myBotServiceEn.pechenyecaption[i], myBotServiceEn.pechenyenarx[i]));
+                    } catch (TelegramApiException e) {
+                        throw new RuntimeException(e);
+                    }
+                }
+            }
+
+            for (int i = 0; i < myBotServiceEn.qadoqekler.length - 1; i++) {
+                if (text.equals(myBotServiceEn.qadoqekler[i])) {
+                    try {
+                        List<Integer> ids = new ArrayList<>();
+                        ids.add(messageId);
+                        ids.add(messageId - 1);
+                        DeleteMessages deleteMessages = new DeleteMessages();
+                        deleteMessages.setChatId(chatId);
+                        deleteMessages.setMessageIds(ids);
+                        execute(deleteMessages);
+                        execute(myBotServiceEn.tovar(chatId, myBotServiceEn.qadoqeklerphoto[i], myBotServiceEn.qadoqeklercaption[i], myBotServiceEn.qadoqeklernarx[i]));
+                    } catch (TelegramApiException e) {
+                        throw new RuntimeException(e);
+                    }
+                }
+            }
+
+            for (int i = 0; i < myBotServiceEn.shirinpishiriq.length - 1; i++) {
+                if (text.equals(myBotServiceEn.shirinpishiriq[i])) {
+                    try {
+                        List<Integer> ids = new ArrayList<>();
+                        ids.add(messageId);
+                        ids.add(messageId - 1);
+                        DeleteMessages deleteMessages = new DeleteMessages();
+                        deleteMessages.setChatId(chatId);
+                        deleteMessages.setMessageIds(ids);
+                        execute(deleteMessages);
+                        execute(myBotServiceEn.tovar(chatId, myBotServiceEn.shirinpishiriqphoto[i], myBotServiceEn.shirinpishiriqcaption[i], myBotServiceEn.shirinpishiriqnarx[i]));
+                    } catch (TelegramApiException e) {
+                        throw new RuntimeException(e);
+                    }
+                }
+            }
+
+            for (int i = 0; i < myBotServiceEn.keks.length - 1; i++) {
+                if (text.equals(myBotServiceEn.keks[i])) {
+                    try {
+                        List<Integer> ids = new ArrayList<>();
+                        ids.add(messageId);
+                        ids.add(messageId - 1);
+                        DeleteMessages deleteMessages = new DeleteMessages();
+                        deleteMessages.setChatId(chatId);
+                        deleteMessages.setMessageIds(ids);
+                        execute(deleteMessages);
+                        execute(myBotServiceEn.tovar(chatId, myBotServiceEn.keksphoto[i], myBotServiceEn.kekscaption[i], myBotServiceEn.keksnarx[i]));
+                    } catch (TelegramApiException e) {
+                        throw new RuntimeException(e);
+                    }
+                }
+            }
+
+            for (int i = 0; i < myBotServiceEn.tartaletka.length - 1; i++) {
+                if (text.equals(myBotServiceEn.tartaletka[i])) {
+                    try {
+                        List<Integer> ids = new ArrayList<>();
+                        ids.add(messageId);
+                        ids.add(messageId - 1);
+                        DeleteMessages deleteMessages = new DeleteMessages();
+                        deleteMessages.setChatId(chatId);
+                        deleteMessages.setMessageIds(ids);
+                        execute(deleteMessages);
+                        execute(myBotServiceEn.tovar(chatId, myBotServiceEn.tartaletkaphoto[i], myBotServiceEn.tartaletkacaption[i], myBotServiceEn.tartaletkanarx[i]));
+                    } catch (TelegramApiException e) {
+                        throw new RuntimeException(e);
+                    }
+                }
+            }
+
+            for (int i = 0; i < myBotServiceEn.qatlamali.length - 1; i++) {
+                if (text.equals(myBotServiceEn.qatlamali[i])) {
+                    try {
+                        List<Integer> ids = new ArrayList<>();
+                        ids.add(messageId);
+                        ids.add(messageId - 1);
+                        DeleteMessages deleteMessages = new DeleteMessages();
+                        deleteMessages.setChatId(chatId);
+                        deleteMessages.setMessageIds(ids);
+                        execute(deleteMessages);
+                        execute(myBotServiceEn.tovar(chatId, myBotServiceEn.qatlamaliphoto[i], myBotServiceEn.qatlamalicaption[i], myBotServiceEn.qatlamalinarx[i]));
+                    } catch (TelegramApiException e) {
+                        throw new RuntimeException(e);
+                    }
+                }
+            }
+
+            for (int i = 0; i < myBotServiceEn.toyimli.length - 1; i++) {
+                if (text.equals(myBotServiceEn.toyimli[i])) {
+                    try {
+                        List<Integer> ids = new ArrayList<>();
+                        ids.add(messageId);
+                        ids.add(messageId - 1);
+                        DeleteMessages deleteMessages = new DeleteMessages();
+                        deleteMessages.setChatId(chatId);
+                        deleteMessages.setMessageIds(ids);
+                        execute(deleteMessages);
+                        execute(myBotServiceEn.tovar(chatId, myBotServiceEn.toyimliphoto[i], myBotServiceEn.toyimlicaption[i], myBotServiceEn.toyimlinarx[i]));
+                    } catch (TelegramApiException e) {
+                        throw new RuntimeException(e);
+                    }
+                }
+            }
+
+            for (int i = 0; i < myBotServiceEn.praynik.length - 1; i++) {
+                if (text.equals(myBotServiceEn.praynik[i])) {
+                    try {
+                        List<Integer> ids = new ArrayList<>();
+                        ids.add(messageId);
+                        ids.add(messageId - 1);
+                        DeleteMessages deleteMessages = new DeleteMessages();
+                        deleteMessages.setChatId(chatId);
+                        deleteMessages.setMessageIds(ids);
+                        execute(deleteMessages);
+                        execute(myBotServiceEn.tovar(chatId, myBotServiceEn.zanjabilliphoto[i], myBotServiceEn.zanjabillicaption[i], myBotServiceEn.zanjabillinarx[i]));
+                    } catch (TelegramApiException e) {
+                        throw new RuntimeException(e);
+                    }
+                }
+            }
+
+            for (int i = 0; i < myBotServiceEn.topirog.length - 1; i++) {
+                if (text.equals(myBotServiceEn.topirog[i])) {
+                    try {
+                        List<Integer> ids = new ArrayList<>();
+                        ids.add(messageId);
+                        ids.add(messageId - 1);
+                        DeleteMessages deleteMessages = new DeleteMessages();
+                        deleteMessages.setChatId(chatId);
+                        deleteMessages.setMessageIds(ids);
+                        execute(deleteMessages);
+                        execute(myBotServiceEn.tovar(chatId, myBotServiceEn.topirogphoto[i], myBotServiceEn.topirogcaption[i], myBotServiceEn.topirognarx[i]));
+                    } catch (TelegramApiException e) {
+                        throw new RuntimeException(e);
+                    }
+                }
+            }
+
+            for (int i = 0; i < myBotServiceEn.toyarimtayyor.length - 1; i++) {
+                if (text.equals(myBotServiceEn.toyarimtayyor[i])) {
+                    try {
+                        List<Integer> ids = new ArrayList<>();
+                        ids.add(messageId);
+                        ids.add(messageId - 1);
+                        DeleteMessages deleteMessages = new DeleteMessages();
+                        deleteMessages.setChatId(chatId);
+                        deleteMessages.setMessageIds(ids);
+                        execute(deleteMessages);
+                        execute(myBotServiceEn.tovar(chatId, myBotServiceEn.toyarimtayyorphoto[i], myBotServiceEn.toyarimtayyorcaption[i], myBotServiceEn.toyarimtayyornarx[i]));
+                    } catch (TelegramApiException e) {
+                        throw new RuntimeException(e);
+                    }
+                }
+            }
+
+            for (int i = 0; i < myBotServiceEn.totortpp.length - 1; i++) {
+                if (text.equals(myBotServiceEn.totortpp[i])) {
+                    try {
+                        List<Integer> ids = new ArrayList<>();
+                        ids.add(messageId);
+                        ids.add(messageId - 1);
+                        DeleteMessages deleteMessages = new DeleteMessages();
+                        deleteMessages.setChatId(chatId);
+                        deleteMessages.setMessageIds(ids);
+                        execute(deleteMessages);
+                        execute(myBotServiceEn.tovar(chatId, myBotServiceEn.totortppphoto[i], myBotServiceEn.totortppcaption[i], myBotServiceEn.totortppnarx[i]));
+                    } catch (TelegramApiException e) {
+                        throw new RuntimeException(e);
+                    }
+                }
+            }
+
+            for (int i = 0; i < myBotServiceEn.topishiriq.length - 1; i++) {
+                if (text.equals(myBotServiceEn.topishiriq[i])) {
+                    try {
+                        List<Integer> ids = new ArrayList<>();
+                        ids.add(messageId);
+                        ids.add(messageId - 1);
+                        DeleteMessages deleteMessages = new DeleteMessages();
+                        deleteMessages.setChatId(chatId);
+                        deleteMessages.setMessageIds(ids);
+                        execute(deleteMessages);
+                        execute(myBotServiceEn.tovar(chatId, myBotServiceEn.topishiriqphoto[i], myBotServiceEn.topishiriqcaption[i], myBotServiceEn.topishiriqnarx[i]));
+                    } catch (TelegramApiException e) {
+                        throw new RuntimeException(e);
+                    }
+                }
+            }
+
+            for (int i = 0; i < myBotServiceEn.topirojniypp.length - 1; i++) {
+                if (text.equals(myBotServiceEn.topirojniypp[i])) {
+                    try {
+                        List<Integer> ids = new ArrayList<>();
+                        ids.add(messageId);
+                        ids.add(messageId - 1);
+                        DeleteMessages deleteMessages = new DeleteMessages();
+                        deleteMessages.setChatId(chatId);
+                        deleteMessages.setMessageIds(ids);
+                        execute(deleteMessages);
+                        execute(myBotServiceEn.tovar(chatId, myBotServiceEn.topirojniyppphoto[i], myBotServiceEn.topirojniyppcaption[i], myBotServiceEn.topirojniyppnarx[i]));
+                    } catch (TelegramApiException e) {
+                        throw new RuntimeException(e);
+                    }
+                }
+            }
+
+            for (int i = 0; i < myBotServiceEn.yarimtayyor.length - 1; i++) {
+                if (text.equals(myBotServiceEn.yarimtayyor[i])) {
+                    try {
+                        List<Integer> ids = new ArrayList<>();
+                        ids.add(messageId);
+                        ids.add(messageId - 1);
+                        DeleteMessages deleteMessages = new DeleteMessages();
+                        deleteMessages.setChatId(chatId);
+                        deleteMessages.setMessageIds(ids);
+                        execute(deleteMessages);
+                        execute(myBotServiceEn.tovar(chatId, myBotServiceEn.yarimtayyorphoto[i], myBotServiceEn.yarimtayyorcaption[i], myBotServiceEn.yarimtayyornarx[i]));
+                    } catch (TelegramApiException e) {
+                        throw new RuntimeException(e);
+                    }
+                }
+            }
+
+            for (int i = 0; i < myBotServiceEn.non.length - 1; i++) {
+                if (text.equals(myBotServiceEn.non[i])) {
+                    try {
+                        List<Integer> ids = new ArrayList<>();
+                        ids.add(messageId);
+                        ids.add(messageId - 1);
+                        DeleteMessages deleteMessages = new DeleteMessages();
+                        deleteMessages.setChatId(chatId);
+                        deleteMessages.setMessageIds(ids);
+                        execute(deleteMessages);
+                        execute(myBotServiceEn.tovar(chatId, myBotServiceEn.nonphoto[i], myBotServiceEn.noncaption[i], myBotServiceEn.nonnarx[i]));
+                    } catch (TelegramApiException e) {
+                        throw new RuntimeException(e);
+                    }
+                }
+            }
+
+            for (int i = 0; i < myBotServiceEn.yangisiqilgan.length - 1; i++) {
+                if (text.equals(myBotServiceEn.yangisiqilgan[i])) {
+                    try {
+                        List<Integer> ids = new ArrayList<>();
+                        ids.add(messageId);
+                        ids.add(messageId - 1);
+                        DeleteMessages deleteMessages = new DeleteMessages();
+                        deleteMessages.setChatId(chatId);
+                        deleteMessages.setMessageIds(ids);
+                        execute(deleteMessages);
+                        execute(myBotServiceEn.tovar(chatId, myBotServiceEn.yangisiqilganphoto[i], myBotServiceEn.yangisiqilgancaption[i], myBotServiceEn.yangisiqilgannarx[i]));
+                    } catch (TelegramApiException e) {
+                        throw new RuntimeException(e);
+                    }
+                }
+            }
+
+            for (int i = 0; i < myBotServiceEn.milksheyk.length - 1; i++) {
+                if (text.equals(myBotServiceEn.milksheyk[i])) {
+                    try {
+                        List<Integer> ids = new ArrayList<>();
+                        ids.add(messageId);
+                        ids.add(messageId - 1);
+                        DeleteMessages deleteMessages = new DeleteMessages();
+                        deleteMessages.setChatId(chatId);
+                        deleteMessages.setMessageIds(ids);
+                        execute(deleteMessages);
+                        execute(myBotServiceEn.tovar(chatId, myBotServiceEn.milksheykphoto[i], myBotServiceEn.milksheykcaption[i], myBotServiceEn.milksheyknarx[i]));
+                    } catch (TelegramApiException e) {
+                        throw new RuntimeException(e);
+                    }
+                }
+            }
+
+            for (int i = 0; i < myBotServiceEn.limonad.length - 1; i++) {
+                if (text.equals(myBotServiceEn.limonad[i])) {
+                    try {
+                        List<Integer> ids = new ArrayList<>();
+                        ids.add(messageId);
+                        ids.add(messageId - 1);
+                        DeleteMessages deleteMessages = new DeleteMessages();
+                        deleteMessages.setChatId(chatId);
+                        deleteMessages.setMessageIds(ids);
+                        execute(deleteMessages);
+                        execute(myBotServiceEn.tovar(chatId, myBotServiceEn.limonadphoto[i], myBotServiceEn.limonadcaption[i], myBotServiceEn.limonadnarx[i]));
+                    } catch (TelegramApiException e) {
+                        throw new RuntimeException(e);
+                    }
+                }
+            }
+
+            for (int i = 0; i < myBotServiceEn.kofe.length - 1; i++) {
+                if (text.equals(myBotServiceEn.kofe[i])) {
+                    try {
+                        List<Integer> ids = new ArrayList<>();
+                        ids.add(messageId);
+                        ids.add(messageId - 1);
+                        DeleteMessages deleteMessages = new DeleteMessages();
+                        deleteMessages.setChatId(chatId);
+                        deleteMessages.setMessageIds(ids);
+                        execute(deleteMessages);
+                        execute(myBotServiceEn.tovar(chatId, myBotServiceEn.kofephoto[i], myBotServiceEn.kofecaption[i], myBotServiceEn.kofenarx[i]));
+                    } catch (TelegramApiException e) {
+                        throw new RuntimeException(e);
+                    }
+                }
+            }
+
+            for (int i = 0; i < myBotServiceEn.qahva.length - 1; i++) {
+                if (text.equals(myBotServiceEn.qahva[i])) {
+                    try {
+                        List<Integer> ids = new ArrayList<>();
+                        ids.add(messageId);
+                        ids.add(messageId - 1);
+                        DeleteMessages deleteMessages = new DeleteMessages();
+                        deleteMessages.setChatId(chatId);
+                        deleteMessages.setMessageIds(ids);
+                        execute(deleteMessages);
+                        execute(myBotServiceEn.tovar(chatId, myBotServiceEn.qahvaphoto[i], myBotServiceEn.qahvacaption[i], myBotServiceEn.qahvanarx[i]));
+                    } catch (TelegramApiException e) {
+                        throw new RuntimeException(e);
+                    }
+                }
+            }
+
         } else if (update.hasCallbackQuery()) {
             CallbackQuery callbackQuery = update.getCallbackQuery();
             Long chatId = callbackQuery.getMessage().getChatId();
@@ -2749,6 +4103,21 @@ public class MyBot extends TelegramLongPollingBot {
                 }
             }
 
+            if (data.equals("enId")) {
+                try {
+                    myBotService.curlan = data;
+                    EditMessageText editMessageText = new EditMessageText();
+                    editMessageText.setText("Select destination city:");
+                    editMessageText.setChatId(chatId);
+                    editMessageText.setMessageId(messageId);
+                    editMessageText.setReplyMarkup(myBotServiceEn.shahar(chatId));
+
+                    execute(editMessageText);
+                } catch (TelegramApiException e) {
+                    throw new RuntimeException(e);
+                }
+            }
+
             if (data.equals("haqidaId")) {
                 try {
                     DeleteMessage deleteMessage = new DeleteMessage();
@@ -2768,6 +4137,18 @@ public class MyBot extends TelegramLongPollingBot {
                     deleteMessage.setMessageId(messageId);
                     execute(deleteMessage);
                     execute(myBotServiceRu.haqida(chatId));
+                } catch (TelegramApiException e) {
+                    throw new RuntimeException(e);
+                }
+            }
+
+            if (data.equals("haqidaenId")) {
+                try {
+                    DeleteMessage deleteMessage = new DeleteMessage();
+                    deleteMessage.setChatId(chatId);
+                    deleteMessage.setMessageId(messageId);
+                    execute(deleteMessage);
+                    execute(myBotServiceEn.haqida(chatId));
                 } catch (TelegramApiException e) {
                     throw new RuntimeException(e);
                 }
@@ -2803,6 +4184,21 @@ public class MyBot extends TelegramLongPollingBot {
                 }
             }
 
+            if (data.equals("qaytbizenId")) {
+                try {
+                    List<Integer> ids = new ArrayList<>();
+                    ids.add(messageId);
+                    ids.add(messageId - 1);
+                    DeleteMessages deleteMessages = new DeleteMessages();
+                    deleteMessages.setChatId(chatId);
+                    deleteMessages.setMessageIds(ids);
+                    execute(deleteMessages);
+                    execute(myBotServiceEn.haqida(chatId));
+                } catch (TelegramApiException e) {
+                    throw new RuntimeException(e);
+                }
+            }
+
             if (data.equals("qadriyatId")) {
                 try {
                     DeleteMessage deleteMessage = new DeleteMessage();
@@ -2822,6 +4218,18 @@ public class MyBot extends TelegramLongPollingBot {
                     deleteMessage.setMessageId(messageId);
                     execute(deleteMessage);
                     execute(myBotServiceRu.qadriyat(chatId));
+                } catch (TelegramApiException e) {
+                    throw new RuntimeException(e);
+                }
+            }
+
+            if (data.equals("qadriyatenId")) {
+                try {
+                    DeleteMessage deleteMessage = new DeleteMessage();
+                    deleteMessage.setChatId(chatId);
+                    deleteMessage.setMessageId(messageId);
+                    execute(deleteMessage);
+                    execute(myBotServiceEn.qadriyat(chatId));
                 } catch (TelegramApiException e) {
                     throw new RuntimeException(e);
                 }
@@ -2857,6 +4265,21 @@ public class MyBot extends TelegramLongPollingBot {
                 }
             }
 
+            if (data.equals("qaytqadrenId")) {
+                try {
+                    List<Integer> ids = new ArrayList<>();
+                    ids.add(messageId);
+                    ids.add(messageId - 1);
+                    DeleteMessages deleteMessages = new DeleteMessages();
+                    deleteMessages.setChatId(chatId);
+                    deleteMessages.setMessageIds(ids);
+                    execute(deleteMessages);
+                    execute(myBotServiceEn.qadriyat(chatId));
+                } catch (TelegramApiException e) {
+                    throw new RuntimeException(e);
+                }
+            }
+
             if (data.equals("keytingId")) {
                 try {
                     DeleteMessage deleteMessage = new DeleteMessage();
@@ -2876,6 +4299,18 @@ public class MyBot extends TelegramLongPollingBot {
                     deleteMessage.setMessageId(messageId);
                     execute(deleteMessage);
                     execute(myBotServiceRu.keytring(chatId));
+                } catch (TelegramApiException e) {
+                    throw new RuntimeException(e);
+                }
+            }
+
+            if (data.equals("keytingenId")) {
+                try {
+                    DeleteMessage deleteMessage = new DeleteMessage();
+                    deleteMessage.setChatId(chatId);
+                    deleteMessage.setMessageId(messageId);
+                    execute(deleteMessage);
+                    execute(myBotServiceEn.keytring(chatId));
                 } catch (TelegramApiException e) {
                     throw new RuntimeException(e);
                 }
@@ -2911,6 +4346,21 @@ public class MyBot extends TelegramLongPollingBot {
                 }
             }
 
+            if (data.equals("qaytkeytenId")) {
+                try {
+                    List<Integer> ids = new ArrayList<>();
+                    ids.add(messageId);
+                    ids.add(messageId - 1);
+                    DeleteMessages deleteMessages = new DeleteMessages();
+                    deleteMessages.setChatId(chatId);
+                    deleteMessages.setMessageIds(ids);
+                    execute(deleteMessages);
+                    execute(myBotServiceEn.keytring(chatId));
+                } catch (TelegramApiException e) {
+                    throw new RuntimeException(e);
+                }
+            }
+
             if (data.equals("manzilId")) {
                 try {
                     DeleteMessage deleteMessage = new DeleteMessage();
@@ -2932,6 +4382,19 @@ public class MyBot extends TelegramLongPollingBot {
                     execute(deleteMessage);
                     execute(myBotServiceRu.filial(chatId));
                     execute(myBotServiceRu.filialone(chatId));
+                } catch (TelegramApiException e) {
+                    throw new RuntimeException(e);
+                }
+            }
+
+            if (data.equals("manzilenId")) {
+                try {
+                    DeleteMessage deleteMessage = new DeleteMessage();
+                    deleteMessage.setChatId(chatId);
+                    deleteMessage.setMessageId(messageId);
+                    execute(deleteMessage);
+                    execute(myBotServiceEn.filial(chatId));
+                    execute(myBotServiceEn.filialone(chatId));
                 } catch (TelegramApiException e) {
                     throw new RuntimeException(e);
                 }
@@ -3256,6 +4719,162 @@ public class MyBot extends TelegramLongPollingBot {
                     editMessageText.setMessageId(messageId);
                     editMessageText.setReplyMarkup(myBotServiceRu.filialthirteen(chatId));
                     editMessageText.setText("Наши филиалы: 131 шт. (121-131)");
+                    execute(editMessageText);
+                } catch (TelegramApiException e) {
+                    throw new RuntimeException(e);
+                }
+            }
+
+            if (data.equals("nextoneenId")) {
+                try {
+                    EditMessageText editMessageText = new EditMessageText();
+                    editMessageText.setChatId(chatId);
+                    editMessageText.setMessageId(messageId);
+                    editMessageText.setReplyMarkup(myBotServiceEn.filialtwo(chatId));
+                    editMessageText.setText("Our Branches: 131 (11–20)");
+                    execute(editMessageText);
+                } catch (TelegramApiException e) {
+                    throw new RuntimeException(e);
+                }
+            }
+
+            if (data.equals("nexttwoenId")) {
+                try {
+                    EditMessageText editMessageText = new EditMessageText();
+                    editMessageText.setChatId(chatId);
+                    editMessageText.setMessageId(messageId);
+                    editMessageText.setReplyMarkup(myBotServiceEn.filialthree(chatId));
+                    editMessageText.setText("Our Branches: 131 (21–30)");
+                    execute(editMessageText);
+                } catch (TelegramApiException e) {
+                    throw new RuntimeException(e);
+                }
+            }
+
+            if (data.equals("nextthreeenId")) {
+                try {
+                    EditMessageText editMessageText = new EditMessageText();
+                    editMessageText.setChatId(chatId);
+                    editMessageText.setMessageId(messageId);
+                    editMessageText.setReplyMarkup(myBotServiceEn.filialfour(chatId));
+                    editMessageText.setText("Our Branches: 131 (31–40)");
+                    execute(editMessageText);
+                } catch (TelegramApiException e) {
+                    throw new RuntimeException(e);
+                }
+            }
+
+            if (data.equals("nextfourenId")) {
+                try {
+                    EditMessageText editMessageText = new EditMessageText();
+                    editMessageText.setChatId(chatId);
+                    editMessageText.setMessageId(messageId);
+                    editMessageText.setReplyMarkup(myBotServiceEn.filialfive(chatId));
+                    editMessageText.setText("Our Branches: 131 (41–50)");
+                    execute(editMessageText);
+                } catch (TelegramApiException e) {
+                    throw new RuntimeException(e);
+                }
+            }
+
+            if (data.equals("nextfiveenId")) {
+                try {
+                    EditMessageText editMessageText = new EditMessageText();
+                    editMessageText.setChatId(chatId);
+                    editMessageText.setMessageId(messageId);
+                    editMessageText.setReplyMarkup(myBotServiceEn.filialsix(chatId));
+                    editMessageText.setText("Our Branches: 131 (51–60)");
+                    execute(editMessageText);
+                } catch (TelegramApiException e) {
+                    throw new RuntimeException(e);
+                }
+            }
+
+            if (data.equals("nextsixenId")) {
+                try {
+                    EditMessageText editMessageText = new EditMessageText();
+                    editMessageText.setChatId(chatId);
+                    editMessageText.setMessageId(messageId);
+                    editMessageText.setReplyMarkup(myBotServiceEn.filialseven(chatId));
+                    editMessageText.setText("Our Branches: 131 (61–70)");
+                    execute(editMessageText);
+                } catch (TelegramApiException e) {
+                    throw new RuntimeException(e);
+                }
+            }
+
+            if (data.equals("nextsevenenId")) {
+                try {
+                    EditMessageText editMessageText = new EditMessageText();
+                    editMessageText.setChatId(chatId);
+                    editMessageText.setMessageId(messageId);
+                    editMessageText.setReplyMarkup(myBotServiceEn.filialeight(chatId));
+                    editMessageText.setText("Our Branches: 131 (71–80)");
+                    execute(editMessageText);
+                } catch (TelegramApiException e) {
+                    throw new RuntimeException(e);
+                }
+            }
+
+            if (data.equals("nexteightenId")) {
+                try {
+                    EditMessageText editMessageText = new EditMessageText();
+                    editMessageText.setChatId(chatId);
+                    editMessageText.setMessageId(messageId);
+                    editMessageText.setReplyMarkup(myBotServiceEn.filialnine(chatId));
+                    editMessageText.setText("Our Branches: 131 (81–90)");
+                    execute(editMessageText);
+                } catch (TelegramApiException e) {
+                    throw new RuntimeException(e);
+                }
+            }
+
+            if (data.equals("nextnineenId")) {
+                try {
+                    EditMessageText editMessageText = new EditMessageText();
+                    editMessageText.setChatId(chatId);
+                    editMessageText.setMessageId(messageId);
+                    editMessageText.setReplyMarkup(myBotServiceEn.filialten(chatId));
+                    editMessageText.setText("Our Branches: 131 (91–100)");
+                    execute(editMessageText);
+                } catch (TelegramApiException e) {
+                    throw new RuntimeException(e);
+                }
+            }
+
+            if (data.equals("nexttenenId")) {
+                try {
+                    EditMessageText editMessageText = new EditMessageText();
+                    editMessageText.setChatId(chatId);
+                    editMessageText.setMessageId(messageId);
+                    editMessageText.setReplyMarkup(myBotServiceEn.filialeleven(chatId));
+                    editMessageText.setText("Our Branches: 131 (101–110)");
+                    execute(editMessageText);
+                } catch (TelegramApiException e) {
+                    throw new RuntimeException(e);
+                }
+            }
+
+            if (data.equals("nextelevenenId")) {
+                try {
+                    EditMessageText editMessageText = new EditMessageText();
+                    editMessageText.setChatId(chatId);
+                    editMessageText.setMessageId(messageId);
+                    editMessageText.setReplyMarkup(myBotServiceEn.filialtwelve(chatId));
+                    editMessageText.setText("Our Branches: 131 (111–120)");
+                    execute(editMessageText);
+                } catch (TelegramApiException e) {
+                    throw new RuntimeException(e);
+                }
+            }
+
+            if (data.equals("nexttwelveenId")) {
+                try {
+                    EditMessageText editMessageText = new EditMessageText();
+                    editMessageText.setChatId(chatId);
+                    editMessageText.setMessageId(messageId);
+                    editMessageText.setReplyMarkup(myBotServiceEn.filialthirteen(chatId));
+                    editMessageText.setText("Our Branches: 131 (121–131)");
                     execute(editMessageText);
                 } catch (TelegramApiException e) {
                     throw new RuntimeException(e);
@@ -3604,6 +5223,177 @@ public class MyBot extends TelegramLongPollingBot {
                 }
             }
 
+            if (data.equals("qayttwoenId")) {
+                try {
+                    EditMessageText editMessageText = new EditMessageText();
+                    editMessageText.setChatId(chatId);
+                    editMessageText.setMessageId(messageId);
+                    editMessageText.setReplyMarkup(myBotService.filialone1(chatId));
+                    editMessageText.setText("Our Branches: 131 (1-10)");
+                    execute(editMessageText);
+                } catch (TelegramApiException e) {
+                    throw new RuntimeException(e);
+                }
+            }
+
+            if (data.equals("qaytthreeenId")) {
+                try {
+                    EditMessageText editMessageText = new EditMessageText();
+                    editMessageText.setChatId(chatId);
+                    editMessageText.setMessageId(messageId);
+                    editMessageText.setReplyMarkup(myBotService.filialtwo(chatId));
+                    editMessageText.setText("Our Branches: 131 (11-20)");
+                    execute(editMessageText);
+                } catch (TelegramApiException e) {
+                    throw new RuntimeException(e);
+                }
+            }
+
+            if (data.equals("qaytfourenId")) {
+                try {
+                    EditMessageText editMessageText = new EditMessageText();
+                    editMessageText.setChatId(chatId);
+                    editMessageText.setMessageId(messageId);
+                    editMessageText.setReplyMarkup(myBotService.filialthree(chatId));
+                    editMessageText.setText("Our Branches: 131 (21-30)");
+                    execute(editMessageText);
+                } catch (TelegramApiException e) {
+                    throw new RuntimeException(e);
+                }
+            }
+
+            if (data.equals("qaytfiveenId")) {
+                try {
+                    EditMessageText editMessageText = new EditMessageText();
+                    editMessageText.setChatId(chatId);
+                    editMessageText.setMessageId(messageId);
+                    editMessageText.setReplyMarkup(myBotService.filialfour(chatId));
+                    editMessageText.setText("Our Branches: 131 (31-40)");
+                    execute(editMessageText);
+                } catch (TelegramApiException e) {
+                    throw new RuntimeException(e);
+                }
+            }
+
+            if (data.equals("qaytsixenId")) {
+                try {
+                    EditMessageText editMessageText = new EditMessageText();
+                    editMessageText.setChatId(chatId);
+                    editMessageText.setMessageId(messageId);
+                    editMessageText.setReplyMarkup(myBotService.filialfive(chatId));
+                    editMessageText.setText("Our Branches: 131 (41-50)");
+                    execute(editMessageText);
+                } catch (TelegramApiException e) {
+                    throw new RuntimeException(e);
+                }
+            }
+
+            if (data.equals("qaytsevenenId")) {
+                try {
+                    EditMessageText editMessageText = new EditMessageText();
+                    editMessageText.setChatId(chatId);
+                    editMessageText.setMessageId(messageId);
+                    editMessageText.setReplyMarkup(myBotService.filialsix(chatId));
+                    editMessageText.setText("Our Branches: 131 (51-60)");
+                    execute(editMessageText);
+                } catch (TelegramApiException e) {
+                    throw new RuntimeException(e);
+                }
+            }
+
+            if (data.equals("qayteightenId")) {
+                try {
+                    EditMessageText editMessageText = new EditMessageText();
+                    editMessageText.setChatId(chatId);
+                    editMessageText.setMessageId(messageId);
+                    editMessageText.setReplyMarkup(myBotService.filialseven(chatId));
+                    editMessageText.setText("Our Branches: 131 (61-70)");
+                    execute(editMessageText);
+                } catch (TelegramApiException e) {
+                    throw new RuntimeException(e);
+                }
+            }
+
+            if (data.equals("qaytnineenId")) {
+                try {
+                    EditMessageText editMessageText = new EditMessageText();
+                    editMessageText.setChatId(chatId);
+                    editMessageText.setMessageId(messageId);
+                    editMessageText.setReplyMarkup(myBotService.filialeight(chatId));
+                    editMessageText.setText("Our Branches: 131 (71-80)");
+                    execute(editMessageText);
+                } catch (TelegramApiException e) {
+                    throw new RuntimeException(e);
+                }
+            }
+
+            if (data.equals("qayttenenId")) {
+                try {
+                    EditMessageText editMessageText = new EditMessageText();
+                    editMessageText.setChatId(chatId);
+                    editMessageText.setMessageId(messageId);
+                    editMessageText.setReplyMarkup(myBotService.filialnine(chatId));
+                    editMessageText.setText("Our Branches: 131 (81-90)");
+                    execute(editMessageText);
+                } catch (TelegramApiException e) {
+                    throw new RuntimeException(e);
+                }
+            }
+
+            if (data.equals("qaytelevenenId")) {
+                try {
+                    EditMessageText editMessageText = new EditMessageText();
+                    editMessageText.setChatId(chatId);
+                    editMessageText.setMessageId(messageId);
+                    editMessageText.setReplyMarkup(myBotService.filialten(chatId));
+                    editMessageText.setText("Our Branches: 131 (91-100)");
+                    execute(editMessageText);
+                } catch (TelegramApiException e) {
+                    throw new RuntimeException(e);
+                }
+            }
+
+            if (data.equals("qayttwelveenId")) {
+                try {
+                    EditMessageText editMessageText = new EditMessageText();
+                    editMessageText.setChatId(chatId);
+                    editMessageText.setMessageId(messageId);
+                    editMessageText.setReplyMarkup(myBotService.filialeleven(chatId));
+                    editMessageText.setText("Our Branches: 131 (101-110)");
+                    execute(editMessageText);
+                } catch (TelegramApiException e) {
+                    throw new RuntimeException(e);
+                }
+            }
+
+            if (data.equals("qaytthirteenenId")) {
+                try {
+                    EditMessageText editMessageText = new EditMessageText();
+                    editMessageText.setChatId(chatId);
+                    editMessageText.setMessageId(messageId);
+                    editMessageText.setReplyMarkup(myBotService.filialtwelve(chatId));
+                    editMessageText.setText("Our Branches: 131 (111-120)");
+                    execute(editMessageText);
+                } catch (TelegramApiException e) {
+                    throw new RuntimeException(e);
+                }
+            }
+
+            if (data.equals("qaytfenId")) {
+                try {
+                    List<Integer> ids = new ArrayList<>();
+                    ids.add(messageId);
+                    ids.add(messageId - 1);
+                    DeleteMessages deleteMessages = new DeleteMessages();
+                    deleteMessages.setChatId(chatId);
+                    deleteMessages.setMessageIds(ids);
+                    execute(deleteMessages);
+                    execute(myBotService.uzmenu1(chatId));
+                } catch (TelegramApiException e) {
+                    throw new RuntimeException(e);
+                }
+            }
+
             if (data.equals("yesId")) {
                 try {
                     DeleteMessage deleteMessage = new DeleteMessage();
@@ -3780,6 +5570,77 @@ public class MyBot extends TelegramLongPollingBot {
                 }
             }
 
+            if (data.equals("yesenId")) {
+                try {
+                    DeleteMessage deleteMessage = new DeleteMessage();
+                    deleteMessage.setChatId(chatId);
+                    deleteMessage.setMessageId(messageId);
+                    execute(deleteMessage);
+
+                    execute(myBotServiceEn.yes(chatId));
+                    execute(myBotServiceEn.orgmenu(chatId));
+
+                } catch (TelegramApiException e) {
+                    throw new RuntimeException(e);
+                }
+            }
+
+            if (data.equals("noenId")) {
+                try {
+                    DeleteMessage deleteMessage = new DeleteMessage();
+                    deleteMessage.setChatId(chatId);
+                    deleteMessage.setMessageId(messageId);
+                    execute(deleteMessage);
+
+                    execute(myBotServiceEn.no(chatId));
+                    execute(myBotServiceEn.orgmenu(chatId));
+
+                } catch (TelegramApiException e) {
+                    throw new RuntimeException(e);
+                }
+            }
+
+            if (data.equals("telenId")) {
+                try {
+                    DeleteMessage deleteMessage = new DeleteMessage();
+                    deleteMessage.setChatId(chatId);
+                    deleteMessage.setMessageId(messageId);
+                    execute(deleteMessage);
+
+                    execute(myBotServiceEn.tel(chatId));
+
+                } catch (TelegramApiException e) {
+                    throw new RuntimeException(e);
+                }
+            }
+
+            if (data.equals("backenId")) {
+                try {
+                    EditMessageText editMessageText = new EditMessageText();
+                    editMessageText.setChatId(chatId);
+                    editMessageText.setMessageId(messageId);
+                    editMessageText.setReplyMarkup(myBotServiceEn.enmenu(chatId));
+                    editMessageText.setText("Welcome to Safia! Please choose an option:");
+                    execute(editMessageText);
+                } catch (TelegramApiException e) {
+                    throw new RuntimeException(e);
+                }
+            }
+
+            if (data.equals("menuenId")) {
+                try {
+                    DeleteMessage deleteMessage = new DeleteMessage();
+                    deleteMessage.setChatId(chatId);
+                    deleteMessage.setMessageId(messageId);
+                    execute(deleteMessage);
+
+                    execute(myBotServiceEn.orgmenu(chatId));
+
+                } catch (TelegramApiException e) {
+                    throw new RuntimeException(e);
+                }
+            }
+
             for (String i : myBotService.cities) {
                 if (data.equals(i.toLowerCase() + "Id")) {
                     try {
@@ -3804,6 +5665,22 @@ public class MyBot extends TelegramLongPollingBot {
                         editMessageText.setChatId(chatId);
                         editMessageText.setMessageId(messageId);
                         editMessageText.setReplyMarkup(myBotServiceRu.rumenu(chatId));
+
+                        execute(editMessageText);
+                    } catch (TelegramApiException e) {
+                        throw new RuntimeException(e);
+                    }
+                }
+            }
+
+            for (String i : myBotServiceEn.cities) {
+                if (data.equals(i.toLowerCase() + "Id")) {
+                    try {
+                        EditMessageText editMessageText = new EditMessageText();
+                        editMessageText.setText("Welcome to Safia! Choose one of the options:");
+                        editMessageText.setChatId(chatId);
+                        editMessageText.setMessageId(messageId);
+                        editMessageText.setReplyMarkup(myBotServiceEn.enmenu(chatId));
 
                         execute(editMessageText);
                     } catch (TelegramApiException e) {

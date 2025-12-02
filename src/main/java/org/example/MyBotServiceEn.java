@@ -306,7 +306,7 @@ public class MyBotServiceEn {
         return sendMessage;
     }
 
-    public SendMessage shahar(Long chatId) {
+    public InlineKeyboardMarkup shahar(Long chatId) {
         SendMessage sendMessage = new SendMessage();
         sendMessage.setChatId(chatId);
         sendMessage.setText("Select your destination city:");
@@ -319,7 +319,7 @@ public class MyBotServiceEn {
         for (String city : cities) {
             InlineKeyboardButton button = new InlineKeyboardButton();
             button.setText(city);
-            button.setCallbackData(city.toLowerCase() + "enId");
+            button.setCallbackData(city.toLowerCase() + "Id");
             row.add(button);
 
             if (row.size() == 2) {
@@ -334,7 +334,7 @@ public class MyBotServiceEn {
 
         inlineKeyboardMarkup.setKeyboard(rowList);
         sendMessage.setReplyMarkup(inlineKeyboardMarkup);
-        return sendMessage;
+        return inlineKeyboardMarkup;
     }
 
     public SendMessage haqida(Long chatId) {
@@ -629,7 +629,48 @@ public class MyBotServiceEn {
         return sendMessage;
     }
 
-    public InlineKeyboardMarkup filialone(Long chatId) {
+    public SendMessage filialone(Long chatId) {
+        SendMessage sendMessage = new SendMessage();
+        sendMessage.setChatId(chatId);
+        sendMessage.setText("Our branches: 131 (1-10)");
+
+        InlineKeyboardMarkup inlineKeyboardMarkup = new InlineKeyboardMarkup();
+        List<List<InlineKeyboardButton>> rowList = new ArrayList<>();
+
+        List<InlineKeyboardButton> rowe = new ArrayList<>();
+        InlineKeyboardButton qaytf = new InlineKeyboardButton();
+        qaytf.setText("⬅ Main Menu");
+        qaytf.setCallbackData("qaytfEnId");
+        rowe.add(qaytf);
+        rowList.add(rowe);
+
+        List<InlineKeyboardButton> row1 = new ArrayList<>();
+        InlineKeyboardButton next = new InlineKeyboardButton();
+        next.setText("➡ Next");
+        next.setCallbackData("nextoneEnId");
+        row1.add(next);
+        rowList.add(row1);
+
+        List<InlineKeyboardButton> row = new ArrayList<>();
+        for (int i = 0; i < onetotwo.length; i++) {
+            InlineKeyboardButton button = new InlineKeyboardButton();
+            button.setText(onetotwo[i]);
+            button.setCallbackData(onetotwo[i] + "EnId");
+            row.add(button);
+
+            if (row.size() == 2) {
+                rowList.add(row);
+                row = new ArrayList<>();
+            }
+        }
+        if (!row.isEmpty()) rowList.add(row);
+
+        inlineKeyboardMarkup.setKeyboard(rowList);
+        sendMessage.setReplyMarkup(inlineKeyboardMarkup);
+        return sendMessage;
+    }
+
+    public InlineKeyboardMarkup filialone1(Long chatId) {
         SendMessage sendMessage = new SendMessage();
         sendMessage.setChatId(chatId);
         sendMessage.setText("Our branches: 131 (1-10)");
@@ -1259,7 +1300,7 @@ public class MyBotServiceEn {
 
         KeyboardRow row1 = new KeyboardRow();
         KeyboardButton ikki = new KeyboardButton();
-        ikki.setText("\uD83E\uDD57 Healthy desserts");
+        ikki.setText("\uD83E\uDD57 Proper nutrition desserts");
         row1.add(ikki);
         rowList.add(row1);
 
@@ -2315,13 +2356,13 @@ public class MyBotServiceEn {
         List<InlineKeyboardButton> row = new ArrayList<>();
         InlineKeyboardButton button = new InlineKeyboardButton();
         button.setText("Yes ✅");
-        button.setCallbackData("yesId");
+        button.setCallbackData("yesenId");
         row.add(button);
         rowList.add(row);
 
         button = new InlineKeyboardButton();
         button.setText("No ❌");
-        button.setCallbackData("noId");
+        button.setCallbackData("noenId");
         row.add(button);
 
         inlineKeyboardMarkup.setKeyboard(rowList);
