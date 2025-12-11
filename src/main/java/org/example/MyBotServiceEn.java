@@ -35,7 +35,7 @@ public class MyBotServiceEn {
     String[] twelvetothirteen = {"Khast-Imom", "Huvaydo", "C1 (Sodiq Azimov)", "MUM", "Chigatay", "Chinoz", "Chirchik", "Chorsu", "Shahriston", "Shota Rustaveli"};
     String[] thirteentofourteen = {"Shokh Mardon", "Shokhsaroy", "HQ", "Eco Market", "Erkin", "Eshonguzar", "New Qoyliq", "New Yunusobod", "New Bazaar", "New Life", "Yangiyol"};
 
-    String[] mazali = {"Round Cakes", "Rectangular Cakes", "Mini Cakes", "Large Pies", "Round Pies", "Pastries", "Swiss Rolls", "Eclairs", "Macarons", "Ready Meals", "Desserts", "Cookies", "Packed Eclairs", "Sweet Pastries", "Cupcakes", "Tartlets", "Layered Pastries", "Nutritious Pastry", "Gingerbread", "⬅️ Back to Main Menu"};
+    String[] mazali = {"Round cakes", "Rectangular cakes", "Mini cakes", "Large pies", "Round pies", "Pastries", "Roulades", "Eclairs", "Macarons", "Prepared meals", "Desserts", "Cookies", "Packeded eclairs", "Sweet pastries", "Cupcakes", "Tartlets", "Layered pastries", "Hearty pastries", "Gingerbread", "⬅️ Back to Main Menu"};
 
     String[] yumaloqtort = {"Mini Cake Vischenka", "Cake Admiral", "Cake Barbie", "Cake Bounty", "Cake Verona", "Cake Victoria", "Cake Julyetta", "Cake Julyetta Decorated", "Cake Little Dinosaur", "Cake Iriska", "Caramel Honey Cake", "Kiev Cake", "Kiev Cake Decorated", "Kiev Cake Pink", "Kiev Cake with Chocolate Stick", "Basket Cake", "Mix Cake", "Milk Girl Cake", "Ice Cream Cake", "Oreo Cake", "Raspberry Shortbread Cake", "Prague Cake", "Bird’s Milk Cake", "Chocolate Rainbow Cake", "Rafaello Cake", "Roshe Cake", "Safia Beige Cake", "Safia Decorated Cake", "Safia Pink Cake", "Snickers Cake", "Fruit Cake", "Black Prince Cake", "Chocolate Banana Cake", "Chocolate Raspberry Cake", "Berry Cottage Cheese Cake", "⬅️ Back"};
     String[] yumaloqtortphoto = {"https://t.me/safiapictures/14", "https://t.me/safiapictures/15", "https://t.me/safiapictures/16", "https://t.me/safiapictures/17", "https://t.me/safiapictures/18", "https://t.me/safiapictures/19", "https://t.me/safiapictures/20", "https://t.me/safiapictures/21", "https://t.me/safiapictures/22", "https://t.me/safiapictures/23", "https://t.me/safiapictures/24", "https://t.me/safiapictures/25", "https://t.me/safiapictures/26", "https://t.me/safiapictures/27", "https://t.me/safiapictures/28", "https://t.me/safiapictures/29", "https://t.me/safiapictures/32", "https://t.me/safiapictures/33", "https://t.me/safiapictures/34", "https://t.me/safiapictures/35", "https://t.me/safiapictures/36", "https://t.me/safiapictures/37", "https://t.me/safiapictures/38", "https://t.me/safiapictures/39", "https://t.me/safiapictures/40", "https://t.me/safiapictures/41", "https://t.me/safiapictures/42", "https://t.me/safiapictures/44", "https://t.me/safiapictures/45", "https://t.me/safiapictures/46", "https://t.me/safiapictures/47", "https://t.me/safiapictures/48", "https://t.me/safiapictures/49", "https://t.me/safiapictures/50", "https://t.me/safiapictures/51"};
@@ -92,7 +92,7 @@ public class MyBotServiceEn {
     String[] shirinlikcaption = {"Sour Cherry Jam\n\nPitted sour cherries, sugar, citrus pectin, water, acidity regulator - citric acid.", "Berry Jam\n\nFrozen berries, sugar.", "Apple Jam\n\nPeeled apple puree, sugar, acidity regulator - citric acid.", "Cashew Chocolate Dragee\n\nCashews coated with white chocolate.", "Almond Chocolate Dragee\n\nAlmonds coated with dark chocolate.", "Hazelnut Chocolate Dragee\n\nHazelnuts coated with caramel chocolate.", "Orange Cake Slice\n\nSoft orange cake with candied orange pieces.", "Lollipop\n\nSugar powder, water.", "Toy Lollipop\n\nSugar powder, water, fondant.", "Rainbow Marshmallow\n\nApple juice, sugar, gelatin (halal), egg, glucose, natural flavor, natural coloring.", "Mishka Barni\n\nHigh-grade flour, sugar, eggs, vanilla, salt, chocolate.", "Nut Candy\n\nCondensed milk with nut shortcrust pastry.", "Caramel Popcorn\n\nCaramel-coated popcorn.", "Chocolate Popcorn\n\nChocolate-coated popcorn.", "Toy Sweet Batman\n\nSugar powder, water.", "Toy Sweet Captain America\n\nSugar powder, water.", "Condensed Milk Tube\n\nSweet waffle dough with cooked condensed milk.", "Mini Box Chak-Chak\n\nMini box with chopped chak-chak.", "Turkish Chak-Chak\n\nShortcrust dough with butter, chocolate ganache, sesame, and cooked condensed milk.", "Chupa-Chups\n\nNut cake with chocolate coating.", "Chupa-Chups with Fondant\n\nNut cake with chocolate coating and decorated with fondant.", "Safia Chocolate Caramel-Nut\n\nMilk chocolate, caramel, peanuts, raisins.", "Safia Chocolate Coconut\n\nMilk chocolate with coconut filling."};
     String[] shirinliknarx = {"32 000", "39 000", "32 000", "55 000", "49 000", "49 000", "9 000", "10 000", "16 000", "13 000", "8 000", "5 500", "35 000", "35 000", "13 000", "13 000", "14 000", "59 000", "69 000", "12 000", "17 000", "13 000", "13 000"};
 
-    String[] pechenye = {"Classic Biskotti", "Mini Grissini", "Grissini", "Mini Bounty Cookie", "Mini Lochira Cookie", "Mini Oatmeal Cookie", "Mini Sushki Cookie", "Muraveynik", "Banana Cookies", "Bounty Cookie", "Biskotti Cookie", "Brownie Cookie", "Mini Star Cookie", "Star Cookie", "Caramel Cookie", "Keta Cookie", "Cookies", "Sesame Cookie", "Mini Kurabye Cookie", "Lemon Cookie", "Lochira Cookie", "Mini Luna Cookie", "Luna Cookie", "Mazurki Cookie", "Mezumi Cookie", "Nutella Cookie", "Oatmeal Cookie", "Cookies 'Sticks'", "Mini Seashell Cookie", "Seashell Cookie", "Mini Cherry Roll Cookie", "Cherry Roll Cookie", "Nut Roll Cookie", "Mini Condensed Milk Roll", "Condensed Milk Roll", "Sushki Cookie", "Shrek Cookie", "Turkish Baklava", "Gluten-Free Cakes", "Mini Buckwheat Cakes", "Rice Cakes", "⬅\uFE0F Back"};
+    String[] pechenye = {"Classic Biskotti", "Mini Grissini", "Grissini", "Mini Bounty Cookie", "Mini Lochira Cookie", "Mini Oatmeal Cookie", "Mini Sushki Cookie", "Muraveynik", "Banana Cookies", "Bounty Cookie", "Biskotti Cookie", "Brownie Cookie", "Mini Star Cookie", "Star Cookie", "Caramel Cookie", "Keta Cookie", "Cookies in a pack", "Sesame Cookie", "Mini Kurabye Cookie", "Lemon Cookie", "Lochira Cookie", "Mini Luna Cookie", "Luna Cookie", "Mazurki Cookie", "Mezumi Cookie", "Nutella Cookie", "Oatmeal Cookie", "Cookies 'Sticks'", "Mini Seashell Cookie", "Seashell Cookie", "Mini Cherry Roll Cookie", "Cherry Roll Cookie", "Nut Roll Cookie", "Mini Condensed Milk Roll", "Condensed Milk Roll", "Sushki Cookie", "Shrek Cookie", "Turkish Baklava", "Gluten-Free Cakes", "Mini Buckwheat Cakes", "Rice Cakes", "⬅\uFE0F Back"};
     String[] pechenyephoto = {"https://t.me/safiapictures/192", "https://t.me/safiapictures/193", "https://t.me/safiapictures/194", "https://t.me/safiapictures/195", "https://t.me/safiapictures/196", "https://t.me/safiapictures/197", "https://t.me/safiapictures/198", "https://t.me/safiapictures/199", "https://t.me/safiapictures/200", "https://t.me/safiapictures/201", "https://t.me/safiapictures/202", "https://t.me/safiapictures/203", "https://t.me/safiapictures/204", "https://t.me/safiapictures/205", "https://t.me/safiapictures/206", "https://t.me/safiapictures/207", "https://t.me/safiapictures/208", "https://t.me/safiapictures/209", "https://t.me/safiapictures/210", "https://t.me/safiapictures/211", "https://t.me/safiapictures/212", "https://t.me/safiapictures/213", "https://t.me/safiapictures/214", "https://t.me/safiapictures/215", "https://t.me/safiapictures/216", "https://t.me/safiapictures/217", "https://t.me/safiapictures/218", "https://t.me/safiapictures/219", "https://t.me/safiapictures/220", "https://t.me/safiapictures/221", "https://t.me/safiapictures/222", "https://t.me/safiapictures/223", "https://t.me/safiapictures/224", "https://t.me/safiapictures/225", "https://t.me/safiapictures/226", "https://t.me/safiapictures/227", "https://t.me/safiapictures/228", "https://t.me/safiapictures/229", "https://t.me/safiapictures/230", "https://t.me/safiapictures/231", "https://t.me/safiapictures/232"};
     String[] pechenyecaption = {"Classic Biskotti\n\nShortcrust dough with nuts.", "Mini Grissini\n\nSesame breadsticks.", "Grissini\n\nSesame breadsticks.", "Mini Bounty Cookie\n\nShortcrust-coconut dough with milk chocolate pieces.", "Mini Lochira Cookie\n\nButter and milk dough with sesame.", "Mini Oatmeal Cookie\n\nShortcrust dough with oatmeal, nuts, and cinnamon.", "Mini Sushki Cookie\n\nButter and milk dough with sesame.", "Muraveynik\n\nHoney-caramel cream and condensed milk shortcrust dough.", "Banana Cookies\n\nShortcrust dough with decorated nut filling, condensed milk, and nuts.", "Bounty Cookie\n\nShortcrust-coconut dough with milk chocolate pieces.", "Biskotti Cookie\n\nShortcrust dough with nuts.", "Brownie Cookie\n\nRich chocolate flavor.", "Mini Star Cookie\n\nShortcrust dough with apple and lemon.", "Star Cookie\n\nShortcrust dough with apple and lemon.", "Caramel Cookie\n\nShortcrust dough with hazelnut caramel.", "Keta Cookie\n\nShortcrust dough with nuts and sugar.", "Cookies\n\nShortcrust dough with chocolate pieces and nuts.", "Sesame Cookie\n\nShortcrust dough with sesame.", "Mini Kurabye Cookie\n\nShortcrust dough with nuts.", "Lemon Cookie\n\nShortcrust dough with lemon filling.", "Lochira Cookie\n\nButter and milk dough with sesame.", "Mini Luna Cookie\n\nShortcrust dough prepared in butter.", "Luna Cookie\n\nShortcrust dough prepared in butter.", "Mazurki Cookie\n\nBiscuit base with raisins, nuts, and decorative leaves.", "Mezumi Cookie\n\nMeringue, nuts, and chocolate pieces.", "Nutella Cookie\n\nShortcrust dough with Nutella and milk chocolate pieces.", "Oatmeal Cookie\n\nShortcrust dough with oatmeal, nuts, and cinnamon.", "Cookies 'Sticks'\n\nDough with cream and sesame.", "Mini Seashell Cookie\n\nShortcrust dough, meringue, nuts.", "Seashell Cookie\n\nShortcrust dough, meringue, nuts.", "Mini Cherry Roll Cookie\n\nSour cream dough filled with cherries.", "Cherry Roll Cookie\n\nSour cream dough filled with cherries.", "Nut Roll Cookie\n\nShortcrust dough with grated nuts and sugar.", "Mini Condensed Milk Roll\n\nSour cream dough filled with condensed milk.", "Condensed Milk Roll\n\nSour cream dough filled with condensed milk.", "Sushki Cookie\n\nButter and milk dough decorated with sesame.", "Shrek Cookie\n\nButter and milk shortcrust dough.", "Turkish Baklava\n\nShortcrust dough with meringue, nuts, and raisins.", "Gluten-Free Cakes\n\nGluten-free rolls made from sunflower seeds, flaxseed, white sesame, vegetable oil, salt, and water.", "Mini Buckwheat Cakes\n\nDietary buckwheat cakes made from buckwheat flour, gluten-free mix, white sesame, oatmeal, flaxseed, honey, and raisins.", "Rice Cakes\n\nDigestible gluten-free rolls made from rice flour, flaxseed, oatmeal, white sesame, honey, and raisins."};
     String[] pechenyenarx = {"5 000", "12 000", "21 000", "20 000", "11 000", "13 000", "12 000", "5 500", "36 000", "49 000", "33 000", "19 000", "29 000", "50 000", "19 000", "37 000", "18 000", "24 000", "29 000", "33 000", "27 000", "26 000", "48 000", "29 000", "24 000", "19 000", "27 000", "14 000", "28 000", "62 000", "28 000", "55 000", "42 000", "26 000", "55 000", "21 000", "26 000", "35 000", "34 000", "35 000", "35 000"};
@@ -132,7 +132,7 @@ public class MyBotServiceEn {
     String[] zanjabillicaption = {"Ginger Cupcake\n\nGingerbread with sugar icing.", "Ginger Prince\n\nGingerbread with sugar icing.", "Ginger Princess\n\nGingerbread with sugar icing.", "Gingerbread 'Safia'\n\nGingerbread with sugar icing.", "Gingerbread 'Muzyurak'\n\nGingerbread with sugar icing.", "Paintable Gingerbread Dino\n\nGingerbread intended for painting.", "Paintable Gingerbread Train\n\nGingerbread intended for painting.", "Paintable Gingerbread Pony\n\nGingerbread intended for painting."};
     String[] zanjabillinarx = {"27 000", "27 000", "27 000", "27 000", "27 000", "35 000", "35 000", "35 000"};
 
-    String[] togriovqatlanish = {"PN Pies", "PN Semi-Prepared Products", "PN Cakes", "PN Pastries", "PN Desserts", "⬅\uFE0F Main Menu"};
+    String[] togriovqatlanish = {"PN Pies", "PN Semi-Prepared Products", "PN Cakes", "PN Pastries", "PN Desserts", "⬅\uFE0F Back to Main Menu"};
 
     String[] topirog = {"PN Apple-Sour Cherry Pie", "PN Sour Cherry Pie", "PN Mishka Pie", "PN Cottage Cheese and Cranberry Pie", "Cottage Cheese Pie with Chia and Quince Seeds", "PN Apple Pie", "⬅\uFE0F Back PN"};
     String[] topirogphoto = {"https://t.me/safiapictures/315", "https://t.me/safiapictures/316", "https://t.me/safiapictures/317", "https://t.me/safiapictures/318", "https://t.me/safiapictures/319", "https://t.me/safiapictures/320"};
@@ -159,41 +159,41 @@ public class MyBotServiceEn {
     String[] topirojniyppcaption = {"PN Classic Bar\n\nGluten-free bar with dried leaves, oats, Goji berries, natural peanut butter, dried dates, figs, nuts, pumpkin seeds, natural honey, and orange zest.", "PN Chocolate Bar\n\nGranola bar with oats, nuts, soy protein, natural hazelnut paste, dried black cherries, and 72% dark chocolate sweetened with stevia.", "PN Mini Profiterole\n\nGluten-free mini profiterole with sugar-free cream filling.", "PN New York Cheesecake\n\nGluten-free cheesecake with creamy taste.", "PN Cherry Dessert\n\nGluten-free chocolate sponge dessert with sugar substitutes.", "PN Potato Dessert\n\nGluten-free sponge dessert with nuts, granola, and dark chocolate.", "PN Forest Berry Dessert\n\nSponge dessert with fruit cream and raspberry confit.", "PN 'Lesnaya Yagoda' Dessert\n\nGluten-free dessert with raspberry, strawberry, blackcurrant, and cream without sugar.", "PN Raspberry Dessert\n\nGluten-free sponge dessert with cottage cheese and raspberry cream.", "PN Malina Dessert\n\nGluten-free dessert with sugar-free cream and fresh raspberries.", "PN Medovik Dessert\n\nGluten-free honey layer cake with cream and raspberry confit.", "PN Napoleon Dessert\n\nGluten-free dessert with creamy filling and fruit confit.", "PN 'Ptichye Moloko' Dessert\n\nGluten-free soft layered dessert made from protein-rich flour and sugar substitutes.", "PN Skazka Dessert\n\nGluten-free roll cake with sugar-free milk chocolate and almond cream.", "PN Matcha Tea Dessert\n\nAlmond sponge with Japanese Matcha, vanilla, lemon confiture, and light matcha mousse.", "PN Meringue Dessert\n\nGluten-free roll with cream, fresh raspberries, and red currants on meringue.", "PN San Sebastian Cheesecake\n\nGluten-free cheesecake with milk, dark chocolate, and creamy base.", "PN Matcha-Lemon Tea\n\nGluten-free sponge dessert with natural matcha, lemon, and sugar-free cream.", "PN Chia Pudding Lactose-Free\n\nChia pudding with lactose-free yogurt, mango, passion fruit, and coconut milk.", "PN Eclair\n\nGluten-free eclair with cream filling made from dark and milk chocolate."};
     String[] topirojniyppnarx = {"19 000", "17 000", "37 000", "37 000", "27 000", "15 000", "35 000", "33 000", "34 000", "23 000", "31 000", "37 000", "18 000", "37 000", "34 000", "19 000", "41 000", "33 000", "39 000", "17 000"};
 
-    String[] yarimtayyor = {"Potato Varenik", "Cabbage Dolma", "Beef Dolma", "Beef Cutlet / 5 pcs", "Chicken Cutlet / 5 pcs", "Kiev Cutlet / 3 pcs", "Mini Colored Chuchvara", "Nuggets / 12 pcs", "Lamb Chuchvara", "Beef Chuchvara", "Cheesecake / 8 pcs", "Layered Dough", "Samosa Dough", "Meat Cheburek / 4 pcs", "⬅\uFE0F Asosiy Menyu"};
+    String[] yarimtayyor = {"Potato Varenik", "Cabbage Dolma", "Beef Dolma", "Beef Cutlet / 5 pcs", "Chicken Cutlet / 5 pcs", "Kiev Cutlet / 3 pcs", "Mini Colored Chuchvara", "Nuggets / 12 pcs", "Lamb Chuchvara", "Beef Chuchvara", "Cheesecake / 8 pcs", "Layered Dough", "Samosa Dough", "Meat Cheburek / 4 pcs", "⬅\uFE0F Back to Main Menu"};
     String[] yarimtayyorphoto = {"https://t.me/safiapictures/361", "https://t.me/safiapictures/362", "https://t.me/safiapictures/363", "https://t.me/safiapictures/364", "https://t.me/safiapictures/365", "https://t.me/safiapictures/366", "https://t.me/safiapictures/367", "https://t.me/safiapictures/368", "https://t.me/safiapictures/369", "https://t.me/safiapictures/370", "https://t.me/safiapictures/371", "https://t.me/safiapictures/372", "https://t.me/safiapictures/373", "https://t.me/safiapictures/374"};
     String[] yarimtayyorcaption = {"Potato Varenik\n\nFlour, potato, onion, salt, pepper, butter, egg", "Cabbage Dolma\n\nBeef, onion, rice, salt, vegetable oil, Chinese salt, pepper, cumin, crushed, water, cabbage", "Beef Dolma\n\nBeef, grape leaves, rice, onion, salt, cilantro, cumin, pepper, vegetable oil, water", "Beef Cutlet / 5 pcs\n\nMinced beef, onion, spices (no preservatives)", "Chicken Cutlet / 5 pcs\n\nMinced chicken, onion, spices (no preservatives)", "Kiev Cutlet / 3 pcs\n\nChicken, butter, dill, salt, pepper, breading flour", "Mini Colored Chuchvara\n\nDough with beet, carrot, spinach juice; filling of beef, onion, spices (no preservatives)", "Nuggets / 12 pcs\n\nChicken, butter, salt, pepper, breading flour, oregano", "Lamb Chuchvara\n\nDough, minced lamb, onion, spices (no preservatives)", "Beef Chuchvara\n\nDough, minced beef, onion, spices (no preservatives)", "Cheesecake / 8 pcs\n\nCottage cheese, wheat flour, egg, sugar, softening dough", "Layered Dough\n\nWheat flour, butter, vegetable oil, sugar, salt, clean water", "Samosa Dough\n\nWheat flour, butter, vegetable oil, sugar, salt, clean water", "Meat Cheburek / 4 pcs\n\nWheat flour, egg, margarine, beef fat, salt, pepper, minced beef, onion"};
     String[] yarimtayyornarx = {"15 000", "39 000", "49 000", "70 000", "60 000", "49 000", "59 000", "29 000", "53 000", "53 000", "31 000", "24 000", "24 000", "29 000"};
 
-    String[] non = {"'Borodinskiy' Non", "'Slavyanskiy Aromat' Non", "'Sport Aktiv' Non", "'Tartin' Non", "⬅\uFE0F Asosiy Menyu"};
+    String[] non = {"'Borodinskiy' Bread", "'Slavyanskiy Aromat' Bread", "'Sport Aktiv' Bread", "'Tartin' Bread", "⬅️ Back to Main Menu"};
     String[] nonphoto = {"https://t.me/safiapictures/375", "https://t.me/safiapictures/376", "https://t.me/safiapictures/377", "https://t.me/safiapictures/378"};
-    String[] noncaption = {"'Borodinskiy' Non\n\nMade from wheat and bran flour with malt, yeast, and sourdough", "'Slavyanskiy Aromat' Non\n\nMade from wheat and rye flour, with a rich aroma of malt and spices, with grains and yeast", "'Sport Aktiv' Non\n\nMade with flax, oats, and carrot grains, prepared with yeast", "'Tartin' Non\n\nMade from wheat flour and flax grains, slowly fermented with sourdough and yeast"};
+    String[] noncaption = {"'Borodinskiy' Bread\n\nMade from wheat and bran flour with malt, yeast, and sourdough", "'Slavyanskiy Aromat' Bread\n\nMade from wheat and rye flour, with a rich aroma of malt and spices, with grains and yeast", "'Sport Aktiv' Bread\n\nMade with flax, oats, and carrot grains, prepared with yeast", "'Tartin' Bread\n\nMade from wheat flour and flax grains, slowly fermented with sourdough and yeast"};
     String[] nonnarx = {"15 000", "15 000", "15 000", "15 000"};
 
-    String[] barmenyu = {"Yangi siqilgan sharbatlar", "Milkshakes", "Limonadlar", "Qahva", "⬅\uFE0F Asosiy Menyu"};
+    String[] barmenyu = {"Freshly Squeezed Juices", "Milkshakes", "Lemonades", "Coffee", "⬅️ Back to Main Menu"};
 
-    String[] yangisiqilgan = {"Apelsinli Fresh", "Sabzi-Olmali Fresh (Safia)", "Sabzili Fresh (Safia)", "Olmali Fresh (Safia)", "⬅\uFE0F Orqaga Bar"};
+    String[] yangisiqilgan = {"Orange Fresh", "Carrot-Apple Fresh (Safia)", "Carrot Fresh (Safia)", "Apple Fresh (Safia)", "⬅️ Back to Bar"};
     String[] yangisiqilganphoto = {"https://t.me/safiapictures/379", "https://t.me/safiapictures/380", "https://t.me/safiapictures/381", "https://t.me/safiapictures/382"};
     String[] yangisiqilgancaption = {"Orange Fresh\n\n", "Carrot-Apple Fresh (Safia)\n\n", "Carrot Fresh (Safia)\n\n", "Apple Fresh (Safia)\n\n"};
     String[] yangisiqilgannarx = {"50 000", "30 000", "22 000", "30 000"};
 
-    String[] milksheyk = {"Bananli Milkshake", "Vanilli Milkshake", "Shokoladli Milkshake", "Rezavor Milkshake", "⬅\uFE0F Orqaga"};
+    String[] milksheyk = {"Banana Milkshake", "Vanilla Milkshake", "Chocolate Milkshake", "Berry Milkshake", "⬅️ Back to Bar"};
     String[] milksheykphoto = {"https://t.me/safiapictures/383", "https://t.me/safiapictures/384", "https://t.me/safiapictures/385", "https://t.me/safiapictures/386"};
     String[] milksheykcaption = {"Banana Milkshake\n\n", "Vanilla Milkshake\n\n", "Chocolate Milkshake\n\n", "Berry Milkshake\n\n"};
     String[] milksheyknarx = {"40 000", "40 000", "45 000", "45 000"};
 
-    String[] limonad = {"Ko'k Ays-ti", "Lesnaya Yagoda Limonad", "Tarxun-Apelsin Limonad", "Mevali Ays-ti", "Sitrus Limonad", "Qora Ays-ti", "⬅\uFE0F Orqaga"};
+    String[] limonad = {"Blue Iced Tea", "Forest Berry Lemonade", "Tarragon-Orange Lemonade", "Fruit Iced Tea", "Citrus Lemonade", "Black Iced Tea", "⬅️ Back to Bar"};
     String[] limonadphoto = {"https://t.me/safiapictures/387", "https://t.me/safiapictures/388", "https://t.me/safiapictures/389", "https://t.me/safiapictures/390", "https://t.me/safiapictures/391", "https://t.me/safiapictures/392"};
     String[] limonadcaption = {"Blue Iced Tea\n\n", "Forest Berry Lemonade\n\n", "Tarragon-Orange Lemonade\n\n", "Fruit Iced Tea\n\n", "Citrus Lemonade\n\n", "Black Iced Tea\n\n"};
     String[] limonadnarx = {"29 000", "35 000", "35 000", "29 000", "29 000", "29 000"};
 
-    String[] kofe = {"Karamelli Frappe", "Ays Amerikano", "Ays Latte", "Ays Kapuchino", "Shokoladli Frappe", "⬅\uFE0F Orqaga"};
+    String[] kofe = {"Caramel Frappe", "Iced Americano", "Iced Latte", "Iced Cappuccino", "Chocolate Frappe", "⬅\uFE0F Back to Bar"};
     String[] kofephoto = {"https://t.me/safiapictures/393", "https://t.me/safiapictures/394", "https://t.me/safiapictures/395", "https://t.me/safiapictures/396", "https://t.me/safiapictures/397"};
     String[] kofecaption = {"Caramel Frappe\n\n", "Iced Americano\n\n", "Iced Latte\n\n", "Iced Cappuccino\n\n", "Chocolate Frappe\n\n"};
     String[] kofenarx = {"24 000", "33 000", "29 000", "37 000", "37 000"};
 
-    String[] qahva = {"Qahva Abonementi - 15", "Qahva Abonementi - 30", "⬅\uFE0F Asosiy Menyu"};
+    String[] qahva = {"Coffee subscription - 15", "Coffee subscription - 30", "⬅\uFE0F Back to Main Menu"};
     String[] qahvaphoto = {"https://t.me/safiapictures/398", "https://t.me/safiapictures/399"};
-    String[] qahvacaption = {"Qahva Abonementi – 15\n\nIncludes 15 servings of coffee drinks: Americano (150 ml), Cappuccino (200 ml), Latte (200 ml), Espresso (50 ml), Iced Latte, Iced Americano, Iced Cappuccino, Double Americano, Double Cappuccino, Double Espresso, Double Latte. Valid for 15 calendar days (purchase day not included). After expiration, the subscription is cancelled. Choose any you like. Save time and money!", "Qahva Abonementi – 30\n\nIncludes 30 servings of coffee drinks: Americano (150 ml), Cappuccino (200 ml), Latte (200 ml), Espresso (50 ml), Iced Latte, Iced Americano, Iced Cappuccino, Double Americano, Double Cappuccino, Double Espresso, Double Latte. Valid for 30 calendar days (purchase day not included). After expiration, the subscription is cancelled. Choose any you like. Save time and money!"};
+    String[] qahvacaption = {"Coffee subscription– 15\n\nIncludes 15 servings of coffee drinks: Americano (150 ml), Cappuccino (200 ml), Latte (200 ml), Espresso (50 ml), Iced Latte, Iced Americano, Iced Cappuccino, Double Americano, Double Cappuccino, Double Espresso, Double Latte. Valid for 15 calendar days (purchase day not included). After expiration, the subscription is cancelled. Choose any you like. Save time and money!", "Coffee subscription – 30\n\nIncludes 30 servings of coffee drinks: Americano (150 ml), Cappuccino (200 ml), Latte (200 ml), Espresso (50 ml), Iced Latte, Iced Americano, Iced Cappuccino, Double Americano, Double Cappuccino, Double Espresso, Double Latte. Valid for 30 calendar days (purchase day not included). After expiration, the subscription is cancelled. Choose any you like. Save time and money!"};
     String[] qahvanarx = {"200 000", "350 000"};
 
     public InlineKeyboardMarkup enmenu(Long chatId) {
@@ -242,7 +242,7 @@ public class MyBotServiceEn {
         row = new ArrayList<>();
         button = new InlineKeyboardButton();
         button.setText("Change Language");
-        button.setCallbackData("sozlamaenId");
+        button.setCallbackData("sozlamaId");
         row.add(button);
         rowList.add(row);
 
@@ -297,7 +297,7 @@ public class MyBotServiceEn {
         row = new ArrayList<>();
         button = new InlineKeyboardButton();
         button.setText("Change Language");
-        button.setCallbackData("sozlamaenId");
+        button.setCallbackData("sozlamaId");
         row.add(button);
         rowList.add(row);
 
@@ -319,7 +319,7 @@ public class MyBotServiceEn {
         for (String city : cities) {
             InlineKeyboardButton button = new InlineKeyboardButton();
             button.setText(city);
-            button.setCallbackData(city.toLowerCase() + "Id");
+            button.setCallbackData(city.toLowerCase() + "enId");
             row.add(button);
 
             if (row.size() == 2) {
@@ -448,13 +448,13 @@ public class MyBotServiceEn {
 
         row = new KeyboardRow();
         button = new KeyboardButton();
-        button.setText("👨‍👩‍👦‍👦 Family");
+        button.setText("\uD83D\uDC68\u200D\uD83D\uDC69\u200D\uD83D\uDC66\u200D\uD83D\uDC66 Family");
         row.add(button);
         rowList.add(row);
 
         row = new KeyboardRow();
         button = new KeyboardButton();
-        button.setText("👨‍🦽➡️ Inclusion");
+        button.setText("\uD83D\uDC68\uD83C\uDFFB\u200D\uD83E\uDDBD\u200D➡\uFE0F Inclusion");
         row.add(button);
         rowList.add(row);
 
@@ -640,14 +640,14 @@ public class MyBotServiceEn {
         List<InlineKeyboardButton> rowe = new ArrayList<>();
         InlineKeyboardButton qaytf = new InlineKeyboardButton();
         qaytf.setText("⬅ Main Menu");
-        qaytf.setCallbackData("qaytfEnId");
+        qaytf.setCallbackData("qaytfenId");
         rowe.add(qaytf);
         rowList.add(rowe);
 
         List<InlineKeyboardButton> row1 = new ArrayList<>();
         InlineKeyboardButton next = new InlineKeyboardButton();
         next.setText("➡ Next");
-        next.setCallbackData("nextoneEnId");
+        next.setCallbackData("nextoneenId");
         row1.add(next);
         rowList.add(row1);
 
@@ -655,7 +655,7 @@ public class MyBotServiceEn {
         for (int i = 0; i < onetotwo.length; i++) {
             InlineKeyboardButton button = new InlineKeyboardButton();
             button.setText(onetotwo[i]);
-            button.setCallbackData(onetotwo[i] + "EnId");
+            button.setCallbackData(onetotwo[i] + "Id");
             row.add(button);
 
             if (row.size() == 2) {
@@ -681,14 +681,14 @@ public class MyBotServiceEn {
         List<InlineKeyboardButton> rowe = new ArrayList<>();
         InlineKeyboardButton qaytf = new InlineKeyboardButton();
         qaytf.setText("⬅ Main Menu");
-        qaytf.setCallbackData("qaytfEnId");
+        qaytf.setCallbackData("qaytfenId");
         rowe.add(qaytf);
         rowList.add(rowe);
 
         List<InlineKeyboardButton> row1 = new ArrayList<>();
         InlineKeyboardButton next = new InlineKeyboardButton();
         next.setText("➡ Next");
-        next.setCallbackData("nextoneEnId");
+        next.setCallbackData("nextoneenId");
         row1.add(next);
         rowList.add(row1);
 
@@ -696,7 +696,7 @@ public class MyBotServiceEn {
         for (int i = 0; i < onetotwo.length; i++) {
             InlineKeyboardButton button = new InlineKeyboardButton();
             button.setText(onetotwo[i]);
-            button.setCallbackData(onetotwo[i] + "EnId");
+            button.setCallbackData(onetotwo[i] + "Id");
             row.add(button);
 
             if (row.size() == 2) {
@@ -722,19 +722,19 @@ public class MyBotServiceEn {
         List<InlineKeyboardButton> rowe = new ArrayList<>();
         InlineKeyboardButton qaytf = new InlineKeyboardButton();
         qaytf.setText("⬅ Main Menu");
-        qaytf.setCallbackData("qaytfEnId");
+        qaytf.setCallbackData("qaytfenId");
         rowe.add(qaytf);
         rowList.add(rowe);
 
         List<InlineKeyboardButton> row1 = new ArrayList<>();
         InlineKeyboardButton qayt = new InlineKeyboardButton();
         qayt.setText("⬅ Back");
-        qayt.setCallbackData("qayttwoEnId");
+        qayt.setCallbackData("qayttwoenId");
         row1.add(qayt);
 
         InlineKeyboardButton next = new InlineKeyboardButton();
         next.setText("➡ Next");
-        next.setCallbackData("nexttwoEnId");
+        next.setCallbackData("nexttwoenId");
         row1.add(next);
 
         rowList.add(row1);
@@ -743,7 +743,7 @@ public class MyBotServiceEn {
         for (int i = 0; i < twotothree.length; i++) {
             InlineKeyboardButton button = new InlineKeyboardButton();
             button.setText(twotothree[i]);
-            button.setCallbackData(twotothree[i] + "EnId");
+            button.setCallbackData(twotothree[i] + "Id");
             row.add(button);
 
             if (row.size() == 2) {
@@ -769,19 +769,19 @@ public class MyBotServiceEn {
         List<InlineKeyboardButton> rowe = new ArrayList<>();
         InlineKeyboardButton qaytf = new InlineKeyboardButton();
         qaytf.setText("⬅ Main Menu");
-        qaytf.setCallbackData("qaytfEnId");
+        qaytf.setCallbackData("qaytfenId");
         rowe.add(qaytf);
         rowList.add(rowe);
 
         List<InlineKeyboardButton> row1 = new ArrayList<>();
         InlineKeyboardButton qayt = new InlineKeyboardButton();
         qayt.setText("⬅ Back");
-        qayt.setCallbackData("qaytthreeEnId");
+        qayt.setCallbackData("qaytthreeenId");
         row1.add(qayt);
 
         InlineKeyboardButton next = new InlineKeyboardButton();
         next.setText("➡ Next");
-        next.setCallbackData("nextthreeEnId");
+        next.setCallbackData("nextthreeenId");
         row1.add(next);
 
         rowList.add(row1);
@@ -790,7 +790,7 @@ public class MyBotServiceEn {
         for (int i = 0; i < threetofour.length; i++) {
             InlineKeyboardButton button = new InlineKeyboardButton();
             button.setText(threetofour[i]);
-            button.setCallbackData(threetofour[i] + "EnId");
+            button.setCallbackData(threetofour[i] + "Id");
             row.add(button);
 
             if (row.size() == 2) {
@@ -816,19 +816,19 @@ public class MyBotServiceEn {
         List<InlineKeyboardButton> rowe = new ArrayList<>();
         InlineKeyboardButton qaytf = new InlineKeyboardButton();
         qaytf.setText("⬅ Main Menu");
-        qaytf.setCallbackData("qaytfEnId");
+        qaytf.setCallbackData("qaytfenId");
         rowe.add(qaytf);
         rowList.add(rowe);
 
         List<InlineKeyboardButton> row1 = new ArrayList<>();
         InlineKeyboardButton qayt = new InlineKeyboardButton();
         qayt.setText("⬅ Back");
-        qayt.setCallbackData("qaytfourEnId");
+        qayt.setCallbackData("qaytfourenId");
         row1.add(qayt);
 
         InlineKeyboardButton next = new InlineKeyboardButton();
         next.setText("➡ Next");
-        next.setCallbackData("nextfourEnId");
+        next.setCallbackData("nextfourenId");
         row1.add(next);
 
         rowList.add(row1);
@@ -837,7 +837,7 @@ public class MyBotServiceEn {
         for (int i = 0; i < fourtofive.length; i++) {
             InlineKeyboardButton button = new InlineKeyboardButton();
             button.setText(fourtofive[i]);
-            button.setCallbackData(fourtofive[i] + "EnId");
+            button.setCallbackData(fourtofive[i] + "Id");
             row.add(button);
 
             if (row.size() == 2) {
@@ -863,19 +863,19 @@ public class MyBotServiceEn {
         List<InlineKeyboardButton> rowe = new ArrayList<>();
         InlineKeyboardButton qaytf = new InlineKeyboardButton();
         qaytf.setText("⬅ Main Menu");
-        qaytf.setCallbackData("qaytfEnId");
+        qaytf.setCallbackData("qaytfenId");
         rowe.add(qaytf);
         rowList.add(rowe);
 
         List<InlineKeyboardButton> row1 = new ArrayList<>();
         InlineKeyboardButton qayt = new InlineKeyboardButton();
         qayt.setText("⬅ Back");
-        qayt.setCallbackData("qaytfiveEnId");
+        qayt.setCallbackData("qaytfiveenId");
         row1.add(qayt);
 
         InlineKeyboardButton next = new InlineKeyboardButton();
         next.setText("➡ Next");
-        next.setCallbackData("nextfiveEnId");
+        next.setCallbackData("nextfiveenId");
         row1.add(next);
         rowList.add(row1);
 
@@ -883,7 +883,7 @@ public class MyBotServiceEn {
         for (int i = 0; i < fivetosix.length; i++) {
             InlineKeyboardButton button = new InlineKeyboardButton();
             button.setText(fivetosix[i]);
-            button.setCallbackData(fivetosix[i] + "EnId");
+            button.setCallbackData(fivetosix[i] + "Id");
             row.add(button);
 
             if (row.size() == 2) {
@@ -909,19 +909,19 @@ public class MyBotServiceEn {
         List<InlineKeyboardButton> rowe = new ArrayList<>();
         InlineKeyboardButton qaytf = new InlineKeyboardButton();
         qaytf.setText("⬅ Main Menu");
-        qaytf.setCallbackData("qaytfEnId");
+        qaytf.setCallbackData("qaytfenId");
         rowe.add(qaytf);
         rowList.add(rowe);
 
         List<InlineKeyboardButton> row1 = new ArrayList<>();
         InlineKeyboardButton qayt = new InlineKeyboardButton();
         qayt.setText("⬅ Back");
-        qayt.setCallbackData("qaytsixEnId");
+        qayt.setCallbackData("qaytsixenId");
         row1.add(qayt);
 
         InlineKeyboardButton next = new InlineKeyboardButton();
         next.setText("➡ Next");
-        next.setCallbackData("nextsixEnId");
+        next.setCallbackData("nextsixenId");
         row1.add(next);
         rowList.add(row1);
 
@@ -929,7 +929,7 @@ public class MyBotServiceEn {
         for (int i = 0; i < sixtoseven.length; i++) {
             InlineKeyboardButton button = new InlineKeyboardButton();
             button.setText(sixtoseven[i]);
-            button.setCallbackData(sixtoseven[i] + "EnId");
+            button.setCallbackData(sixtoseven[i] + "Id");
             row.add(button);
 
             if (row.size() == 2) {
@@ -955,19 +955,19 @@ public class MyBotServiceEn {
         List<InlineKeyboardButton> rowe = new ArrayList<>();
         InlineKeyboardButton qaytf = new InlineKeyboardButton();
         qaytf.setText("⬅ Main Menu");
-        qaytf.setCallbackData("qaytfEnId");
+        qaytf.setCallbackData("qaytfenId");
         rowe.add(qaytf);
         rowList.add(rowe);
 
         List<InlineKeyboardButton> row1 = new ArrayList<>();
         InlineKeyboardButton qayt = new InlineKeyboardButton();
         qayt.setText("⬅ Back");
-        qayt.setCallbackData("qaytsevenEnId");
+        qayt.setCallbackData("qaytsevenenId");
         row1.add(qayt);
 
         InlineKeyboardButton next = new InlineKeyboardButton();
         next.setText("➡ Next");
-        next.setCallbackData("nextsevenEnId");
+        next.setCallbackData("nextsevenenId");
         row1.add(next);
         rowList.add(row1);
 
@@ -975,7 +975,7 @@ public class MyBotServiceEn {
         for (int i = 0; i < seventoeight.length; i++) {
             InlineKeyboardButton button = new InlineKeyboardButton();
             button.setText(seventoeight[i]);
-            button.setCallbackData(seventoeight[i] + "EnId");
+            button.setCallbackData(seventoeight[i] + "Id");
             row.add(button);
 
             if (row.size() == 2) {
@@ -1001,19 +1001,19 @@ public class MyBotServiceEn {
         List<InlineKeyboardButton> rowe = new ArrayList<>();
         InlineKeyboardButton qaytf = new InlineKeyboardButton();
         qaytf.setText("⬅ Main Menu");
-        qaytf.setCallbackData("qaytfEnId");
+        qaytf.setCallbackData("qaytfenId");
         rowe.add(qaytf);
         rowList.add(rowe);
 
         List<InlineKeyboardButton> row1 = new ArrayList<>();
         InlineKeyboardButton qayt = new InlineKeyboardButton();
         qayt.setText("⬅ Back");
-        qayt.setCallbackData("qayteightEnId");
+        qayt.setCallbackData("qayteightenId");
         row1.add(qayt);
 
         InlineKeyboardButton next = new InlineKeyboardButton();
         next.setText("➡ Next");
-        next.setCallbackData("nexteightEnId");
+        next.setCallbackData("nexteightenId");
         row1.add(next);
         rowList.add(row1);
 
@@ -1021,7 +1021,7 @@ public class MyBotServiceEn {
         for (int i = 0; i < eighttonine.length; i++) {
             InlineKeyboardButton button = new InlineKeyboardButton();
             button.setText(eighttonine[i]);
-            button.setCallbackData(eighttonine[i] + "EnId");
+            button.setCallbackData(eighttonine[i] + "Id");
             row.add(button);
 
             if (row.size() == 2) {
@@ -1047,19 +1047,19 @@ public class MyBotServiceEn {
         List<InlineKeyboardButton> rowe = new ArrayList<>();
         InlineKeyboardButton qaytf = new InlineKeyboardButton();
         qaytf.setText("⬅ Main Menu");
-        qaytf.setCallbackData("qaytfEnId");
+        qaytf.setCallbackData("qaytfenId");
         rowe.add(qaytf);
         rowList.add(rowe);
 
         List<InlineKeyboardButton> row1 = new ArrayList<>();
         InlineKeyboardButton qayt = new InlineKeyboardButton();
         qayt.setText("⬅ Back");
-        qayt.setCallbackData("qaytnineEnId");
+        qayt.setCallbackData("qaytnineenId");
         row1.add(qayt);
 
         InlineKeyboardButton next = new InlineKeyboardButton();
         next.setText("➡ Next");
-        next.setCallbackData("nextnineEnId");
+        next.setCallbackData("nextnineenId");
         row1.add(next);
         rowList.add(row1);
 
@@ -1093,19 +1093,19 @@ public class MyBotServiceEn {
         List<InlineKeyboardButton> rowe = new ArrayList<>();
         InlineKeyboardButton qaytf = new InlineKeyboardButton();
         qaytf.setText("⬅ Main Menu");
-        qaytf.setCallbackData("qaytfEnId");
+        qaytf.setCallbackData("qaytfenId");
         rowe.add(qaytf);
         rowList.add(rowe);
 
         List<InlineKeyboardButton> row1 = new ArrayList<>();
         InlineKeyboardButton qayt = new InlineKeyboardButton();
         qayt.setText("⬅ Back");
-        qayt.setCallbackData("qayttenEnId");
+        qayt.setCallbackData("qayttenenId");
         row1.add(qayt);
 
         InlineKeyboardButton next = new InlineKeyboardButton();
         next.setText("➡ Next");
-        next.setCallbackData("nexttenEnId");
+        next.setCallbackData("nexttenenId");
         row1.add(next);
         rowList.add(row1);
 
@@ -1113,7 +1113,7 @@ public class MyBotServiceEn {
         for (int i = 0; i < tentoeleven.length; i++) {
             InlineKeyboardButton button = new InlineKeyboardButton();
             button.setText(tentoeleven[i]);
-            button.setCallbackData(tentoeleven[i] + "EnId");
+            button.setCallbackData(tentoeleven[i] + "Id");
             row.add(button);
 
             if (row.size() == 2) {
@@ -1139,19 +1139,19 @@ public class MyBotServiceEn {
         List<InlineKeyboardButton> rowe = new ArrayList<>();
         InlineKeyboardButton qaytf = new InlineKeyboardButton();
         qaytf.setText("⬅ Main Menu");
-        qaytf.setCallbackData("qaytfEnId");
+        qaytf.setCallbackData("qaytfenId");
         rowe.add(qaytf);
         rowList.add(rowe);
 
         List<InlineKeyboardButton> row1 = new ArrayList<>();
         InlineKeyboardButton qayt = new InlineKeyboardButton();
         qayt.setText("⬅ Back");
-        qayt.setCallbackData("qaytelevenEnId");
+        qayt.setCallbackData("qaytelevenenId");
         row1.add(qayt);
 
         InlineKeyboardButton next = new InlineKeyboardButton();
         next.setText("➡ Next");
-        next.setCallbackData("nextelevenEnId");
+        next.setCallbackData("nextelevenenId");
         row1.add(next);
         rowList.add(row1);
 
@@ -1159,7 +1159,7 @@ public class MyBotServiceEn {
         for (int i = 0; i < eleventotwelve.length; i++) {
             InlineKeyboardButton button = new InlineKeyboardButton();
             button.setText(eleventotwelve[i]);
-            button.setCallbackData(eleventotwelve[i] + "EnId");
+            button.setCallbackData(eleventotwelve[i] + "Id");
             row.add(button);
 
             if (row.size() == 2) {
@@ -1185,19 +1185,19 @@ public class MyBotServiceEn {
         List<InlineKeyboardButton> rowe = new ArrayList<>();
         InlineKeyboardButton qaytf = new InlineKeyboardButton();
         qaytf.setText("⬅ Main Menu");
-        qaytf.setCallbackData("qaytfEnId");
+        qaytf.setCallbackData("qaytfenId");
         rowe.add(qaytf);
         rowList.add(rowe);
 
         List<InlineKeyboardButton> row1 = new ArrayList<>();
         InlineKeyboardButton qayt = new InlineKeyboardButton();
         qayt.setText("⬅ Back");
-        qayt.setCallbackData("qayttwelveEnId");
+        qayt.setCallbackData("qayttwelveenId");
         row1.add(qayt);
 
         InlineKeyboardButton next = new InlineKeyboardButton();
         next.setText("➡ Next");
-        next.setCallbackData("nexttwelveEnId");
+        next.setCallbackData("nexttwelveenId");
         row1.add(next);
         rowList.add(row1);
 
@@ -1205,7 +1205,7 @@ public class MyBotServiceEn {
         for (int i = 0; i < twelvetothirteen.length; i++) {
             InlineKeyboardButton button = new InlineKeyboardButton();
             button.setText(twelvetothirteen[i]);
-            button.setCallbackData(twelvetothirteen[i] + "EnId");
+            button.setCallbackData(twelvetothirteen[i] + "Id");
             row.add(button);
 
             if (row.size() == 2) {
@@ -1231,14 +1231,14 @@ public class MyBotServiceEn {
         List<InlineKeyboardButton> rowe = new ArrayList<>();
         InlineKeyboardButton qaytf = new InlineKeyboardButton();
         qaytf.setText("⬅ Main Menu");
-        qaytf.setCallbackData("qaytfEnId");
+        qaytf.setCallbackData("qaytfenId");
         rowe.add(qaytf);
         rowList.add(rowe);
 
         List<InlineKeyboardButton> row1 = new ArrayList<>();
         InlineKeyboardButton qayt = new InlineKeyboardButton();
         qayt.setText("⬅ Back");
-        qayt.setCallbackData("qaytthirteenEnId");
+        qayt.setCallbackData("qaytthirteenenId");
         row1.add(qayt);
 
         rowList.add(row1);
@@ -1247,7 +1247,7 @@ public class MyBotServiceEn {
         for (int i = 0; i < thirteentofourteen.length; i++) {
             InlineKeyboardButton button = new InlineKeyboardButton();
             button.setText(thirteentofourteen[i]);
-            button.setCallbackData(thirteentofourteen[i] + "EnId");
+            button.setCallbackData(thirteentofourteen[i] + "Id");
             row.add(button);
 
             if (row.size() == 2) {
@@ -1324,7 +1324,7 @@ public class MyBotServiceEn {
 
         KeyboardRow row5 = new KeyboardRow();
         KeyboardButton olti = new KeyboardButton();
-        olti.setText("\uD83E\uDDF8 Animators delivery");
+        olti.setText("\uD83E\uDDF8 Animator delivery");
         row5.add(olti);
         rowList.add(row5);
 

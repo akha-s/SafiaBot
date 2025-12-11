@@ -2525,4 +2525,12 @@ public class MyBotService {
         sendMessage.setText("Xaridda davom eting \uD83D\uDECD");
         return sendMessage;
     }
+
+    public SendMessage qz(Long chatId) {
+        SendMessage sendMessage = new SendMessage();
+        sendMessage.setChatId(chatId);
+        sendMessage.setText("\uD83C\uDDF0\uD83C\uDDFF⚙\uFE0F Жақында, басқа тілді таңдаңыз");
+        return sendMessage;
+    }
+
 }

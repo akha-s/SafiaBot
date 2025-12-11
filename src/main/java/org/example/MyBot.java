@@ -120,7 +120,7 @@ public class MyBot extends TelegramLongPollingBot {
                 }
             }
 
-            if (text.equals("Our Achievenments")) {
+            if (text.equals("Our Achievements")) {
                 try {
                     DeleteMessage deleteMessage = new DeleteMessage();
                     deleteMessage.setChatId(chatId);
@@ -1088,7 +1088,7 @@ public class MyBot extends TelegramLongPollingBot {
                 }
             }
 
-            if (text.equals("Rectangle cakes")) {
+            if (text.equals("Rectangular cakes")) {
                 try {
                     List<Integer> ids = new ArrayList<>();
                     ids.add(messageId);
@@ -1136,6 +1136,21 @@ public class MyBot extends TelegramLongPollingBot {
                 }
             }
 
+            if (text.equals("Large pies")) {
+                try {
+                    List<Integer> ids = new ArrayList<>();
+                    ids.add(messageId);
+                    ids.add(messageId - 1);
+                    DeleteMessages deleteMessages = new DeleteMessages();
+                    deleteMessages.setChatId(chatId);
+                    deleteMessages.setMessageIds(ids);
+                    execute(deleteMessages);
+                    execute(myBotServiceEn.kattapirog(chatId));
+                } catch (TelegramApiException e) {
+                    throw new RuntimeException(e);
+                }
+            }
+
             if (text.equals("Round pies")) {
                 try {
                     List<Integer> ids = new ArrayList<>();
@@ -1163,6 +1178,22 @@ public class MyBot extends TelegramLongPollingBot {
                     deleteMessages.setMessageIds(ids);
                     execute(deleteMessages);
                     execute(myBotServiceEn.pirojniy(chatId));
+                } catch (TelegramApiException e) {
+                    throw new RuntimeException(e);
+                }
+            }
+
+            if (text.equals("Roulades")) {
+                try {
+                    List<Integer> ids = new ArrayList<>();
+                    ids.add(messageId);
+                    ids.add(messageId - 1);
+                    ids.add(messageId - 2);
+                    DeleteMessages deleteMessages = new DeleteMessages();
+                    deleteMessages.setChatId(chatId);
+                    deleteMessages.setMessageIds(ids);
+                    execute(deleteMessages);
+                    execute(myBotServiceEn.rulet(chatId));
                 } catch (TelegramApiException e) {
                     throw new RuntimeException(e);
                 }
@@ -1280,7 +1311,7 @@ public class MyBot extends TelegramLongPollingBot {
                 }
             }
 
-            if (text.equals("Desserts")) {
+            if (text.equals("Sweet pastries")) {
                 try {
                     List<Integer> ids = new ArrayList<>();
                     ids.add(messageId);
@@ -1296,7 +1327,7 @@ public class MyBot extends TelegramLongPollingBot {
                 }
             }
 
-            if (text.equals("Cakes")) {
+            if (text.equals("Cupcakes")) {
                 try {
                     List<Integer> ids = new ArrayList<>();
                     ids.add(messageId);
@@ -1616,7 +1647,7 @@ public class MyBot extends TelegramLongPollingBot {
                 }
             }
 
-            if (text.equals("\uD83E\uDD57 Proper nutrition sweets")) {
+            if (text.equals("\uD83E\uDD57 Proper nutrition desserts")) {
                 try {
                     List<Integer> ids = new ArrayList<>();
                     ids.add(messageId);
@@ -1654,7 +1685,7 @@ public class MyBot extends TelegramLongPollingBot {
                 }
             }
 
-            if (text.equals("PN Semi-finished products")) {
+            if (text.equals("PN Semi-Prepared Products")) {
                 try {
                     List<Integer> ids = new ArrayList<>();
                     ids.add(messageId);
@@ -1711,7 +1742,7 @@ public class MyBot extends TelegramLongPollingBot {
                 }
             }
 
-            if (text.equals("PN Petit cakes")) {
+            if (text.equals("PN Desserts")) {
                 try {
                     List<Integer> ids = new ArrayList<>();
                     ids.add(messageId);
@@ -1730,7 +1761,7 @@ public class MyBot extends TelegramLongPollingBot {
                 }
             }
 
-            if (text.equals("⬅️ Back to PN")) {
+            if (text.equals("⬅️ Back PN")) {
                 try {
                     List<Integer> ids = new ArrayList<>();
                     ids.add(messageId);
@@ -2181,7 +2212,23 @@ public class MyBot extends TelegramLongPollingBot {
                 }
             }
 
-            if (text.equals("Freshly squeezed juices")) {
+            if (text.equals("⬅\uFE0F Back to Main Menu")) {
+                try {
+                    List<Integer> ids = new ArrayList<>();
+                    ids.add(messageId);
+                    ids.add(messageId - 1);
+                    ids.add(messageId - 2);
+                    DeleteMessages deleteMessages = new DeleteMessages();
+                    deleteMessages.setChatId(chatId);
+                    deleteMessages.setMessageIds(ids);
+                    execute(deleteMessages);
+                    execute(myBotServiceEn.orgmenu(chatId));
+                } catch (TelegramApiException e) {
+                    throw new RuntimeException(e);
+                }
+            }
+
+            if (text.equals("Freshly Squeezed Juices")) {
                 try {
                     List<Integer> ids = new ArrayList<>();
                     ids.add(messageId);
@@ -2257,7 +2304,7 @@ public class MyBot extends TelegramLongPollingBot {
                 }
             }
 
-            if (text.equals("⬅️ Back to Bar")) {
+            if (text.equals("⬅\uFE0F Back to Bar")) {
                 try {
                     List<Integer> ids = new ArrayList<>();
                     ids.add(messageId);
@@ -2276,7 +2323,7 @@ public class MyBot extends TelegramLongPollingBot {
                 }
             }
 
-            if (text.equals("☕ Coffee subscriptions")) {
+            if (text.equals("☕\uFE0F Coffee subscriptions")) {
                 try {
                     List<Integer> ids = new ArrayList<>();
                     ids.add(messageId);
@@ -2314,7 +2361,7 @@ public class MyBot extends TelegramLongPollingBot {
                 }
             }
 
-            if (text.equals("\uD83D\uDED2 Add to cart")) {
+            if (text.equals("\uD83D\uDED2 Add to Cart")) {
                 try {
                     List<Integer> ids = new ArrayList<>();
                     ids.add(messageId);
@@ -2339,6 +2386,8 @@ public class MyBot extends TelegramLongPollingBot {
                     ids.add(messageId);
                     ids.add(messageId - 1);
                     ids.add(messageId - 2);
+                    ids.add(messageId - 3);
+                    ids.add(messageId - 4);
                     DeleteMessages deleteMessages = new DeleteMessages();
                     deleteMessages.setChatId(chatId);
                     deleteMessages.setMessageIds(ids);
@@ -2355,6 +2404,8 @@ public class MyBot extends TelegramLongPollingBot {
                     ids.add(messageId);
                     ids.add(messageId - 1);
                     ids.add(messageId - 2);
+                    ids.add(messageId - 3);
+                    ids.add(messageId - 4);
                     DeleteMessages deleteMessages = new DeleteMessages();
                     deleteMessages.setChatId(chatId);
                     deleteMessages.setMessageIds(ids);
@@ -2371,6 +2422,8 @@ public class MyBot extends TelegramLongPollingBot {
                     ids.add(messageId);
                     ids.add(messageId - 1);
                     ids.add(messageId - 2);
+                    ids.add(messageId - 3);
+                    ids.add(messageId - 4);
                     DeleteMessages deleteMessages = new DeleteMessages();
                     deleteMessages.setChatId(chatId);
                     deleteMessages.setMessageIds(ids);
@@ -4089,8 +4142,12 @@ public class MyBot extends TelegramLongPollingBot {
 
             if (data.equals("ruId")) {
                 try {
-                    myBotService.curlan = data;
-                    System.out.println(myBotService.curlan);
+                    List<Integer> ids = new ArrayList<>();
+                    ids.add(messageId - 1);
+                    DeleteMessages deleteMessages = new DeleteMessages();
+                    deleteMessages.setChatId(chatId);
+                    deleteMessages.setMessageIds(ids);
+                    execute(deleteMessages);
                     EditMessageText editMessageText = new EditMessageText();
                     editMessageText.setText("Выберите город назначения:");
                     editMessageText.setChatId(chatId);
@@ -4105,7 +4162,12 @@ public class MyBot extends TelegramLongPollingBot {
 
             if (data.equals("enId")) {
                 try {
-                    myBotService.curlan = data;
+                    List<Integer> ids = new ArrayList<>();
+                    ids.add(messageId - 1);
+                    DeleteMessages deleteMessages = new DeleteMessages();
+                    deleteMessages.setChatId(chatId);
+                    deleteMessages.setMessageIds(ids);
+                    execute(deleteMessages);
                     EditMessageText editMessageText = new EditMessageText();
                     editMessageText.setText("Select destination city:");
                     editMessageText.setChatId(chatId);
@@ -4113,6 +4175,19 @@ public class MyBot extends TelegramLongPollingBot {
                     editMessageText.setReplyMarkup(myBotServiceEn.shahar(chatId));
 
                     execute(editMessageText);
+                } catch (TelegramApiException e) {
+                    throw new RuntimeException(e);
+                }
+            }
+
+            if (data.equals("qzId")) {
+                try {
+                    DeleteMessage deleteMessage = new DeleteMessage();
+                    deleteMessage.setChatId(chatId);
+                    deleteMessage.setMessageId(messageId);
+                    execute(deleteMessage);
+                    execute(myBotService.qz(chatId));
+                    execute(myBotService.lan(chatId));
                 } catch (TelegramApiException e) {
                     throw new RuntimeException(e);
                 }
@@ -4265,7 +4340,7 @@ public class MyBot extends TelegramLongPollingBot {
                 }
             }
 
-            if (data.equals("qaytqadrenId")) {
+            if (data.equals("qaytqadrEnId")) {
                 try {
                     List<Integer> ids = new ArrayList<>();
                     ids.add(messageId);
@@ -4346,7 +4421,7 @@ public class MyBot extends TelegramLongPollingBot {
                 }
             }
 
-            if (data.equals("qaytkeytenId")) {
+            if (data.equals("qaytkeyEnId")) {
                 try {
                     List<Integer> ids = new ArrayList<>();
                     ids.add(messageId);
@@ -5228,7 +5303,7 @@ public class MyBot extends TelegramLongPollingBot {
                     EditMessageText editMessageText = new EditMessageText();
                     editMessageText.setChatId(chatId);
                     editMessageText.setMessageId(messageId);
-                    editMessageText.setReplyMarkup(myBotService.filialone1(chatId));
+                    editMessageText.setReplyMarkup(myBotServiceEn.filialone1(chatId));
                     editMessageText.setText("Our Branches: 131 (1-10)");
                     execute(editMessageText);
                 } catch (TelegramApiException e) {
@@ -5241,7 +5316,7 @@ public class MyBot extends TelegramLongPollingBot {
                     EditMessageText editMessageText = new EditMessageText();
                     editMessageText.setChatId(chatId);
                     editMessageText.setMessageId(messageId);
-                    editMessageText.setReplyMarkup(myBotService.filialtwo(chatId));
+                    editMessageText.setReplyMarkup(myBotServiceEn.filialtwo(chatId));
                     editMessageText.setText("Our Branches: 131 (11-20)");
                     execute(editMessageText);
                 } catch (TelegramApiException e) {
@@ -5254,7 +5329,7 @@ public class MyBot extends TelegramLongPollingBot {
                     EditMessageText editMessageText = new EditMessageText();
                     editMessageText.setChatId(chatId);
                     editMessageText.setMessageId(messageId);
-                    editMessageText.setReplyMarkup(myBotService.filialthree(chatId));
+                    editMessageText.setReplyMarkup(myBotServiceEn.filialthree(chatId));
                     editMessageText.setText("Our Branches: 131 (21-30)");
                     execute(editMessageText);
                 } catch (TelegramApiException e) {
@@ -5267,7 +5342,7 @@ public class MyBot extends TelegramLongPollingBot {
                     EditMessageText editMessageText = new EditMessageText();
                     editMessageText.setChatId(chatId);
                     editMessageText.setMessageId(messageId);
-                    editMessageText.setReplyMarkup(myBotService.filialfour(chatId));
+                    editMessageText.setReplyMarkup(myBotServiceEn.filialfour(chatId));
                     editMessageText.setText("Our Branches: 131 (31-40)");
                     execute(editMessageText);
                 } catch (TelegramApiException e) {
@@ -5280,7 +5355,7 @@ public class MyBot extends TelegramLongPollingBot {
                     EditMessageText editMessageText = new EditMessageText();
                     editMessageText.setChatId(chatId);
                     editMessageText.setMessageId(messageId);
-                    editMessageText.setReplyMarkup(myBotService.filialfive(chatId));
+                    editMessageText.setReplyMarkup(myBotServiceEn.filialfive(chatId));
                     editMessageText.setText("Our Branches: 131 (41-50)");
                     execute(editMessageText);
                 } catch (TelegramApiException e) {
@@ -5293,7 +5368,7 @@ public class MyBot extends TelegramLongPollingBot {
                     EditMessageText editMessageText = new EditMessageText();
                     editMessageText.setChatId(chatId);
                     editMessageText.setMessageId(messageId);
-                    editMessageText.setReplyMarkup(myBotService.filialsix(chatId));
+                    editMessageText.setReplyMarkup(myBotServiceEn.filialsix(chatId));
                     editMessageText.setText("Our Branches: 131 (51-60)");
                     execute(editMessageText);
                 } catch (TelegramApiException e) {
@@ -5306,7 +5381,7 @@ public class MyBot extends TelegramLongPollingBot {
                     EditMessageText editMessageText = new EditMessageText();
                     editMessageText.setChatId(chatId);
                     editMessageText.setMessageId(messageId);
-                    editMessageText.setReplyMarkup(myBotService.filialseven(chatId));
+                    editMessageText.setReplyMarkup(myBotServiceEn.filialseven(chatId));
                     editMessageText.setText("Our Branches: 131 (61-70)");
                     execute(editMessageText);
                 } catch (TelegramApiException e) {
@@ -5319,7 +5394,7 @@ public class MyBot extends TelegramLongPollingBot {
                     EditMessageText editMessageText = new EditMessageText();
                     editMessageText.setChatId(chatId);
                     editMessageText.setMessageId(messageId);
-                    editMessageText.setReplyMarkup(myBotService.filialeight(chatId));
+                    editMessageText.setReplyMarkup(myBotServiceEn.filialeight(chatId));
                     editMessageText.setText("Our Branches: 131 (71-80)");
                     execute(editMessageText);
                 } catch (TelegramApiException e) {
@@ -5332,7 +5407,7 @@ public class MyBot extends TelegramLongPollingBot {
                     EditMessageText editMessageText = new EditMessageText();
                     editMessageText.setChatId(chatId);
                     editMessageText.setMessageId(messageId);
-                    editMessageText.setReplyMarkup(myBotService.filialnine(chatId));
+                    editMessageText.setReplyMarkup(myBotServiceEn.filialnine(chatId));
                     editMessageText.setText("Our Branches: 131 (81-90)");
                     execute(editMessageText);
                 } catch (TelegramApiException e) {
@@ -5345,7 +5420,7 @@ public class MyBot extends TelegramLongPollingBot {
                     EditMessageText editMessageText = new EditMessageText();
                     editMessageText.setChatId(chatId);
                     editMessageText.setMessageId(messageId);
-                    editMessageText.setReplyMarkup(myBotService.filialten(chatId));
+                    editMessageText.setReplyMarkup(myBotServiceEn.filialten(chatId));
                     editMessageText.setText("Our Branches: 131 (91-100)");
                     execute(editMessageText);
                 } catch (TelegramApiException e) {
@@ -5358,7 +5433,7 @@ public class MyBot extends TelegramLongPollingBot {
                     EditMessageText editMessageText = new EditMessageText();
                     editMessageText.setChatId(chatId);
                     editMessageText.setMessageId(messageId);
-                    editMessageText.setReplyMarkup(myBotService.filialeleven(chatId));
+                    editMessageText.setReplyMarkup(myBotServiceEn.filialeleven(chatId));
                     editMessageText.setText("Our Branches: 131 (101-110)");
                     execute(editMessageText);
                 } catch (TelegramApiException e) {
@@ -5371,7 +5446,7 @@ public class MyBot extends TelegramLongPollingBot {
                     EditMessageText editMessageText = new EditMessageText();
                     editMessageText.setChatId(chatId);
                     editMessageText.setMessageId(messageId);
-                    editMessageText.setReplyMarkup(myBotService.filialtwelve(chatId));
+                    editMessageText.setReplyMarkup(myBotServiceEn.filialtwelve(chatId));
                     editMessageText.setText("Our Branches: 131 (111-120)");
                     execute(editMessageText);
                 } catch (TelegramApiException e) {
@@ -5388,7 +5463,7 @@ public class MyBot extends TelegramLongPollingBot {
                     deleteMessages.setChatId(chatId);
                     deleteMessages.setMessageIds(ids);
                     execute(deleteMessages);
-                    execute(myBotService.uzmenu1(chatId));
+                    execute(myBotServiceEn.enmenu1(chatId));
                 } catch (TelegramApiException e) {
                     throw new RuntimeException(e);
                 }
@@ -5614,7 +5689,7 @@ public class MyBot extends TelegramLongPollingBot {
                 }
             }
 
-            if (data.equals("backenId")) {
+            if (data.equals("qaytEnId")) {
                 try {
                     EditMessageText editMessageText = new EditMessageText();
                     editMessageText.setChatId(chatId);
@@ -5674,7 +5749,7 @@ public class MyBot extends TelegramLongPollingBot {
             }
 
             for (String i : myBotServiceEn.cities) {
-                if (data.equals(i.toLowerCase() + "Id")) {
+                if (data.equals(i.toLowerCase() + "enId")) {
                     try {
                         EditMessageText editMessageText = new EditMessageText();
                         editMessageText.setText("Welcome to Safia! Choose one of the options:");
